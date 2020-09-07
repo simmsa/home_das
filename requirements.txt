@@ -1,1 +1,2 @@
 pi-plates==7.1
+spidev==3.5
