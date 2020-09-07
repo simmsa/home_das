@@ -40,7 +40,7 @@ data_schema = {
         "voltage": 0
     },
 }
-data_rate_hz = 120  # Is this too much?
+data_rate_hz = 1  # Is this too much?
 
 data = []
 
@@ -71,7 +71,7 @@ def log_data():
 
 
 loop_time = 0
-one_sample_time = 1000000 // 120
+one_sample_time = 1000000 // data_rate_hz
 
 
 def get_current_microsecond():
@@ -84,6 +84,7 @@ def has_time_passed(loop_time):
     return False
 
 
+print("Collecting data at {} sample(s) per second".format(data_rate_hz))
 while(True):
     if(has_time_passed):
         data = acquire_data()
