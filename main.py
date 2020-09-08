@@ -3,7 +3,12 @@ from datetime import datetime
 import time
 import os
 import pwd
-print("Current user is: {}".format(pwd.getpwuid(os.getuid())[0]))
+current_user = pwd.getpwuid(os.getuid())[0]
+print("Current user is: {}".format(current_user))
+
+log_file = open("home_das.log", "a")
+log_file.write("{}\n".format(current_user))
+log_file.close()
 
 import sqlite3 as db
 import numpy as np
