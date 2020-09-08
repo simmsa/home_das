@@ -1,7 +1,10 @@
 import copy
 from datetime import datetime
-import sqlite3 as db
 import time
+import os
+import pwd
+
+import sqlite3 as db
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -104,6 +107,7 @@ sample_times = []
 data_collection_start = 0
 print("Monitoring data at {} sample(s) per second".format(data_rate_hz))
 print("Amperage conversion factor is: {}".format(conversion_factor))
+print("Current user is: {}".format(pwd.getpwuid(os.getuid())[0]))
 connection = db.connect("home_das_db.db")
 now = datetime.now()
 # samples = 0
