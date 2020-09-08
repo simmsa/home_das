@@ -1,1 +1,1 @@
-static: python main.py
+wsgi: main:start
