@@ -3,6 +3,7 @@ from datetime import datetime
 import time
 import os
 import pwd
+print("Current user is: {}".format(pwd.getpwuid(os.getuid())[0]))
 
 import sqlite3 as db
 import numpy as np
@@ -107,7 +108,6 @@ sample_times = []
 data_collection_start = 0
 print("Monitoring data at {} sample(s) per second".format(data_rate_hz))
 print("Amperage conversion factor is: {}".format(conversion_factor))
-print("Current user is: {}".format(pwd.getpwuid(os.getuid())[0]))
 connection = db.connect("home_das_db.db")
 now = datetime.now()
 # samples = 0
