@@ -1,1 +1,1 @@
-wsgi: main:start
+das: python main.py
