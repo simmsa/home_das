@@ -3,18 +3,22 @@ from datetime import datetime
 import time
 import os
 import pwd
-current_user = pwd.getpwuid(os.getuid())[0]
-print("Current user is: {}".format(current_user))
-
-log_file = open("home_das.log", "a")
-log_file.write("{}\n".format(current_user))
-log_file.close()
 
 import sqlite3 as db
 import numpy as np
 import matplotlib.pyplot as plt
 
 import piplates.DAQC2plate as das
+current_user = pwd.getpwuid(os.getuid())[0]
+
+base_dir = os.path.join("home", "pi", "home_das")
+
+startup_message = "Startup @ {}. Current user is: {}".format(datetime.now().strftime("%c"), current_user)
+
+print(startup_message)
+startup_file = open(os.path.join(base_dir, "home_das.log"), "a")
+startup_file.write("{}\n".format(startup_message))
+startup_file.close()
 
 das_address = 0
 data_schema = {
@@ -149,19 +153,20 @@ with connection:
                     start_time = now.strftime("%Y%d%m-%H:%M:%S")
 
                     # Save
-                    log_text = "{}: Septic pump ran for {} seconds with a max amperage of {}A, an average amperage of {}A, and an average wattage of ".format(start_time, seconds, max_amps, average_amps, average_amps * 120.0)
+                    log_text = "{}: Septic pump ran for {} seconds with a max amperage of {}A, an average amperage of {}A, and an average wattage of {}W".format(start_time, seconds, max_amps, average_amps, average_amps * 120.0)
                     print(log_text)
 
-                    log_file = open("home_das.log", "a")
+                    # log_file = open("home_das.log", "a")
+                    log_file = open(os.path.join(base_dir, "home_das.log"), "a")
                     log_file.write("{}\n".format(log_text))
 
-                    np.savetxt("{}.csv".format(start_time), samples, delimiter=",")
-                    np.savetxt("RAW_{}.csv".format(start_time), raw_samples, delimiter=",")
+                    np.savetxt(os.path.join(base_dir, "{}.csv".format(start_time)), samples, delimiter=",")
+                    np.savetxt(os.path.join(base_dir, "RAW_{}.csv".format(start_time)), raw_samples, delimiter=",")
 
                     plt.plot(samples)
                     plt.ylabel("Amps")
                     plt.title("Septic Pump Run - {}".format(start_time))
-                    plt.savefig("{}.png".format(start_time))
+                    plt.savefig(os.path.join(base_dir, "{}.png".format(start_time)))
                     compute_end = time.time_ns()
 
                     compute_log = "Parsing, Logging, Saving, and Graphing took {} ms".format((compute_end - compute_start) / 1000000)
