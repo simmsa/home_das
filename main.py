@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import piplates.DAQC2plate as das
 current_user = pwd.getpwuid(os.getuid())[0]
 
-base_dir = os.path.join("home", "pi", "home_das")
+base_dir = os.path.join(os.path.sep, "home", "pi", "home_das")
 
 startup_message = "Startup @ {}. Current user is: {}".format(datetime.now().strftime("%c"), current_user)
 
