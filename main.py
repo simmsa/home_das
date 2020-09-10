@@ -153,7 +153,7 @@ with connection:
                     start_time = now.strftime("%Y%d%m-%H:%M:%S")
 
                     # Save
-                    log_text = "{}: Septic pump ran for {} seconds with a max amperage of {}A, an average amperage of {}A, and an average wattage of {}W".format(start_time, seconds, max_amps, average_amps, average_amps * 120.0)
+                    log_text = "{}: Septic pump ran for {} seconds with a max amperage of {:.2f}A, an average amperage of {:.2f}A, and an average wattage of {:.2f}W".format(start_time, seconds, max_amps, average_amps, average_amps * 120.0)
                     print(log_text)
 
                     # log_file = open("home_das.log", "a")
