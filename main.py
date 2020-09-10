@@ -150,7 +150,7 @@ with connection:
                     samples = samples * conversion_factor
                     max_amps = np.max(samples)
                     average_amps = np.average(samples)
-                    start_time = now.strftime("%Y%d%m-%H:%M:%S")
+                    start_time = now.strftime("%Y%m%d-%H:%M:%S")
 
                     # Save
                     log_text = "{}: Septic pump ran for {} seconds with a max amperage of {:.2f}A, an average amperage of {:.2f}A, and an average wattage of {:.2f}W".format(start_time, seconds, max_amps, average_amps, average_amps * 120.0)
