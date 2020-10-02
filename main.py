@@ -10,7 +10,8 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 import numpy as np
-import piplates.DAQC2plate as das
+
+# import piplates.DAQC2plate as das
 
 logger = logging.getLogger("home_das")
 logger.setLevel(logging.DEBUG)
