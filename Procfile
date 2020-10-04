@@ -1,2 +1,2 @@
-das: python3 main.py
+das: python3 main2.py
 
