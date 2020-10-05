@@ -233,7 +233,7 @@ class DAQ:
         )
 
     def acquire_one_sample(self, channel):
-        return das.getADC(self.das_address, channel)
+        return das.fastGetADC(self.das_address, channel)
 
     def should_sample_data(self, input_loop_time, one_sample_time):
         if (time.time_ns() - input_loop_time) > one_sample_time:
