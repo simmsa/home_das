@@ -270,11 +270,13 @@ class DAQ:
                 self.loop_time = time.time_ns()
 
 
-daq = DAQ(120)
+DATA_RATE_HZ = 120
+PI_PLATE_ADDRESS = 0
+daq = DAQ(DATA_RATE_HZ)
 
 try:
-    daq.log_max_data_sampling_rate(0)
-    daq.start_daq_loop(0)
+    daq.log_max_data_sampling_rate(PI_PLATE_ADDRESS)
+    daq.start_daq_loop(PI_PLATE_ADDRESS)
 except (KeyboardInterrupt, SystemExit):
     daq.shutdown()
 except Exception as e:
