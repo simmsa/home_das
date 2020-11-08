@@ -1,3 +1,3 @@
 das: python3 main2.py
-server: npm run start
+server: npm run build
 
