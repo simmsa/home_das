@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "server": "next build && next start -p $PORT"
+    "server": "next start -p $PORT"
   },
   "dependencies": {
     "next": "^10.0.0",
