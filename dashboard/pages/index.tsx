@@ -42,7 +42,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         <div>
           {dosingPumpRecords.map((record: DosingPumpRecord) => {
             return (
-              <div>
+              <div key={record.timestamp}>
                 <div>
                   {formatDistance(new Date(record.timestamp), new Date())}
                 </div>
