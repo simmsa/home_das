@@ -44,7 +44,14 @@ function Home({ dosingPumpRecords }: HomeProps) {
             return (
               <div key={record.timestamp}>
                 <div>
-                  {formatDistance(new Date(record.timestamp), new Date())}
+                  {formatDistance(
+                    parse(
+                      "YYYY-MM-DD HH:MMss",
+                      record.timestamp.split(".")[0],
+                      new Date()
+                    ),
+                    new Date()
+                  )}
                 </div>
                 <div>{`${record.gallonsPumped} G`}</div>
               </div>
