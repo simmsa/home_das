@@ -109,7 +109,7 @@ class DAQ:
         vin_min = 0.0
         vin_max = 10.0
         amps_min = 0.0
-        amps_max = 20.0
+        amps_max = 50.0
 
         return (amps_max - amps_min) / (vin_max - vin_min)
 
