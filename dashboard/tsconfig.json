@@ -16,7 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "strict": false,
-    "forceConsistentCasingInFilenames": true,
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "esModuleInterop": true,
