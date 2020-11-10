@@ -3,8 +3,6 @@ import React from "react";
 import { formatDistance } from "date-fns";
 import sqlite3 from "sqlite3";
 
-import "../styles/App.css";
-
 import Head from "next/head";
 
 export async function getServerSideProps() {
