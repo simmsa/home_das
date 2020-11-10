@@ -13,7 +13,7 @@ export async function getServerSideProps() {
         if (err) {
           reject(err);
         }
-        resolve({ props: { data: JSON.stringify(rows) } });
+        resolve({ props: { dosingPumpRecords: rows } });
       });
     });
   });
