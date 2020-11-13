@@ -52,7 +52,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
             return (
               <div key={record.timestamp}>
                 <div>{`${JSON.stringify(record)}`}</div>
-                <div>{`${record.gallons_pumped} G`}</div>
+                <div>{`${record.gallons_pumped.toFixed(2)} G`}</div>
               </div>
             );
           })}
