@@ -140,3 +140,7 @@ body {
   box-sizing: border-box;
 
 }
+
+.logEntry:hover {
+    font-weight: "bold"
+}

@@ -119,20 +119,22 @@ function Home({ dosingPumpRecords }: HomeProps) {
           );
           return (
             <div
+              className="logEntry"
               key={record.timestamp}
               title={record.timestamp}
               style={{
-                width: "800px",
+                width: "400px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
                 textTransform: "uppercase",
-                fontSize: "9px",
-                letterSpacing: "0.75px"
+                fontSize: "12px",
+                letterSpacing: "0.75px",
+                padding: "4px"
               }}
             >
               <div>{`${formatDistance(timestampTime, new Date())} ago:`}</div>
-              <div>{`${record.gallons_pumped.toFixed(2)}}`}</div>
+              <div>{`${record.gallons_pumped.toFixed(2)}G`}</div>
             </div>
           );
         })}
