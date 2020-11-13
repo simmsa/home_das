@@ -33,27 +33,41 @@ type HomeProps = {
   dosingPumpRecords: DosingPumpRecords;
 };
 
+type CalDataDict = {
+  [date: string]: number;
+};
+
 // <div>{formatDistance(timestampTime, new Date())}</div>
 function Home({ dosingPumpRecords }: HomeProps) {
-  const calendarData = dosingPumpRecords.map((record: DosingPumpRecord) => {
+  const calDataDict: CalDataDict = {};
+  const completeCalData = dosingPumpRecords.map((record: DosingPumpRecord) => {
     const timestampTime = parse(
       record.timestamp.split(".")[0],
       "yyyy-MM-dd HH:mm:ss",
       new Date()
     );
     const timeForCal = format(timestampTime, "yyyy-MM-dd");
+    if (calDataDict.hasOwnProperty(timeForCal)) {
+      calDataDict[timeForCal] = calDataDict[timeForCal] + record.gallons_pumped;
+    } else {
+      calDataDict[timeForCal] = record.gallons_pumped;
+    }
     return {
       day: timeForCal,
       value: record.gallons_pumped
     };
   });
+
+  const formattedCalData = Object.keys(calDataDict).map(key => {
+    return { day: key, value: calDataDict[key] };
+  });
   return (
     <div className="container">
       <div style={{ height: "400px" }}>
         <ResponsiveCalendar
-          data={calendarData}
-          from={calendarData[0].day}
-          to={calendarData[calendarData.length - 1].day}
+          data={formattedCalData}
+          from={completeCalData[0].day}
+          to={completeCalData[completeCalData.length - 1].day}
           colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
         />
       </div>
