@@ -79,7 +79,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
   console.log(dayOfWeekDict);
   return (
     <div className="container">
-      <h3>Gallons by Day Of Week</h3>
+      <h3>Gallons Pumped Per Day Of Week</h3>
       <BarChart
         width={730}
         height={250}
@@ -92,34 +92,17 @@ function Home({ dosingPumpRecords }: HomeProps) {
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="day" />
-        <YAxis label="Gallons" />
+        <YAxis />
         <Tooltip />
         <Bar dataKey="value" fill="#1E88E5" />
       </BarChart>
+      <h3>Gallons Pumped Per Day Of Year</h3>
       <div style={{ height: "400px", width: "800px" }}>
         <ResponsiveCalendar
           data={formattedCalData}
           from={completeCalData[0].day}
           to={completeCalData[completeCalData.length - 1].day}
           colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
-        />
-      </div>
-      <div style={{ height: "400px", width: "800px" }}>
-        <ResponsiveBar
-          data={Object.keys(dayOfWeekDict).map(key => {
-            return {
-              day: key,
-              value: dayOfWeekDict[key]
-            };
-          })}
-          indexBy={"day"}
-          axisLeft={{
-            legend: "Gallons Pumped"
-          }}
-          axisBottom={{
-            legend: "Day of Week"
-          }}
-          colors={{ scheme: "blues" }}
         />
       </div>
 
@@ -130,7 +113,6 @@ function Home({ dosingPumpRecords }: HomeProps) {
             "yyyy-MM-dd HH:mm:ss",
             new Date()
           );
-          console.log(timestampTime);
           return (
             <div key={record.timestamp}>
               <div>{`${formatDistance(timestampTime, new Date())} ago`}</div>
