@@ -45,7 +45,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
           {dosingPumpRecords.map((record: DosingPumpRecord) => {
             const timestampTime = parse(
               record.timestamp.split(".")[0],
-              "yyyy-MM-dd HH:mmss",
+              "yyyy-MM-dd HH:mm:ss",
               new Date()
             );
             console.log(timestampTime);
