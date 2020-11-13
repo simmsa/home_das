@@ -79,10 +79,13 @@ function Home({ dosingPumpRecords }: HomeProps) {
   console.log(dayOfWeekDict);
   return (
     <div className="container">
+      <h1>Dosing Tank Monitor</h1>
       <h3>Gallons Pumped Per Day Of Week</h3>
+
       <BarChart
         width={730}
         height={250}
+        margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
         data={Object.keys(dayOfWeekDict).map(key => {
           return {
             day: key,
