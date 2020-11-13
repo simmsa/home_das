@@ -49,11 +49,12 @@ function Home({ dosingPumpRecords }: HomeProps) {
   });
   return (
     <div className="container">
-      <div style={{ width: 600, height: 600 }}>
+      <div style={{ height: "400px" }}>
         <ResponsiveCalendar
           data={calendarData}
           from={calendarData[0].day}
           to={calendarData[calendarData.length - 1].day}
+          colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
         />
       </div>
       <div>
