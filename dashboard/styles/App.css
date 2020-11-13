@@ -141,6 +141,7 @@ body {
 
 }
 
-.logEntry:hover {
-    font-weight: "bold"
+.logEntry:hover div {
+    font-weight: "bold";
+    color: "red";
 }
