@@ -79,6 +79,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
   console.log(dayOfWeekDict);
   return (
     <div className="container">
+      <h3>Gallons by Day Of Week</h3>
       <BarChart
         width={730}
         height={250}
@@ -90,8 +91,8 @@ function Home({ dosingPumpRecords }: HomeProps) {
         })}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
+        <XAxis dataKey="day" />
+        <YAxis label="Gallons" />
         <Tooltip />
         <Bar dataKey="value" fill="#1E88E5" />
       </BarChart>
