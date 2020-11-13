@@ -118,11 +118,21 @@ function Home({ dosingPumpRecords }: HomeProps) {
             new Date()
           );
           return (
-            <div key={record.timestamp} title={record.timestamp}>
-              <div>{`${formatDistance(
-                timestampTime,
-                new Date()
-              )} ago: ${record.gallons_pumped.toFixed(2)}`}</div>
+            <div
+              key={record.timestamp}
+              title={record.timestamp}
+              style={{
+                width: "800px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                textTransform: "uppercase",
+                fontSize: "9px",
+                letterSpacing: "0.75px"
+              }}
+            >
+              <div>{`${formatDistance(timestampTime, new Date())} ago:`}</div>
+              <div>{`${record.gallons_pumped.toFixed(2)}}`}</div>
             </div>
           );
         })}
