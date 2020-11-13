@@ -49,11 +49,13 @@ function Home({ dosingPumpRecords }: HomeProps) {
   });
   return (
     <div className="container">
-      <ResponsiveCalendar
-        data={calendarData}
-        from={calendarData[0].day}
-        to={calendarData[calendarData.length - 1].day}
-      />
+      <div style={{ width: 600, height: 600 }}>
+        <ResponsiveCalendar
+          data={calendarData}
+          from={calendarData[0].day}
+          to={calendarData[calendarData.length - 1].day}
+        />
+      </div>
       <div>
         {dosingPumpRecords.map((record: DosingPumpRecord) => {
           const timestampTime = parse(
