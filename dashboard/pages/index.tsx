@@ -51,6 +51,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
             console.log(timestampTime);
             return (
               <div key={record.timestamp}>
+                <div>{`${JSON.stringify(record)}`}</div>
                 <div>{`${record.gallonsPumped} G`}</div>
               </div>
             );
