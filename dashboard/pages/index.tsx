@@ -95,6 +95,13 @@ function Home({ dosingPumpRecords }: HomeProps) {
             };
           })}
           indexBy={"day"}
+          axisLeft={{
+            legend: "Gallons Pumped"
+          }}
+          axisBottom={{
+            legend: "Day of Week"
+          }}
+          colors={{ scheme: "blues" }}
         />
       </div>
       <div>
