@@ -83,7 +83,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
       <h3>Gallons Pumped Per Day Of Week</h3>
 
       <BarChart
-        width={730}
+        width={800}
         height={250}
         margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
         data={Object.keys(dayOfWeekDict).map(key => {
@@ -100,7 +100,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         <Bar dataKey="value" fill="#1E88E5" />
       </BarChart>
       <h3>Gallons Pumped Per Day Of Year</h3>
-      <div style={{ height: "400px", width: "800px" }}>
+      <div style={{ height: "250px", width: "800px" }}>
         <ResponsiveCalendar
           data={formattedCalData}
           from={completeCalData[0].day}
