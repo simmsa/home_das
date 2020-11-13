@@ -31,6 +31,7 @@ type HomeProps = {
   dosingPumpRecords: DosingPumpRecords;
 };
 
+// <div>{formatDistance(timestampTime, new Date())}</div>
 function Home({ dosingPumpRecords }: HomeProps) {
   return (
     <div className="container">
@@ -50,7 +51,6 @@ function Home({ dosingPumpRecords }: HomeProps) {
             console.log(timestampTime);
             return (
               <div key={record.timestamp}>
-                <div>{formatDistance(timestampTime, new Date())}</div>
                 <div>{`${record.gallonsPumped} G`}</div>
               </div>
             );
