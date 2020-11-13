@@ -4,6 +4,7 @@ import { formatDistance } from "date-fns";
 import parse from "date-fns/parse";
 import format from "date-fns/format";
 import sqlite3 from "sqlite3";
+import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import { ResponsiveCalendar } from "@nivo/calendar";
 import { ResponsiveBar } from "@nivo/bar";
 
@@ -78,6 +79,22 @@ function Home({ dosingPumpRecords }: HomeProps) {
   console.log(dayOfWeekDict);
   return (
     <div className="container">
+      <BarChart
+        width={730}
+        height={250}
+        data={Object.keys(dayOfWeekDict).map(key => {
+          return {
+            day: key,
+            value: dayOfWeekDict[key]
+          };
+        })}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Bar dataKey="value" fill="#1E88E5" />
+      </BarChart>
       <div style={{ height: "400px", width: "800px" }}>
         <ResponsiveCalendar
           data={formattedCalData}
@@ -104,6 +121,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
           colors={{ scheme: "blues" }}
         />
       </div>
+
       <div>
         {dosingPumpRecords.map((record: DosingPumpRecord) => {
           const timestampTime = parse(
