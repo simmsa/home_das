@@ -109,6 +109,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         />
       </div>
 
+      <h3>Dosing Tank Logs</h3>
       <div>
         {dosingPumpRecords.map((record: DosingPumpRecord) => {
           const timestampTime = parse(
@@ -117,9 +118,11 @@ function Home({ dosingPumpRecords }: HomeProps) {
             new Date()
           );
           return (
-            <div key={record.timestamp}>
-              <div>{`${formatDistance(timestampTime, new Date())} ago`}</div>
-              <div>{`${record.gallons_pumped.toFixed(2)} G`}</div>
+            <div key={record.timestamp} title={record.timestamp}>
+              <div>{`${formatDistance(
+                timestampTime,
+                new Date()
+              )} ago: ${record.gallons_pumped.toFixed(2)}`}</div>
             </div>
           );
         })}
