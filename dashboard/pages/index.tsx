@@ -52,6 +52,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
             return (
               <div key={record.timestamp}>
                 <div>{`${JSON.stringify(record)}`}</div>
+                <div>{formatDistance(timestampTime, new Date())}</div>
                 <div>{`${record.gallons_pumped.toFixed(2)} G`}</div>
               </div>
             );
