@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nivo/bar": "^0.64.0",
     "@nivo/calendar": "^0.64.0",
     "date-fns": "^2.16.1",
     "next": "^10.0.0",

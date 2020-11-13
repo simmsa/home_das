@@ -5,6 +5,7 @@ import parse from "date-fns/parse";
 import format from "date-fns/format";
 import sqlite3 from "sqlite3";
 import { ResponsiveCalendar } from "@nivo/calendar";
+import { ResponsiveBar } from "@nivo/bar";
 
 import Head from "next/head";
 
@@ -36,10 +37,14 @@ type HomeProps = {
 type CalDataDict = {
   [date: string]: number;
 };
+type DayOfWeekDict = {
+  [dayOfWeek: string]: number;
+};
 
 // <div>{formatDistance(timestampTime, new Date())}</div>
 function Home({ dosingPumpRecords }: HomeProps) {
   const calDataDict: CalDataDict = {};
+  const dayOfWeekDict: DayOfWeekDict = {};
   const completeCalData = dosingPumpRecords.map((record: DosingPumpRecord) => {
     const timestampTime = parse(
       record.timestamp.split(".")[0],
@@ -51,6 +56,14 @@ function Home({ dosingPumpRecords }: HomeProps) {
       calDataDict[timeForCal] = calDataDict[timeForCal] + record.gallons_pumped;
     } else {
       calDataDict[timeForCal] = record.gallons_pumped;
+    }
+
+    const dayOfWeek = format(timestampTime, "EEEE");
+    if (dayOfWeekDict.hasOwnProperty(dayOfWeek)) {
+      dayOfWeekDict[dayOfWeek] =
+        dayOfWeekDict[dayOfWeek] + record.gallons_pumped;
+    } else {
+      dayOfWeekDict[dayOfWeek] = record.gallons_pumped;
     }
     return {
       day: timeForCal,
@@ -69,6 +82,17 @@ function Home({ dosingPumpRecords }: HomeProps) {
           from={completeCalData[0].day}
           to={completeCalData[completeCalData.length - 1].day}
           colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
+        />
+      </div>
+      <div style={{ height: "400px" }}>
+        <ResponsiveBar
+          data={Object.keys(dayOfWeekDict).map(key => {
+            return {
+              day: key,
+              value: dayOfWeekDict[key]
+            };
+          })}
+          indexBy={"day"}
         />
       </div>
       <div>
