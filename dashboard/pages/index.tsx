@@ -22,7 +22,7 @@ export async function getServerSideProps() {
 
 type DosingPumpRecord = {
   timestamp: "string";
-  gallonsPumped: number;
+  gallons_pumped: number;
 };
 
 type DosingPumpRecords = Array<DosingPumpRecord>;
@@ -52,7 +52,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
             return (
               <div key={record.timestamp}>
                 <div>{`${JSON.stringify(record)}`}</div>
-                <div>{`${record.gallonsPumped} G`}</div>
+                <div>{`${record.gallons_pumped} G`}</div>
               </div>
             );
           })}
