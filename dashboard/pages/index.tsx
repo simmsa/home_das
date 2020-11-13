@@ -74,6 +74,8 @@ function Home({ dosingPumpRecords }: HomeProps) {
   const formattedCalData = Object.keys(calDataDict).map(key => {
     return { day: key, value: calDataDict[key] };
   });
+  console.log(calDataDict);
+  console.log(dayOfWeekDict);
   return (
     <div className="container">
       <div style={{ height: "400px" }}>
