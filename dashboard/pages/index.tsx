@@ -78,7 +78,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
   console.log(dayOfWeekDict);
   return (
     <div className="container">
-      <div style={{ height: "400px" }}>
+      <div style={{ height: "400px", width: "800px" }}>
         <ResponsiveCalendar
           data={formattedCalData}
           from={completeCalData[0].day}
@@ -86,7 +86,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
           colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
         />
       </div>
-      <div style={{ height: "400px" }}>
+      <div style={{ height: "400px", width: "800px" }}>
         <ResponsiveBar
           data={Object.keys(dayOfWeekDict).map(key => {
             return {
