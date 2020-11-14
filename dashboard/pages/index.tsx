@@ -110,7 +110,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
       </div>
 
       <h3>Dosing Tank Logs</h3>
-      <style jsx>
+      <style global jsx>
         {`
           .logEntry {
             background-color: "red";
