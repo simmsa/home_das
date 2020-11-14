@@ -118,7 +118,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         `}
       </style>
       <div>
-        {dosingPumpRecords.map((record: DosingPumpRecord) => {
+        {dosingPumpRecords.reverse().map((record: DosingPumpRecord) => {
           const timestampTime = parse(
             record.timestamp.split(".")[0],
             "yyyy-MM-dd HH:mm:ss",
