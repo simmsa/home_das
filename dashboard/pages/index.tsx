@@ -113,12 +113,12 @@ function Home({ dosingPumpRecords }: HomeProps) {
       <style global jsx>
         {`
           .logEntry {
-            background-color: "red";
+            background-color: red;
           }
 
           .logEntry:hover div {
             font-weight: "bold";
-            color: "red";
+            color: red;
           }
         `}
       </style>
