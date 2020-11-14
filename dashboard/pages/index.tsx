@@ -98,8 +98,9 @@ function Home({ dosingPumpRecords }: HomeProps) {
   return (
     <div className="container">
       <h1>Dosing Tank Records</h1>
-      <h3>Gallons Pumped This Quarter</h3>
-      <h1>{gallonsPumpedThisQuarter}</h1>
+      <h2>{`Gallons Pumped This Quarter ${gallonsPumpedThisQuarter.toFixed(
+        2
+      )}`}</h2>
       <h3>Gallons Pumped Per Day Of Week</h3>
 
       <BarChart
