@@ -146,7 +146,10 @@ function Home({ dosingPumpRecords }: HomeProps) {
                 borderBottom: "1px solid #eee"
               }}
             >
-              <div>{`${formatDistance(timestampTime, new Date())} ago:`}</div>
+              <div className="logEntry">{`${formatDistance(
+                timestampTime,
+                new Date()
+              )} ago:`}</div>
               <div>{`${record.gallons_pumped.toFixed(2)} Gallons`}</div>
             </div>
           );
