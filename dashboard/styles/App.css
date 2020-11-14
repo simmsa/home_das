@@ -141,6 +141,10 @@ body {
 
 }
 
+.logEntry {
+    background-color: "red";
+}
+
 .logEntry:hover div {
     font-weight: "bold";
     color: "red";
