@@ -100,7 +100,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         <XAxis dataKey="day" />
         <YAxis />
         <Tooltip />
-        <Bar dataKey="value" fill="#1E88E5" />
+        <Bar dataKey="Gallons Pumped" fill="#1E88E5" />
       </BarChart>
       <h3>Gallons Pumped Per Day Of Year</h3>
       <div style={{ height: "200px", width: "800px", paddingTop: "15px" }}>
