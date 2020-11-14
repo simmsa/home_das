@@ -128,10 +128,10 @@ function Home({ dosingPumpRecords }: HomeProps) {
                 alignItems: "center",
                 justifyContent: "space-between",
                 textTransform: "uppercase",
-                fontSize: "14px",
+                fontSize: "13px",
                 letterSpacing: "0.75px",
-                padding: "4px",
-                border: "1px solid #ddd"
+                padding: "6px",
+                borderBottom: "1px solid #eee"
               }}
             >
               <div>{`${formatDistance(timestampTime, new Date())} ago:`}</div>
