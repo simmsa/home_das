@@ -123,7 +123,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
               key={record.timestamp}
               title={record.timestamp}
               style={{
-                width: "400px",
+                width: "450px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
@@ -135,7 +135,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
               }}
             >
               <div>{`${formatDistance(timestampTime, new Date())} ago:`}</div>
-              <div>{`${record.gallons_pumped.toFixed(2)}G`}</div>
+              <div>{`${record.gallons_pumped.toFixed(2)} Gallons`}</div>
             </div>
           );
         })}
