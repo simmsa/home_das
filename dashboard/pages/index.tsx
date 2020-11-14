@@ -110,6 +110,18 @@ function Home({ dosingPumpRecords }: HomeProps) {
       </div>
 
       <h3>Dosing Tank Logs</h3>
+      <style jsx>
+        {`
+          .logEntry {
+            background-color: "red";
+          }
+
+          .logEntry:hover div {
+            font-weight: "bold";
+            color: "red";
+          }
+        `}
+      </style>
       <div>
         {dosingPumpRecords.map((record: DosingPumpRecord) => {
           const timestampTime = parse(
