@@ -88,7 +88,12 @@ function Home({ dosingPumpRecords }: HomeProps) {
         margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
         data={[
           { day: "Monday", value: dayOfWeekDict["Monday"] },
-          { day: "Tuesday", value: dayOfWeekDict["Tuesday"] }
+          { day: "Tuesday", value: dayOfWeekDict["Tuesday"] },
+          { day: "Wednesday", value: dayOfWeekDict["Wednesday"] },
+          { day: "Thursday", value: dayOfWeekDict["Thursday"] },
+          { day: "Friday", value: dayOfWeekDict["Friday"] },
+          { day: "Saturday", value: dayOfWeekDict["Saturday"] },
+          { day: "Sunday", value: dayOfWeekDict["Sunday"] }
         ]}
       >
         <CartesianGrid strokeDasharray="3 3" />
