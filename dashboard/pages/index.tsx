@@ -3,6 +3,8 @@ import React from "react";
 import { formatDistance } from "date-fns";
 import parse from "date-fns/parse";
 import format from "date-fns/format";
+import startOfQuarter from "date-fns/startOfQuarter";
+import isAfter from "date-fns/isAfter";
 import sqlite3 from "sqlite3";
 import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import { ResponsiveCalendar } from "@nivo/calendar";
@@ -56,6 +58,8 @@ const dayOrder = [
 function Home({ dosingPumpRecords }: HomeProps) {
   const calDataDict: CalDataDict = {};
   const dayOfWeekDict: DayOfWeekDict = {};
+  const thisQuarterStart = startOfQuarter(new Date());
+  let gallonsPumpedThisQuarter = 0;
   const completeCalData = dosingPumpRecords.map((record: DosingPumpRecord) => {
     const timestampTime = parse(
       record.timestamp.split(".")[0],
@@ -76,6 +80,10 @@ function Home({ dosingPumpRecords }: HomeProps) {
     } else {
       dayOfWeekDict[dayOfWeek] = record.gallons_pumped;
     }
+
+    if (isAfter(timestampTime, thisQuarterStart)) {
+      gallonsPumpedThisQuarter += record.gallons_pumped;
+    }
     return {
       day: timeForCal,
       value: record.gallons_pumped
@@ -89,7 +97,9 @@ function Home({ dosingPumpRecords }: HomeProps) {
   console.log(dayOfWeekDict);
   return (
     <div className="container">
-      <h1>Dosing Tank Recorder</h1>
+      <h1>Dosing Tank Records</h1>
+      <h3>Gallons Pumped This Quarter</h3>
+      <h1>{gallonsPumpedThisQuarter}</h1>
       <h3>Gallons Pumped Per Day Of Week</h3>
 
       <BarChart
