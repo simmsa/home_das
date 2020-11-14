@@ -42,6 +42,16 @@ type DayOfWeekDict = {
   [dayOfWeek: string]: number;
 };
 
+const dayOrder = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday"
+];
+
 // <div>{formatDistance(timestampTime, new Date())}</div>
 function Home({ dosingPumpRecords }: HomeProps) {
   const calDataDict: CalDataDict = {};
@@ -86,15 +96,12 @@ function Home({ dosingPumpRecords }: HomeProps) {
         width={800}
         height={250}
         margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
-        data={[
-          { day: "Monday", "Gallons Pumped": dayOfWeekDict["Monday"] },
-          { day: "Tuesday", "Gallons Pumped": dayOfWeekDict["Tuesday"] },
-          { day: "Wednesday", "Gallons Pumped": dayOfWeekDict["Wednesday"] },
-          { day: "Thursday", "Gallons Pumped": dayOfWeekDict["Thursday"] },
-          { day: "Friday", "Gallons Pumped": dayOfWeekDict["Friday"] },
-          { day: "Saturday", "Gallons Pumped": dayOfWeekDict["Saturday"] },
-          { day: "Sunday", "Gallons Pumped": dayOfWeekDict["Sunday"] }
-        ]}
+        data={dayOrder.map(day => {
+          return {
+            day,
+            "Gallons Pumped": dayOfWeekDict[day].toFixed(2)
+          };
+        })}
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="day" />
