@@ -86,12 +86,10 @@ function Home({ dosingPumpRecords }: HomeProps) {
         width={800}
         height={250}
         margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
-        data={Object.keys(dayOfWeekDict).map(key => {
-          return {
-            day: key,
-            value: dayOfWeekDict[key]
-          };
-        })}
+        data={[
+          { day: "Monday", value: dayOfWeekDict["Monday"] },
+          { day: "Tuesday", value: dayOfWeekDict["Tuesday"] }
+        ]}
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="day" />
