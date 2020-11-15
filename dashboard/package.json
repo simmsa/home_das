@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 80",
-    "deploy": "next build && next start -p 80"
+    "start": "next start -p 8000",
+    "deploy": "next build && next start -p 8000"
   },
   "dependencies": {
     "@nivo/bar": "^0.64.0",
