@@ -8,7 +8,7 @@
     "allowJs": true,
     "jsx": "preserve",
     "moduleResolution": "node",
-    "rootDir": "src",
+    "rootDir": "pages",
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
