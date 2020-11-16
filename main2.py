@@ -183,17 +183,6 @@ class DAQ:
         )
         self.log(data_analysis_text)
 
-        plt.plot(self.sample_times)
-        plt.ylabel("Sample Time (ns)")
-        plt.title("Sample Times - {}".format(start_time))
-        plt.savefig(
-            os.path.join(
-                self.base_dir,
-                "SampleTimes-{}.png".format(start_time),
-            )
-        )
-        plt.close()
-
         compute_end = time.time_ns()
         compute_log = "Parsing, Logging, Saving, and Graphing took {} ms".format(
             (compute_end - compute_start) / 1000000
