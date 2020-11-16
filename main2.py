@@ -174,21 +174,6 @@ class DAQ:
         print("Pump Timestamps: ", water_data_timestamps)
         print("Gallons pumped: ", water_data_gallons_pumped)
 
-        plt.plot(water_data_timestamps, water_data_gallons_pumped)
-        plt.ylabel("Gallons")
-        plt.title(
-            "Water Usage: {} - {}".format(
-                water_data_timestamps[0], water_data_timestamps[-1]
-            )
-        )
-        plt.savefig(
-            os.path.join(
-                self.base_dir,
-                "WaterUsage-{}.png".format(start_time),
-            )
-        )
-        plt.close()
-
         # Data Analysis
         time_btw_samples = np.diff(np.array(self.sample_times))
         data_analysis_text = "The average time between samples is: {}ns, std dev is: {}ns, it should be {}ns".format(
