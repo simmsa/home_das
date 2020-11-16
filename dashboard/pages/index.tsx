@@ -140,37 +140,40 @@ function Home({ dosingPumpRecords }: HomeProps) {
         `}
       </style>
       <div>
-        {dosingPumpRecords.reverse().map((record: DosingPumpRecord) => {
-          const timestampTime = parse(
-            record.timestamp.split(".")[0],
-            "yyyy-MM-dd HH:mm:ss",
-            new Date()
-          );
-          return (
-            <div
-              className="logEntry"
-              key={record.timestamp}
-              title={record.timestamp}
-              style={{
-                width: "450px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                textTransform: "uppercase",
-                fontSize: "13px",
-                letterSpacing: "0.75px",
-                padding: "6px",
-                borderBottom: "1px solid #eee"
-              }}
-            >
-              <div className="logEntry">{`${formatDistance(
-                timestampTime,
-                new Date()
-              )} ago:`}</div>
-              <div>{`${record.gallons_pumped.toFixed(2)} Gallons`}</div>
-            </div>
-          );
-        })}
+        {dosingPumpRecords
+          .sort()
+          .reverse()
+          .map((record: DosingPumpRecord) => {
+            const timestampTime = parse(
+              record.timestamp.split(".")[0],
+              "yyyy-MM-dd HH:mm:ss",
+              new Date()
+            );
+            return (
+              <div
+                className="logEntry"
+                key={record.timestamp}
+                title={record.timestamp}
+                style={{
+                  width: "450px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  textTransform: "uppercase",
+                  fontSize: "13px",
+                  letterSpacing: "0.75px",
+                  padding: "6px",
+                  borderBottom: "1px solid #eee"
+                }}
+              >
+                <div className="logEntry">{`${formatDistance(
+                  timestampTime,
+                  new Date()
+                )} ago:`}</div>
+                <div>{`${record.gallons_pumped.toFixed(2)} Gallons`}</div>
+              </div>
+            );
+          })}
       </div>
     </div>
   );
