@@ -54,6 +54,31 @@ const dayOrder = [
   "Sunday"
 ];
 
+function compareTimestamps(a: string, b: string): number {
+  const aDate = parseSqliteTimestamp(a);
+  const bDate = parseSqliteTimestamp(b);
+
+  if (aDate < bDate) {
+    return -1;
+  }
+
+  if (aDate > bDate) {
+    return 1;
+  }
+  return 0;
+}
+
+function compareDosingRecords(
+  a: DosingPumpRecord,
+  b: DosingPumpRecord
+): number {
+  return compareTimestamps(a.timestamp, b.timestamp);
+}
+
+const parseSqliteTimestamp = (timestamp: string): Date => {
+  return parse(timestamp.split(".")[0], "yyyy-MM-dd HH:mm:ss", new Date());
+};
+
 // <div>{formatDistance(timestampTime, new Date())}</div>
 function Home({ dosingPumpRecords }: HomeProps) {
   const calDataDict: CalDataDict = {};
@@ -61,11 +86,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
   const thisQuarterStart = startOfQuarter(new Date());
   let gallonsPumpedThisQuarter = 0;
   const completeCalData = dosingPumpRecords.map((record: DosingPumpRecord) => {
-    const timestampTime = parse(
-      record.timestamp.split(".")[0],
-      "yyyy-MM-dd HH:mm:ss",
-      new Date()
-    );
+    const timestampTime = parseSqliteTimestamp(record.timestamp);
     const timeForCal = format(timestampTime, "yyyy-MM-dd");
     if (calDataDict.hasOwnProperty(timeForCal)) {
       calDataDict[timeForCal] = calDataDict[timeForCal] + record.gallons_pumped;
@@ -141,7 +162,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
       </style>
       <div>
         {dosingPumpRecords
-          .sort()
+          .sort(compareDosingRecords)
           .reverse()
           .map((record: DosingPumpRecord) => {
             const timestampTime = parse(
