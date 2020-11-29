@@ -214,6 +214,17 @@ class DAQ:
             return True
         return False
 
+    def get_wait_ns(self, daq_loop_start, daq_loop_end):
+        self.loop_time = daq_loop_end()
+        ns_elapsed = daq_loop_end - daq_loop_start
+        wait_ns = self.one_sample_time - ns_elapsed
+        return wait_ns
+
+    def busy_wait_until_next_sample(self, now_ns, wait_ns):
+        end_ns = now_ns + wait_ns
+        while time.time_ns() < end_ns:
+            continue
+
     def start_daq_loop(self, channel):
         self.log("Monitoring data at {} sample(s) per second".format(self.data_rate_hz))
         self.log("Amperage conversion factor is: {}".format(self.conversion_factor))
@@ -222,26 +233,28 @@ class DAQ:
         self.log("Starting Data Monitoring...")
 
         while True:
-            if self.should_sample_data(self.loop_time, self.one_sample_time):
-                daq_time = time.time_ns()
-                data = self.acquire_one_sample(channel)
+            daq_loop_start = time.time_ns()
+            data = self.acquire_one_sample(channel)
 
-                if data > self.data_collection_voltage_threshold:
-                    if self.data_collection_start == 0:
-                        self.now = datetime.now()
-                        self.data_collection_start = daq_time
-                    self.samples.append(data)
-                    self.sample_times.append(daq_time)
-                else:
-                    if len(self.samples) > 0:
-                        self.parse_save_and_graph_data()
+            if data > self.data_collection_voltage_threshold:
+                if self.data_collection_start == 0:
+                    self.now = datetime.now()
+                    self.data_collection_start = daq_loop_start
+                self.samples.append(data)
+                self.sample_times.append(daq_loop_start)
+            else:
+                if len(self.samples) > 0:
+                    self.parse_save_and_graph_data()
 
-                        # Clear
-                        self.samples = []
-                        self.sample_times = []
-                        self.data_collection_start = 0
+                    # Clear
+                    self.samples = []
+                    self.sample_times = []
+                    self.data_collection_start = 0
 
-                self.loop_time = time.time_ns()
+            # Wait until it is time to sample data again
+            daq_loop_end = time.time_ns()
+            wait_ns = self.get_wait_ns(daq_loop_start, daq_loop_end)
+            self.busy_wait_until_next_sample(daq_loop_end, wait_ns)
 
 
 DATA_RATE_HZ = 120
