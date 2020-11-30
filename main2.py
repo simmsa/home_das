@@ -154,6 +154,13 @@ class DAQ:
         plt.savefig(os.path.join(self.base_dir, "Amperage-{}.png".format(start_time)))
         plt.close()
 
+        plt.scatter(self.sample_times, samples, marker=",")
+        plt.xlabel("Nanoseconds")
+        plt.ylabel("Amps")
+        plt.title("Dosing Tank Pump Run - Amps vs Nanoseconds - {}".format(start_time))
+        plt.savefig(os.path.join(self.base_dir, "AmpsVsNS-{}.png".format(start_time)))
+        plt.close()
+
         # Water Usage
         cursor = self.db_connection.cursor()
         cursor.execute(
