@@ -222,7 +222,7 @@ class DAQ:
         return False
 
     def get_wait_ns(self, daq_loop_start, daq_loop_end):
-        self.loop_time = daq_loop_end()
+        self.loop_time = daq_loop_end
         ns_elapsed = daq_loop_end - daq_loop_start
         wait_ns = self.one_sample_time - ns_elapsed
         return wait_ns
