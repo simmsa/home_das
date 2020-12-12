@@ -168,15 +168,11 @@ class DAQ:
         plt.close()
 
         # Water Usage
-        cursor = self.db_connection.cursor()
-        cursor.execute(
-            "INSERT INTO WATER_USAGE_DATA(timestamp, gallons_pumped) VALUES(?, ?)",
-            (self.now, pumped_gallons),
-        )
 
         cursor.execute(
             "SELECT * FROM WATER_USAGE_DATA",
         )
+
         # What order are these in?
         water_data = cursor.fetchall()
         self.db_connection.commit()
