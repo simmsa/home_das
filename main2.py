@@ -144,6 +144,12 @@ class DAQ:
             )
         )
 
+        cursor = self.db_connection.cursor()
+        cursor.execute(
+            "INSERT INTO WATER_USAGE_DATA(timestamp, gallons_pumped) VALUES(?, ?)",
+            (self.now, pumped_gallons),
+        )
+
         self.save_csv(samples, start_time)
         self.save_csv(raw_samples, "RAW_{}".format(start_time))
         self.save_csv(self.sample_times, "NS_{}".format(start_time))
