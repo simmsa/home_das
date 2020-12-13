@@ -160,7 +160,7 @@ class DAQ:
         plt.savefig(os.path.join(self.base_dir, "Amperage-{}.png".format(start_time)))
         plt.close()
 
-        plt.scatter(self.sample_times, samples, s=1)
+        plt.scatter(self.sample_times, samples, marker="x", s=1, linewidths=0)
         plt.xlabel("Nanoseconds")
         plt.ylabel("Amps")
         plt.title("Dosing Tank Pump Run - Amps vs Nanoseconds - {}".format(start_time))
