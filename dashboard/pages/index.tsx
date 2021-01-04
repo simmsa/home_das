@@ -143,7 +143,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         <Bar dataKey="Gallons Pumped" fill="#1E88E5" />
       </BarChart>
       <h3>Gallons Pumped Per Day Of Year</h3>
-      <div style={{ height: "200px", width: "800px", paddingTop: "15px" }}>
+      <div style={{ height: "440px", width: "800px", paddingTop: "15px" }}>
         <ResponsiveCalendar
           data={formattedCalData}
           from={completeCalData[0].day}
