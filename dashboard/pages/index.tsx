@@ -117,8 +117,8 @@ function Home({ dosingPumpRecords }: HomeProps) {
   // console.log(calDataDict);
   // console.log(dayOfWeekDict);
   console.log(formattedCalData);
-  console.log(completeCalData[0].day);
   console.log(completeCalData[completeCalData.length - 1].day);
+  console.log(completeCalData[0].day);
   return (
     <div className="container">
       <h1>Dosing Tank Records</h1>
@@ -149,8 +149,8 @@ function Home({ dosingPumpRecords }: HomeProps) {
       <div style={{ height: "440px", width: "800px", paddingTop: "15px" }}>
         <ResponsiveCalendar
           data={formattedCalData}
-          from={completeCalData[0].day}
-          to={completeCalData[completeCalData.length - 1].day}
+          from={completeCalData[completeCalData.length - 1].day}
+          to={completeCalData[0].day}
           colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
         />
       </div>
