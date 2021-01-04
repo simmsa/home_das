@@ -152,6 +152,8 @@ function Home({ dosingPumpRecords }: HomeProps) {
           from={completeCalData[completeCalData.length - 1].day}
           to={completeCalData[0].day}
           colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
+          margin={{ left: 40, right: 40 }}
+          yearSpacing={40}
         />
       </div>
 
