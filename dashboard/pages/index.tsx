@@ -122,7 +122,6 @@ function Home({ dosingPumpRecords }: HomeProps) {
   return (
     <div className="container">
       <h1>Dosing Tank Records</h1>
-      <h1>Test</h1>
       <h2>
         Gallons Pumped This Quarter:{" "}
         <b>{gallonsPumpedThisQuarter.toFixed(2)}</b>
