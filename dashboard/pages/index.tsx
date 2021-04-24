@@ -116,12 +116,13 @@ function Home({ dosingPumpRecords }: HomeProps) {
   });
   // console.log(calDataDict);
   // console.log(dayOfWeekDict);
-  console.log(formattedCalData);
-  console.log(completeCalData[completeCalData.length - 1].day);
-  console.log(completeCalData[0].day);
+  // console.log(formattedCalData);
+  // console.log(completeCalData[completeCalData.length - 1].day);
+  // console.log(completeCalData[0].day);
   return (
     <div className="container">
       <h1>Dosing Tank Records</h1>
+      <h1>Test</h1>
       <h2>
         Gallons Pumped This Quarter:{" "}
         <b>{gallonsPumpedThisQuarter.toFixed(2)}</b>
