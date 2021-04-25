@@ -51,7 +51,7 @@ const dayOrder = [
   "Thursday",
   "Friday",
   "Saturday",
-  "Sunday"
+  "Sunday",
 ];
 
 function compareTimestamps(a: string, b: string): number {
@@ -70,7 +70,7 @@ function compareTimestamps(a: string, b: string): number {
 
 function compareDosingRecords(
   a: DosingPumpRecord,
-  b: DosingPumpRecord
+  b: DosingPumpRecord,
 ): number {
   return compareTimestamps(a.timestamp, b.timestamp);
 }
@@ -107,7 +107,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
     }
     return {
       day: timeForCal,
-      value: record.gallons_pumped
+      value: record.gallons_pumped,
     };
   });
 
@@ -135,7 +135,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
         data={dayOrder.map(day => {
           return {
             day,
-            "Gallons Pumped": dayOfWeekDict[day].toFixed(2)
+            "Gallons Pumped": dayOfWeekDict[day].toFixed(2),
           };
         })}
       >
@@ -173,7 +173,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
             const timestampTime = parse(
               record.timestamp.split(".")[0],
               "yyyy-MM-dd HH:mm:ss",
-              new Date()
+              new Date(),
             );
             return (
               <div
@@ -189,13 +189,14 @@ function Home({ dosingPumpRecords }: HomeProps) {
                   fontSize: "13px",
                   letterSpacing: "0.75px",
                   padding: "6px",
-                  borderBottom: "1px solid #eee"
+                  borderBottom: "1px solid #eee",
                 }}
               >
                 <div className="logEntry">{`${formatDistance(
                   timestampTime,
-                  new Date()
+                  new Date(),
                 )} ago:`}</div>
+                <div>{`${record.gallons_pumped.toFixed(2)} Gallons`}</div>
                 <div>{`${record.gallons_pumped.toFixed(2)} Gallons`}</div>
               </div>
             );
