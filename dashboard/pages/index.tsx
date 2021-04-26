@@ -24,10 +24,10 @@ import Head from "next/head";
 
 export async function getServerSideProps() {
   return new Promise((resolve, reject) => {
-    // let db = new sqlite3.Database("/home/pi/home_das/home_das_db.db");
-    let db = new sqlite3.Database(
-      "/Users/macuser/Desktop/Programming/python/home_das/home_das_db.db",
-    );
+    let db = new sqlite3.Database("/home/pi/home_das/home_das_db.db");
+    // let db = new sqlite3.Database(
+    //   "/Users/macuser/Desktop/Programming/python/home_das/home_das_db.db",
+    // );
     db.serialize(() => {
       db.all("SELECT * from WATER_USAGE_DATA", function(err, rows) {
         if (err) {
