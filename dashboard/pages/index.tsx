@@ -219,7 +219,7 @@ function Home({ dosingPumpRecords }: HomeProps) {
       valueFormatter: (params: GridValueFormatterParams) => {
         const thisDuration = intervalToDuration({
           start: 0,
-          end: params.value * 1000,
+          end: (params.value as number) * 1000,
         });
         return formatDuration(thisDuration);
       },
