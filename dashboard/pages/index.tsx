@@ -105,6 +105,26 @@ const useStyles = makeStyles({
   },
 });
 
+type SectionTitleProps = {
+  children?: React.ReactNode;
+};
+
+const SectionTitle = (props: SectionTitleProps) => {
+  return (
+    <Typography
+      align="center"
+      color="textPrimary"
+      display="block"
+      variant="overline"
+      style={{
+        fontSize: "16px",
+      }}
+    >
+      {props.children}
+    </Typography>
+  );
+};
+
 function Home({ dosingPumpRecords }: HomeProps) {
   const classes = useStyles();
   const calDataDict: CalDataDict = {};
