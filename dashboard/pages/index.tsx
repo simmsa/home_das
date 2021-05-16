@@ -39,6 +39,34 @@ export async function getServerSideProps() {
   });
 }
 
+// From a pump run witnessed on Jan 31 21
+// The liquid level in the tank went from
+// 26 and 11/16" to 16 1/2"
+// This does not include transport volume
+// The pump ran for 190.4 seconds
+const derivedGallonsPerSecond = (): number => {
+  // 26 11/16"
+  const maxFill = 261 + (274 - 261) * (11 / 16);
+  // 16 i1/2"
+  const minFill = 138 + (150 - 138) * 0.5;
+  const derivedDose = maxFill - minFill;
+  const actualSeconds = 190.4;
+  const derivedGallonsPerSecond = derivedDose / actualSeconds;
+  return derivedGallonsPerSecond;
+};
+
+const actualGallonsPerSecond = derivedGallonsPerSecond();
+
+const transportVolume = 12.8; // Gallons
+const calcActualDosedValue = (originalDosedGallons: number): number => {
+  const fullDose = Math.abs(originalDosedGallons) + transportVolume;
+  const pumpGallonsPerSecond = 0.725;
+  const dosedSeconds = fullDose / pumpGallonsPerSecond;
+
+  const newFullDose = dosedSeconds * actualGallonsPerSecond;
+  return newFullDose - transportVolume;
+};
+
 type DosingPumpRecord = {
   timestamp: "string";
   gallons_pumped: number;
