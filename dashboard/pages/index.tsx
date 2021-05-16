@@ -16,7 +16,6 @@ import isAfter from "date-fns/isAfter";
 import sqlite3 from "sqlite3";
 import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import { ResponsiveCalendar } from "@nivo/calendar";
-import { ResponsiveBar } from "@nivo/bar";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import {
   DataGrid,
@@ -33,12 +32,12 @@ import Head from "next/head";
 
 export async function getServerSideProps() {
   return new Promise((resolve, reject) => {
-    let db = new sqlite3.Database("/home/pi/home_das/home_das_db.db");
-    // let db = new sqlite3.Database(
-    //   "/Users/macuser/Desktop/Programming/python/home_das/home_das_db.db",
+    const db = new sqlite3.Database("/home/pi/home_das/home_das_db.db");
+    // const db = new sqlite3.Database(
+    //   "/Users/macuser/Desktop/Programming/python/home_das/home_das_db.db"
     // );
     db.serialize(() => {
-      db.all("SELECT * from WATER_USAGE_DATA", function(err, rows) {
+      db.all("SELECT * from WATER_USAGE_DATA", function (err, rows) {
         if (err) {
           reject(err);
         }
