@@ -115,7 +115,7 @@ const SectionTitle = (props: SectionTitleProps) => {
       align="center"
       color="textPrimary"
       display="block"
-      variant="overline"
+      variant="button"
       style={{
         fontSize: "16px",
       }}
