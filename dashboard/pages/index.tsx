@@ -153,6 +153,37 @@ const SectionTitle = (props: SectionTitleProps) => {
   );
 };
 
+type PayPeriod = {
+  start: Date;
+  end: Date;
+  numDays: number;
+};
+
+// Generate pay periods up to the current date
+const getPayPeriods = (): PayPeriod[] => {
+  const firstPayPeriod = new Date(2020, 9, 1);
+  const monthsBetweenPayPeriods = 4;
+  const result = [];
+  let payPeriod = firstPayPeriod;
+
+  while (compareAsc(payPeriod, new Date()) === -1) {
+    const nextPayPeriodStart = add(payPeriod, {
+      months: monthsBetweenPayPeriods,
+    });
+    const payPeriodEnd = sub(nextPayPeriodStart, { days: 1 });
+
+    result.push({
+      start: payPeriod,
+      end: payPeriodEnd,
+      numDays: differenceInDays(payPeriodEnd, payPeriod),
+    });
+    payPeriod = nextPayPeriodStart;
+  }
+  return result;
+};
+
+const payPeriods: PayPeriod[] = getPayPeriods();
+
 function Home({ dosingPumpRecords }: HomeProps) {
   const classes = useStyles();
   const calDataDict: CalDataDict = {};
