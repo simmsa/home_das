@@ -20,4 +20,8 @@ React based with nextjs backend
 
 Files are is `dashboard/pages`
 
-Pages can be reloaded with `sudo service restart home_das_server`
+UI is run with `systemd`. Service is called `home_das_server`. Pages can be reloaded with `sudo service restart home_das_server`. `systemd` config file is in `/lib/systemd/system/home_das_server.service`
+
+### UI Server Structure
+
+`nextjs` server is run on port 8000. `nginx` is used as a proxy and serves port 80 and static files from the nextjs server. `nginx` config lives in `/etc/sites-enabled/home_das_server.com.conf`
