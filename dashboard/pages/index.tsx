@@ -18,7 +18,12 @@ import isBefore from "date-fns/isBefore";
 import sqlite3 from "sqlite3";
 import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import { ResponsiveCalendar } from "@nivo/calendar";
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import {
+  createStyles,
+  withStyles,
+  WithStyles,
+  Theme,
+} from "@material-ui/core/styles";
 import {
   DataGrid,
   GridCellClassParams,
@@ -130,7 +135,7 @@ const parseSqliteTimestamp = (timestamp: string): Date => {
   return parse(timestamp.split(".")[0], "yyyy-MM-dd HH:mm:ss", new Date());
 };
 
-const useStyles = makeStyles((theme: Theme) =>
+const styles = (theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
@@ -149,8 +154,7 @@ const useStyles = makeStyles((theme: Theme) =>
     appBarDate: {
       marginRight: theme.spacing(2),
     },
-  })
-);
+  });
 
 type SectionTitleProps = {
   children?: React.ReactNode;
@@ -226,281 +230,318 @@ const getPayPeriodNameFromTimestamp = (timestamp: Date): string => {
   return result;
 };
 
-function Home({ dosingPumpRecords }: HomeProps) {
-  const classes = useStyles();
-  const calDataDict: CalDataDict = {};
-  const dayOfWeekDict: DayOfWeekDict = {};
-  const thisPayPeriod: PayPeriod = payPeriods[payPeriods.length - 1];
-  const thisPayPeriodStart = thisPayPeriod.start;
-  const thisPayPeriodEnd = thisPayPeriod.end;
-  let gallonsPumpedThisPayPeriod = 0;
+type HomeState = {
+  usageDataIndex: number;
+};
 
-  type PayPeriodData = {
-    total_gallons_dosed: number;
-    average_daily_gallons_dosed: number;
-    estimated_gallons_dosed: number;
-    days: number;
-    start: Date;
-    end: Date;
-    mostRecentDosingPumpRun: Date;
-  };
-  const payPeriodData: { [key: string]: PayPeriodData } = {};
-  payPeriods.map((payPeriod: PayPeriod) => {
-    payPeriodData[payPeriod.name] = {
-      total_gallons_dosed: 0,
-      average_daily_gallons_dosed: 0,
-      estimated_gallons_dosed: 0,
-      days: payPeriod.numDays,
-      start: payPeriod.start,
-      end: payPeriod.end,
-      mostRecentDosingPumpRun: payPeriod.start,
+interface HomeStyledProps extends WithStyles<typeof styles> {
+  dosingPumpRecords: DosingPumpRecords;
+}
+
+class Home extends React.Component<HomeStyledProps, HomeState> {
+  constructor(props: HomeStyledProps) {
+    super(props);
+    this.state = {
+      usageDataIndex: 0,
     };
-  });
-
-  const completeCalData = dosingPumpRecords.map((record: DosingPumpRecord) => {
-    const timestampTime = parseSqliteTimestamp(record.timestamp);
-    const timeForCal = format(timestampTime, "yyyy-MM-dd");
-    const actualGallonsPumped = calcActualDosedValue(record.gallons_pumped);
-    if (calDataDict.hasOwnProperty(timeForCal)) {
-      calDataDict[timeForCal] = calDataDict[timeForCal] + actualGallonsPumped;
-    } else {
-      calDataDict[timeForCal] = actualGallonsPumped;
-    }
-
-    const dayOfWeek = format(timestampTime, "EEEE");
-    if (dayOfWeekDict.hasOwnProperty(dayOfWeek)) {
-      dayOfWeekDict[dayOfWeek] = dayOfWeekDict[dayOfWeek] + actualGallonsPumped;
-    } else {
-      dayOfWeekDict[dayOfWeek] = actualGallonsPumped;
-    }
-
-    if (isAfter(timestampTime, thisPayPeriodStart)) {
-      gallonsPumpedThisPayPeriod += actualGallonsPumped;
-    }
-
-    const payPeriodName = getPayPeriodNameFromTimestamp(timestampTime);
-    payPeriodData[payPeriodName].total_gallons_dosed += actualGallonsPumped;
-
-    return {
-      day: timeForCal,
-      value: actualGallonsPumped,
-    };
-  });
-
-  Object.keys(payPeriodData).map((key) => {
-    let daysForAverage = payPeriodData[key].days;
-    if (isAfter(payPeriodData[key].end, new Date())) {
-      daysForAverage = differenceInDays(new Date(), payPeriodData[key].start);
-    }
-    payPeriodData[key].average_daily_gallons_dosed =
-      payPeriodData[key].total_gallons_dosed / daysForAverage;
-    payPeriodData[key].estimated_gallons_dosed =
-      payPeriodData[key].average_daily_gallons_dosed * payPeriodData[key].days;
-  });
-
-  const payPeriodGallonsPerDay =
-    gallonsPumpedThisPayPeriod /
-    differenceInDays(new Date(), thisPayPeriodStart);
-
-  const formattedCalData = Object.keys(calDataDict).map((key) => {
-    return { day: key, value: calDataDict[key] };
-  });
-
-  const parseDate = (timestamp: string): Date => {
-    return parse(timestamp.split(".")[0], "yyyy-MM-dd HH:mm:ss", new Date());
-  };
-
-  let lastRuntime: Date = parseDate(dosingPumpRecords[0].timestamp);
-  let allSecondsBetween: number[] = [];
-  let allGallonsPumped: number[] = [];
-  const dosingPumpRecordsWithId = dosingPumpRecords
-    .reverse()
-    .map((record: DosingPumpRecord, x: number) => {
-      const actualGallonsPumped = calcActualDosedValue(record.gallons_pumped);
-      const timestampTime: Date = parseDate(record.timestamp);
-      const hoursBetween = intervalToDuration({
-        start: timestampTime,
-        end: lastRuntime,
-      });
-      const secondsBetween = differenceInSeconds(timestampTime, lastRuntime);
-      allSecondsBetween.push(secondsBetween);
-      allGallonsPumped.push(actualGallonsPumped);
-      lastRuntime = timestampTime;
-      return {
-        ...record,
-        timeSince: formatDistance(timestampTime, new Date()) + " ago",
-        timestamp: format(timestampTime, "PPpp"),
-        hoursBetween: formatDuration(hoursBetween, {
-          format: ["years", "months", "weeks", "days", "hours", "minutes"],
-        }),
-        secondsBetween,
-        id: x,
-        gallons_pumped: parseFloat(actualGallonsPumped.toFixed(3)),
-      };
-    })
-    .reverse();
-
-  let total = 0;
-  for (let i = 0; i < allSecondsBetween.length; i++) {
-    total += Math.abs(allSecondsBetween[i]);
   }
-  const secondsBetweenAverage = total / allSecondsBetween.length;
 
-  const median = (arr: number[]) => {
-    const mid = Math.floor(arr.length / 2),
-      nums = [...arr].sort((a, b) => a - b);
-    return arr.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
-  };
-  const secondsBetweenMedian = median(allSecondsBetween);
-  const gallonsPumpedMedian = median(allGallonsPumped);
+  render() {
+    const { dosingPumpRecords, classes } = this.props;
+    const calDataDict: CalDataDict = {};
+    const dayOfWeekDict: DayOfWeekDict = {};
+    const thisPayPeriod: PayPeriod = payPeriods[payPeriods.length - 1];
+    const thisPayPeriodStart = thisPayPeriod.start;
+    const thisPayPeriodEnd = thisPayPeriod.end;
+    let gallonsPumpedThisPayPeriod = 0;
 
-  const dataColumns = [
-    {
-      field: "id",
-      headerName: "Count",
-      width: 120,
-      description: "Pump Count",
-    },
-    {
-      field: "timestamp",
-      headerName: "Time",
-      width: 220,
-      description: "Timestamp when pump started",
-    },
-    {
-      field: "timeSince",
-      headerName: "Time Since",
-      width: 200,
-      description: "Timestamp when pump started",
-    },
-    {
-      field: "secondsBetween",
-      headerName: "Duration Between",
-      width: 170,
-      cellClassName: (params: GridCellClassParams) =>
-        clsx("super-app", {
-          negative: (params.value as number) < secondsBetweenMedian * 0.75,
-          positive: (params.value as number) > secondsBetweenMedian * 1.25,
-        }),
-      valueFormatter: (params: GridValueFormatterParams) => {
-        const thisDuration = intervalToDuration({
-          start: 0,
-          end: (params.value as number) * 1000,
+    type PayPeriodData = {
+      total_gallons_dosed: number;
+      average_daily_gallons_dosed: number;
+      estimated_gallons_dosed: number;
+      days: number;
+      start: Date;
+      end: Date;
+      mostRecentDosingPumpRun: Date;
+    };
+
+    const payPeriodData: { [key: string]: PayPeriodData } = {};
+    payPeriods.map((payPeriod: PayPeriod) => {
+      payPeriodData[payPeriod.name] = {
+        total_gallons_dosed: 0,
+        average_daily_gallons_dosed: 0,
+        estimated_gallons_dosed: 0,
+        days: payPeriod.numDays,
+        start: payPeriod.start,
+        end: payPeriod.end,
+        mostRecentDosingPumpRun: payPeriod.start,
+      };
+    });
+
+    const completeCalData = dosingPumpRecords.map(
+      (record: DosingPumpRecord) => {
+        const timestampTime = parseSqliteTimestamp(record.timestamp);
+        const timeForCal = format(timestampTime, "yyyy-MM-dd");
+        const actualGallonsPumped = calcActualDosedValue(record.gallons_pumped);
+        if (calDataDict.hasOwnProperty(timeForCal)) {
+          calDataDict[timeForCal] =
+            calDataDict[timeForCal] + actualGallonsPumped;
+        } else {
+          calDataDict[timeForCal] = actualGallonsPumped;
+        }
+
+        const dayOfWeek = format(timestampTime, "EEEE");
+        if (dayOfWeekDict.hasOwnProperty(dayOfWeek)) {
+          dayOfWeekDict[dayOfWeek] =
+            dayOfWeekDict[dayOfWeek] + actualGallonsPumped;
+        } else {
+          dayOfWeekDict[dayOfWeek] = actualGallonsPumped;
+        }
+
+        if (isAfter(timestampTime, thisPayPeriodStart)) {
+          gallonsPumpedThisPayPeriod += actualGallonsPumped;
+        }
+
+        const payPeriodName = getPayPeriodNameFromTimestamp(timestampTime);
+        payPeriodData[payPeriodName].total_gallons_dosed += actualGallonsPumped;
+
+        return {
+          day: timeForCal,
+          value: actualGallonsPumped,
+        };
+      }
+    );
+
+    Object.keys(payPeriodData).map((key) => {
+      let daysForAverage = payPeriodData[key].days;
+      if (isAfter(payPeriodData[key].end, new Date())) {
+        daysForAverage = differenceInDays(new Date(), payPeriodData[key].start);
+      }
+      payPeriodData[key].average_daily_gallons_dosed =
+        payPeriodData[key].total_gallons_dosed / daysForAverage;
+      payPeriodData[key].estimated_gallons_dosed =
+        payPeriodData[key].average_daily_gallons_dosed *
+        payPeriodData[key].days;
+    });
+
+    const payPeriodGallonsPerDay =
+      gallonsPumpedThisPayPeriod /
+      differenceInDays(new Date(), thisPayPeriodStart);
+
+    const formattedCalData = Object.keys(calDataDict).map((key) => {
+      return { day: key, value: calDataDict[key] };
+    });
+
+    const parseDate = (timestamp: string): Date => {
+      return parse(timestamp.split(".")[0], "yyyy-MM-dd HH:mm:ss", new Date());
+    };
+
+    let lastRuntime: Date = parseDate(dosingPumpRecords[0].timestamp);
+    let allSecondsBetween: number[] = [];
+    let allGallonsPumped: number[] = [];
+    const dosingPumpRecordsWithId = dosingPumpRecords
+      .reverse()
+      .map((record: DosingPumpRecord, x: number) => {
+        const actualGallonsPumped = calcActualDosedValue(record.gallons_pumped);
+        const timestampTime: Date = parseDate(record.timestamp);
+        const hoursBetween = intervalToDuration({
+          start: timestampTime,
+          end: lastRuntime,
         });
-        return formatDuration(thisDuration);
-      },
-    },
-    {
-      field: "gallons_pumped",
-      headerName: "Gallons Dosed",
-      width: 200,
-      description: "Derived from number of seconds the pump runs",
-      cellClassName: (params: GridCellClassParams) =>
-        clsx("super-app", {
-          negative: (params.value as number) > gallonsPumpedMedian * 1.1,
-        }),
-    },
-  ];
-  const now = new Date();
-  const waterBlue = "#1E88E5";
-  return (
-    <div>
-      <Head>
-        <title>Dosing Pump Records</title>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-        />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        />
-      </Head>
-      <AppBar position="static" style={{ backgroundColor: waterBlue }}>
-        <Toolbar>
-          <Typography className={classes.appBarTitle} variant="button">
-            25482 Westridge Rd - Dosing Tank Records
-          </Typography>
-          <Typography className={classes.appBarDate}>
-            {format(now, "PPpp")}
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <div className="container">
-        <Paper
-          elevation={3}
-          style={{ padding: "15px", margin: "25px 0 25px 0", width: "820px" }}
-        >
-          <SectionTitle>
-            Gallons Dosed This Pay Period (Since{" "}
-            {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
-          </SectionTitle>
-          <Typography variant="h2" component="h2" align="center">
-            <b>{gallonsPumpedThisPayPeriod.toFixed(2)}</b>
-          </Typography>
-          <SectionTitle>
-            Gallons Dosed Per Day This Pay Period (Since{" "}
-            {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
-          </SectionTitle>
-          <Typography variant="h2" component="h2" align="center">
-            <b>{payPeriodGallonsPerDay.toFixed(2)}</b>
-          </Typography>
-          <SectionTitle>
-            Estimated Gallons to be Dosed This Pay Period (
-            {thisPayPeriod.start.toLocaleDateString("en-US")} to{" "}
-            {thisPayPeriod.end.toLocaleDateString("en-US")}):{" "}
-          </SectionTitle>
-          <Typography variant="h2" component="h2" align="center">
-            <b>{(payPeriodGallonsPerDay * thisPayPeriod.numDays).toFixed(2)}</b>
-          </Typography>
-        </Paper>
-        <Paper elevation={3} style={{ padding: "10px", marginBottom: "25px" }}>
-          <SectionTitle>Gallons Dosed Per Day Of Week (All Time)</SectionTitle>
+        const secondsBetween = differenceInSeconds(timestampTime, lastRuntime);
+        allSecondsBetween.push(secondsBetween);
+        allGallonsPumped.push(actualGallonsPumped);
+        lastRuntime = timestampTime;
+        return {
+          ...record,
+          timeSince: formatDistance(timestampTime, new Date()) + " ago",
+          timestamp: format(timestampTime, "PPpp"),
+          hoursBetween: formatDuration(hoursBetween, {
+            format: ["years", "months", "weeks", "days", "hours", "minutes"],
+          }),
+          secondsBetween,
+          id: x,
+          gallons_pumped: parseFloat(actualGallonsPumped.toFixed(3)),
+        };
+      })
+      .reverse();
 
-          <BarChart
-            width={800}
-            height={250}
-            margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
-            data={dayOrder.map((day) => {
-              return {
-                day,
-                "Gallons Dosed": dayOfWeekDict[day].toFixed(2),
-              };
-            })}
+    let total = 0;
+    for (let i = 0; i < allSecondsBetween.length; i++) {
+      total += Math.abs(allSecondsBetween[i]);
+    }
+    const secondsBetweenAverage = total / allSecondsBetween.length;
+
+    const median = (arr: number[]) => {
+      const mid = Math.floor(arr.length / 2),
+        nums = [...arr].sort((a, b) => a - b);
+      return arr.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
+    };
+    const secondsBetweenMedian = median(allSecondsBetween);
+    const gallonsPumpedMedian = median(allGallonsPumped);
+
+    const dataColumns = [
+      {
+        field: "id",
+        headerName: "Count",
+        width: 120,
+        description: "Pump Count",
+      },
+      {
+        field: "timestamp",
+        headerName: "Time",
+        width: 220,
+        description: "Timestamp when pump started",
+      },
+      {
+        field: "timeSince",
+        headerName: "Time Since",
+        width: 200,
+        description: "Timestamp when pump started",
+      },
+      {
+        field: "secondsBetween",
+        headerName: "Duration Between",
+        width: 170,
+        cellClassName: (params: GridCellClassParams) =>
+          clsx("super-app", {
+            negative: (params.value as number) < secondsBetweenMedian * 0.75,
+            positive: (params.value as number) > secondsBetweenMedian * 1.25,
+          }),
+        valueFormatter: (params: GridValueFormatterParams) => {
+          const thisDuration = intervalToDuration({
+            start: 0,
+            end: (params.value as number) * 1000,
+          });
+          return formatDuration(thisDuration);
+        },
+      },
+      {
+        field: "gallons_pumped",
+        headerName: "Gallons Dosed",
+        width: 200,
+        description: "Derived from number of seconds the pump runs",
+        cellClassName: (params: GridCellClassParams) =>
+          clsx("super-app", {
+            negative: (params.value as number) > gallonsPumpedMedian * 1.1,
+          }),
+      },
+    ];
+    const now = new Date();
+    const waterBlue = "#1E88E5";
+    return (
+      <div>
+        <Head>
+          <title>Dosing Pump Records</title>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          />
+        </Head>
+        <AppBar position="static" style={{ backgroundColor: waterBlue }}>
+          <Toolbar>
+            <Typography className={classes.appBarTitle} variant="button">
+              25482 Westridge Rd - Dosing Tank Records
+            </Typography>
+            <Typography className={classes.appBarDate}>
+              {format(now, "PPpp")}
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <div className="container">
+          <Paper
+            elevation={3}
+            style={{ padding: "15px", margin: "25px 0 25px 0", width: "820px" }}
           >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="day" />
-            <YAxis />
-            <Tooltip />
-            <Bar dataKey="Gallons Dosed" fill="#1E88E5" />
-          </BarChart>
-        </Paper>
-        <Paper elevation={3} style={{ padding: "10px", marginBottom: "25px" }}>
-          <SectionTitle>Gallons Dosed Per Day Of Year (All Time)</SectionTitle>
-          <div style={{ height: "350px", width: "800px", paddingTop: "15px" }}>
-            <ResponsiveCalendar
-              data={formattedCalData}
-              from={completeCalData[completeCalData.length - 1].day}
-              to={completeCalData[0].day}
-              colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
-              margin={{ left: 40, right: 40 }}
-              yearSpacing={40}
-            />
-          </div>
-        </Paper>
-        <Paper elevation={3} style={{ padding: "15px" }}>
-          <SectionTitle>Dosing Tank Logs</SectionTitle>
-          <div style={{ width: "1000px" }} className={classes.root}>
-            <DataGrid
-              rows={dosingPumpRecordsWithId}
-              columns={dataColumns}
-              autoHeight={true}
-            />
-          </div>
-        </Paper>
+            <SectionTitle>
+              Gallons Dosed This Pay Period (Since{" "}
+              {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
+            </SectionTitle>
+            <Typography variant="h2" component="h2" align="center">
+              <b>{gallonsPumpedThisPayPeriod.toFixed(2)}</b>
+            </Typography>
+            <SectionTitle>
+              Gallons Dosed Per Day This Pay Period (Since{" "}
+              {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
+            </SectionTitle>
+            <Typography variant="h2" component="h2" align="center">
+              <b>{payPeriodGallonsPerDay.toFixed(2)}</b>
+            </Typography>
+            <SectionTitle>
+              Estimated Gallons to be Dosed This Pay Period (
+              {thisPayPeriod.start.toLocaleDateString("en-US")} to{" "}
+              {thisPayPeriod.end.toLocaleDateString("en-US")}):{" "}
+            </SectionTitle>
+            <Typography variant="h2" component="h2" align="center">
+              <b>
+                {(payPeriodGallonsPerDay * thisPayPeriod.numDays).toFixed(2)}
+              </b>
+            </Typography>
+          </Paper>
+          <Paper
+            elevation={3}
+            style={{ padding: "10px", marginBottom: "25px" }}
+          >
+            <SectionTitle>
+              Gallons Dosed Per Day Of Week (All Time)
+            </SectionTitle>
+
+            <BarChart
+              width={800}
+              height={250}
+              margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
+              data={dayOrder.map((day) => {
+                return {
+                  day,
+                  "Gallons Dosed": dayOfWeekDict[day].toFixed(2),
+                };
+              })}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="day" />
+              <YAxis />
+              <Tooltip />
+              <Bar dataKey="Gallons Dosed" fill="#1E88E5" />
+            </BarChart>
+          </Paper>
+          <Paper
+            elevation={3}
+            style={{ padding: "10px", marginBottom: "25px" }}
+          >
+            <SectionTitle>
+              Gallons Dosed Per Day Of Year (All Time)
+            </SectionTitle>
+            <div
+              style={{ height: "350px", width: "800px", paddingTop: "15px" }}
+            >
+              <ResponsiveCalendar
+                data={formattedCalData}
+                from={completeCalData[completeCalData.length - 1].day}
+                to={completeCalData[0].day}
+                colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
+                margin={{ left: 40, right: 40 }}
+                yearSpacing={40}
+              />
+            </div>
+          </Paper>
+          <Paper elevation={3} style={{ padding: "15px" }}>
+            <SectionTitle>Dosing Tank Logs</SectionTitle>
+            <div style={{ width: "1000px" }} className={classes.root}>
+              <DataGrid
+                rows={dosingPumpRecordsWithId}
+                columns={dataColumns}
+                autoHeight={true}
+              />
+            </div>
+          </Paper>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 // <h3>Dosing Tank Logs</h3>
 // <style global jsx>
