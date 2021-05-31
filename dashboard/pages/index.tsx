@@ -13,6 +13,8 @@ import differenceInDays from "date-fns/differenceInDays";
 import formatDuration from "date-fns/formatDuration";
 import startOfQuarter from "date-fns/startOfQuarter";
 import isAfter from "date-fns/isAfter";
+import isEqual from "date-fns/isEqual";
+import isBefore from "date-fns/isBefore";
 import sqlite3 from "sqlite3";
 import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import { ResponsiveCalendar } from "@nivo/calendar";
@@ -171,6 +173,7 @@ const SectionTitle = (props: SectionTitleProps) => {
 };
 
 type PayPeriod = {
+  name: string;
   start: Date;
   end: Date;
   numDays: number;
@@ -187,9 +190,13 @@ const getPayPeriods = (): PayPeriod[] => {
     const nextPayPeriodStart = add(payPeriod, {
       months: monthsBetweenPayPeriods,
     });
-    const payPeriodEnd = sub(nextPayPeriodStart, { days: 1 });
+    const payPeriodEnd = sub(nextPayPeriodStart, { minutes: 1 });
 
     result.push({
+      name: `${format(payPeriod, "MMM u")} through ${format(
+        payPeriodEnd,
+        "MMM u"
+      )}`,
       start: payPeriod,
       end: payPeriodEnd,
       numDays: differenceInDays(payPeriodEnd, payPeriod),
@@ -201,6 +208,24 @@ const getPayPeriods = (): PayPeriod[] => {
 
 const payPeriods: PayPeriod[] = getPayPeriods();
 
+const getPayPeriodNameFromTimestamp = (timestamp: Date): string => {
+  let result = "bad pay period";
+  payPeriods.map((payPeriod: PayPeriod) => {
+    if (
+      isEqual(timestamp, payPeriod.start) ||
+      isEqual(timestamp, payPeriod.end)
+    ) {
+      result = payPeriod.name;
+    } else if (
+      isAfter(timestamp, payPeriod.start) &&
+      isBefore(timestamp, payPeriod.end)
+    ) {
+      result = payPeriod.name;
+    }
+  });
+  return result;
+};
+
 function Home({ dosingPumpRecords }: HomeProps) {
   const classes = useStyles();
   const calDataDict: CalDataDict = {};
@@ -209,6 +234,29 @@ function Home({ dosingPumpRecords }: HomeProps) {
   const thisPayPeriodStart = thisPayPeriod.start;
   const thisPayPeriodEnd = thisPayPeriod.end;
   let gallonsPumpedThisPayPeriod = 0;
+
+  type PayPeriodData = {
+    total_gallons_dosed: number;
+    average_daily_gallons_dosed: number;
+    estimated_gallons_dosed: number;
+    days: number;
+    start: Date;
+    end: Date;
+    mostRecentDosingPumpRun: Date;
+  };
+  const payPeriodData: { [key: string]: PayPeriodData } = {};
+  payPeriods.map((payPeriod: PayPeriod) => {
+    payPeriodData[payPeriod.name] = {
+      total_gallons_dosed: 0,
+      average_daily_gallons_dosed: 0,
+      estimated_gallons_dosed: 0,
+      days: payPeriod.numDays,
+      start: payPeriod.start,
+      end: payPeriod.end,
+      mostRecentDosingPumpRun: payPeriod.start,
+    };
+  });
+
   const completeCalData = dosingPumpRecords.map((record: DosingPumpRecord) => {
     const timestampTime = parseSqliteTimestamp(record.timestamp);
     const timeForCal = format(timestampTime, "yyyy-MM-dd");
@@ -229,11 +277,27 @@ function Home({ dosingPumpRecords }: HomeProps) {
     if (isAfter(timestampTime, thisPayPeriodStart)) {
       gallonsPumpedThisPayPeriod += actualGallonsPumped;
     }
+
+    const payPeriodName = getPayPeriodNameFromTimestamp(timestampTime);
+    payPeriodData[payPeriodName].total_gallons_dosed += actualGallonsPumped;
+
     return {
       day: timeForCal,
       value: actualGallonsPumped,
     };
   });
+
+  Object.keys(payPeriodData).map((key) => {
+    let daysForAverage = payPeriodData[key].days;
+    if (isAfter(payPeriodData[key].end, new Date())) {
+      daysForAverage = differenceInDays(new Date(), payPeriodData[key].start);
+    }
+    payPeriodData[key].average_daily_gallons_dosed =
+      payPeriodData[key].total_gallons_dosed / daysForAverage;
+    payPeriodData[key].estimated_gallons_dosed =
+      payPeriodData[key].average_daily_gallons_dosed * payPeriodData[key].days;
+  });
+
   const payPeriodGallonsPerDay =
     gallonsPumpedThisPayPeriod /
     differenceInDays(new Date(), thisPayPeriodStart);
