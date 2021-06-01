@@ -19,11 +19,14 @@ import sqlite3 from "sqlite3";
 import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import { ResponsiveCalendar } from "@nivo/calendar";
 import {
+  createMuiTheme,
   createStyles,
   withStyles,
   WithStyles,
   Theme,
+  ThemeProvider,
 } from "@material-ui/core/styles";
+import blue from "@material-ui/core/colors/blue";
 import {
   DataGrid,
   GridCellClassParams,
@@ -31,9 +34,15 @@ import {
 } from "@material-ui/data-grid";
 import { Typography } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
+import Box from "@material-ui/core/Box";
 import Divider from "@material-ui/core/Divider";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
+import Button from "@material-ui/core/Button";
+import IconButton from "@material-ui/core/IconButton";
+import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+import NavigateBeforeIcon from "@material-ui/icons/NavigateBefore";
+import ButtonGroup from "@material-ui/core/ButtonGroup";
 
 import Head from "next/head";
 
@@ -135,6 +144,18 @@ const parseSqliteTimestamp = (timestamp: string): Date => {
   return parse(timestamp.split(".")[0], "yyyy-MM-dd HH:mm:ss", new Date());
 };
 
+const waterBlue = "#1E88E5";
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: blue[500],
+    },
+    secondary: {
+      main: blue[500],
+    },
+  },
+});
+
 const styles = (theme: Theme) =>
   createStyles({
     root: {
@@ -157,6 +178,7 @@ const styles = (theme: Theme) =>
   });
 
 type SectionTitleProps = {
+  size?: number;
   children?: React.ReactNode;
 };
 
@@ -168,7 +190,7 @@ const SectionTitle = (props: SectionTitleProps) => {
       display="block"
       variant="button"
       style={{
-        fontSize: "16px",
+        fontSize: `${props.size ? props.size : 16}px`,
       }}
     >
       {props.children}
@@ -196,11 +218,15 @@ const getPayPeriods = (): PayPeriod[] => {
     });
     const payPeriodEnd = sub(nextPayPeriodStart, { minutes: 1 });
 
+    const startAndEndInSameYear =
+      format(payPeriod, "u") === format(payPeriodEnd, "u");
+
+    const startFormat = startAndEndInSameYear
+      ? format(payPeriod, "MMM")
+      : format(payPeriod, "MMM u");
+
     result.push({
-      name: `${format(payPeriod, "MMM u")} through ${format(
-        payPeriodEnd,
-        "MMM u"
-      )}`,
+      name: `${startFormat} - ${format(payPeriodEnd, "MMM u")}`,
       start: payPeriod,
       end: payPeriodEnd,
       numDays: differenceInDays(payPeriodEnd, payPeriod),
@@ -239,11 +265,29 @@ interface HomeStyledProps extends WithStyles<typeof styles> {
 }
 
 class Home extends React.Component<HomeStyledProps, HomeState> {
+  usageDataIndexMax = payPeriods.length - 1;
+  usageDataIndexMin = 0;
   constructor(props: HomeStyledProps) {
     super(props);
     this.state = {
-      usageDataIndex: 0,
+      usageDataIndex: payPeriods.length - 1,
     };
+  }
+
+  updateUsageDataIndex(updatedIndex: number) {
+    let newIndex = updatedIndex;
+
+    if (newIndex > this.usageDataIndexMax) {
+      newIndex = this.usageDataIndexMax;
+    }
+
+    if (newIndex < this.usageDataIndexMin) {
+      newIndex = this.usageDataIndexMin;
+    }
+
+    this.setState({
+      usageDataIndex: newIndex,
+    });
   }
 
   render() {
@@ -331,6 +375,8 @@ class Home extends React.Component<HomeStyledProps, HomeState> {
     const formattedCalData = Object.keys(calDataDict).map((key) => {
       return { day: key, value: calDataDict[key] };
     });
+
+    const payPeriodDataKeys = Object.keys(payPeriodData);
 
     const parseDate = (timestamp: string): Date => {
       return parse(timestamp.split(".")[0], "yyyy-MM-dd HH:mm:ss", new Date());
@@ -428,118 +474,205 @@ class Home extends React.Component<HomeStyledProps, HomeState> {
       },
     ];
     const now = new Date();
-    const waterBlue = "#1E88E5";
     return (
-      <div>
-        <Head>
-          <title>Dosing Pump Records</title>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          />
-        </Head>
-        <AppBar position="static" style={{ backgroundColor: waterBlue }}>
-          <Toolbar>
-            <Typography className={classes.appBarTitle} variant="button">
-              25482 Westridge Rd - Dosing Tank Records
-            </Typography>
-            <Typography className={classes.appBarDate}>
-              {format(now, "PPpp")}
-            </Typography>
-          </Toolbar>
-        </AppBar>
-        <div className="container">
-          <Paper
-            elevation={3}
-            style={{ padding: "15px", margin: "25px 0 25px 0", width: "820px" }}
-          >
-            <SectionTitle>
-              Gallons Dosed This Pay Period (Since{" "}
-              {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
-            </SectionTitle>
-            <Typography variant="h2" component="h2" align="center">
-              <b>{gallonsPumpedThisPayPeriod.toFixed(2)}</b>
-            </Typography>
-            <SectionTitle>
-              Gallons Dosed Per Day This Pay Period (Since{" "}
-              {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
-            </SectionTitle>
-            <Typography variant="h2" component="h2" align="center">
-              <b>{payPeriodGallonsPerDay.toFixed(2)}</b>
-            </Typography>
-            <SectionTitle>
-              Estimated Gallons to be Dosed This Pay Period (
-              {thisPayPeriod.start.toLocaleDateString("en-US")} to{" "}
-              {thisPayPeriod.end.toLocaleDateString("en-US")}):{" "}
-            </SectionTitle>
-            <Typography variant="h2" component="h2" align="center">
-              <b>
-                {(payPeriodGallonsPerDay * thisPayPeriod.numDays).toFixed(2)}
-              </b>
-            </Typography>
-          </Paper>
-          <Paper
-            elevation={3}
-            style={{ padding: "10px", marginBottom: "25px" }}
-          >
-            <SectionTitle>
-              Gallons Dosed Per Day Of Week (All Time)
-            </SectionTitle>
+      <ThemeProvider theme={theme}>
+        <div>
+          <Head>
+            <title>Dosing Pump Records</title>
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            />
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            />
+          </Head>
+          <AppBar position="static" style={{ backgroundColor: waterBlue }}>
+            <Toolbar>
+              <Typography className={classes.appBarTitle} variant="button">
+                25482 Westridge Rd - Dosing Tank Records
+              </Typography>
+              <Typography className={classes.appBarDate}>
+                {format(now, "PPpp")}
+              </Typography>
+            </Toolbar>
+          </AppBar>
+          <div className="container">
+            <Paper
+              elevation={3}
+              style={{
+                padding: "15px",
+                margin: "25px 0 25px 0",
+                width: "820px",
+              }}
+            >
+              {this.state.usageDataIndex === this.usageDataIndexMax ? (
+                <SectionTitle size={32}>Active Pay Period</SectionTitle>
+              ) : null}
+              <SectionTitle size={32}>
+                {payPeriodDataKeys[this.state.usageDataIndex]}
+              </SectionTitle>
+              {this.state.usageDataIndex === this.usageDataIndexMax ? (
+                <SectionTitle>
+                  Gallons Dosed This Pay Period (
+                  {differenceInDays(now, thisPayPeriodStart)} Days Since{" "}
+                  {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
+                </SectionTitle>
+              ) : (
+                <SectionTitle>Total Gallons Dosed</SectionTitle>
+              )}
+              <Typography variant="h2" component="h2" align="center">
+                <b>
+                  {payPeriodData[
+                    payPeriodDataKeys[this.state.usageDataIndex]
+                  ].total_gallons_dosed.toFixed(2)}
+                </b>
+              </Typography>
+              {this.state.usageDataIndex === this.usageDataIndexMax ? (
+                <SectionTitle>
+                  Gallons Dosed Per Day This Pay Period ({}Since{" "}
+                  {thisPayPeriodStart.toLocaleDateString("en-US")}):{" "}
+                </SectionTitle>
+              ) : (
+                <SectionTitle>Average Gallons Dosed Per Day</SectionTitle>
+              )}
+              <Typography variant="h2" component="h2" align="center">
+                <b>
+                  {payPeriodData[
+                    payPeriodDataKeys[this.state.usageDataIndex]
+                  ].average_daily_gallons_dosed.toFixed(2)}
+                </b>
+              </Typography>
+              {this.state.usageDataIndex === this.usageDataIndexMax ? (
+                <>
+                  <SectionTitle>
+                    Estimated Gallons to be Dosed This Pay Period (
+                    {thisPayPeriod.start.toLocaleDateString("en-US")} to{" "}
+                    {thisPayPeriod.end.toLocaleDateString("en-US")}):{" "}
+                  </SectionTitle>
+                  <Typography variant="h2" component="h2" align="center">
+                    <b>
+                      {payPeriodData[
+                        payPeriodDataKeys[this.state.usageDataIndex]
+                      ].estimated_gallons_dosed.toFixed(2)}
+                    </b>
+                  </Typography>
+                </>
+              ) : null}
+              <Box display="flex" alignItems="center" justifyContent="center">
+                <ButtonGroup
+                  variant="outlined"
+                  size="small"
+                  style={{ marginTop: theme.spacing(2) }}
+                  disableRipple={true}
+                >
+                  <Button
+                    disabled={this.state.usageDataIndex === 0}
+                    onClick={() => {
+                      this.updateUsageDataIndex(this.state.usageDataIndex - 1);
+                    }}
+                  >
+                    <NavigateBeforeIcon />
+                  </Button>
+                  {payPeriodDataKeys.map((key, index) => {
+                    return (
+                      <Button
+                        key={key}
+                        style={{
+                          fontWeight:
+                            index === this.state.usageDataIndex
+                              ? "bold"
+                              : "normal",
+                        }}
+                        onClick={() => {
+                          this.updateUsageDataIndex(
+                            payPeriodDataKeys.indexOf(key)
+                          );
+                        }}
+                      >
+                        {key}
+                      </Button>
+                    );
+                  })}
+                  <Button
+                    disabled={
+                      this.state.usageDataIndex === this.usageDataIndexMax
+                    }
+                    onClick={() => {
+                      this.updateUsageDataIndex(this.state.usageDataIndex + 1);
+                    }}
+                  >
+                    <NavigateNextIcon />
+                  </Button>
+                </ButtonGroup>
+              </Box>
+            </Paper>
+            <Paper
+              elevation={3}
+              style={{ padding: "10px", marginBottom: "25px" }}
+            >
+              <SectionTitle>
+                Gallons Dosed Per Day Of Week (All Time)
+              </SectionTitle>
 
-            <BarChart
-              width={800}
-              height={250}
-              margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
-              data={dayOrder.map((day) => {
-                return {
-                  day,
-                  "Gallons Dosed": dayOfWeekDict[day].toFixed(2),
-                };
-              })}
+              <BarChart
+                width={800}
+                height={250}
+                margin={{ top: 15, right: 15, left: 15, bottom: 15 }}
+                data={dayOrder.map((day) => {
+                  return {
+                    day,
+                    "Gallons Dosed": dayOfWeekDict[day].toFixed(2),
+                  };
+                })}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="day" />
+                <YAxis />
+                <Tooltip />
+                <Bar dataKey="Gallons Dosed" fill="#1E88E5" />
+              </BarChart>
+            </Paper>
+            <Paper
+              elevation={3}
+              style={{ padding: "10px", marginBottom: "25px" }}
             >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="day" />
-              <YAxis />
-              <Tooltip />
-              <Bar dataKey="Gallons Dosed" fill="#1E88E5" />
-            </BarChart>
-          </Paper>
-          <Paper
-            elevation={3}
-            style={{ padding: "10px", marginBottom: "25px" }}
-          >
-            <SectionTitle>
-              Gallons Dosed Per Day Of Year (All Time)
-            </SectionTitle>
-            <div
-              style={{ height: "350px", width: "800px", paddingTop: "15px" }}
-            >
-              <ResponsiveCalendar
-                data={formattedCalData}
-                from={completeCalData[completeCalData.length - 1].day}
-                to={completeCalData[0].day}
-                colors={["#90CAF9", "#42A5F5", "#1E88E5", "#1565C0", "#0D47A1"]}
-                margin={{ left: 40, right: 40 }}
-                yearSpacing={40}
-              />
-            </div>
-          </Paper>
-          <Paper elevation={3} style={{ padding: "15px" }}>
-            <SectionTitle>Dosing Tank Logs</SectionTitle>
-            <div style={{ width: "1000px" }} className={classes.root}>
-              <DataGrid
-                rows={dosingPumpRecordsWithId}
-                columns={dataColumns}
-                autoHeight={true}
-              />
-            </div>
-          </Paper>
+              <SectionTitle>
+                Gallons Dosed Per Day Of Year (All Time)
+              </SectionTitle>
+              <div
+                style={{ height: "350px", width: "800px", paddingTop: "15px" }}
+              >
+                <ResponsiveCalendar
+                  data={formattedCalData}
+                  from={completeCalData[completeCalData.length - 1].day}
+                  to={completeCalData[0].day}
+                  colors={[
+                    "#90CAF9",
+                    "#42A5F5",
+                    "#1E88E5",
+                    "#1565C0",
+                    "#0D47A1",
+                  ]}
+                  margin={{ left: 40, right: 40 }}
+                  yearSpacing={40}
+                />
+              </div>
+            </Paper>
+            <Paper elevation={3} style={{ padding: "15px" }}>
+              <SectionTitle>Dosing Tank Logs</SectionTitle>
+              <div style={{ width: "1000px" }} className={classes.root}>
+                <DataGrid
+                  rows={dosingPumpRecordsWithId}
+                  columns={dataColumns}
+                  autoHeight={true}
+                />
+              </div>
+            </Paper>
+          </div>
         </div>
-      </div>
+      </ThemeProvider>
     );
   }
 }
@@ -589,4 +722,4 @@ class Home extends React.Component<HomeStyledProps, HomeState> {
 //     })}
 // </div>
 
-export default Home;
+export default withStyles(styles, { withTheme: true })(Home);
