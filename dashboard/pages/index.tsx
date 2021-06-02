@@ -370,7 +370,7 @@ class Home extends React.Component<HomeStyledProps, HomeState> {
 
     const payPeriodGallonsPerDay =
       gallonsPumpedThisPayPeriod /
-      (differenceInDays(new Date(), thisPayPeriodStart) + 1);
+      (differenceInDays(new Date(), thisPayPeriodStart) + 1.0);
 
     const formattedCalData = Object.keys(calDataDict).map((key) => {
       return { day: key, value: calDataDict[key] };
