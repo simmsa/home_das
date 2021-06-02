@@ -359,7 +359,8 @@ class Home extends React.Component<HomeStyledProps, HomeState> {
     Object.keys(payPeriodData).map((key) => {
       let daysForAverage = payPeriodData[key].days;
       if (isAfter(payPeriodData[key].end, new Date())) {
-        daysForAverage = differenceInDays(new Date(), payPeriodData[key].start);
+        daysForAverage =
+          differenceInDays(new Date(), payPeriodData[key].start) + 1;
       }
       payPeriodData[key].average_daily_gallons_dosed =
         payPeriodData[key].total_gallons_dosed / daysForAverage;
