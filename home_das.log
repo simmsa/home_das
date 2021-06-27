@@ -1,0 +1,2452 @@
+20200709-13:35:44: Septic pump ran for 25.969881342 seconds with a max amperage of 21.594A and an average amperage of 11.180012540705327A
+Parsing, Logging, Saving, and Graphing took 590.065536 ms
+20200709-16:20:33: Septic pump ran for 184.842760706 seconds with a max amperage of 21.604A, an average amperage of 11.220911272169829A, and an average wattage of 
+Parsing, Logging, Saving, and Graphing took 2566.949411 ms
+pi
+Startup @ Mon Sep  7 21:33:46 2020. Current user is: pi
+Startup @ Wed Sep  9 20:11:05 2020. Current user is: pi
+20200909-20:11:05: Septic pump ran for 33.999284791 seconds with a max amperage of 11.248A, an average amperage of 11.033963937364899A, and an average wattage of 1324.075672483788W
+Parsing, Logging, Saving, and Graphing took 1147.876839 ms
+Startup @ Wed Sep  9 20:20:06 2020. Current user is: root
+20201009-07:39:50: Septic pump ran for 185.188081353 seconds with a max amperage of 21.51A, an average amperage of 11.26A, and an average wattage of 1350.90W
+Parsing, Logging, Saving, and Graphing took 4955.577741 ms
+20201009-13:11:55: Septic pump ran for 183.383162532 seconds with a max amperage of 21.50A, an average amperage of 11.26A, and an average wattage of 1351.02W
+Parsing, Logging, Saving, and Graphing took 4381.928107 ms
+20201109-06:48:13: Septic pump ran for 175.831262119 seconds with a max amperage of 21.49A, an average amperage of 11.27A, and an average wattage of 1352.25W
+Parsing, Logging, Saving, and Graphing took 4409.816391 ms
+20201109-13:41:14: Septic pump ran for 182.617663158 seconds with a max amperage of 21.51A, an average amperage of 11.28A, and an average wattage of 1353.42W
+Parsing, Logging, Saving, and Graphing took 4660.657945 ms
+20201209-00:21:28: Septic pump ran for 186.618432687 seconds with a max amperage of 21.51A, an average amperage of 11.32A, and an average wattage of 1358.94W
+Parsing, Logging, Saving, and Graphing took 4952.456461 ms
+20201209-08:24:15: Septic pump ran for 183.98431439 seconds with a max amperage of 21.51A, an average amperage of 11.28A, and an average wattage of 1353.89W
+Parsing, Logging, Saving, and Graphing took 5010.040293 ms
+20201209-13:56:58: Septic pump ran for 181.347402208 seconds with a max amperage of 21.57A, an average amperage of 11.27A, and an average wattage of 1352.18W
+Parsing, Logging, Saving, and Graphing took 5095.194078 ms
+20201309-00:59:18: Septic pump ran for 189.450390995 seconds with a max amperage of 21.55A, an average amperage of 11.31A, and an average wattage of 1357.09W
+Parsing, Logging, Saving, and Graphing took 5441.150548 ms
+20201309-13:02:32: Septic pump ran for 181.436028042 seconds with a max amperage of 21.57A, an average amperage of 11.26A, and an average wattage of 1350.83W
+Parsing, Logging, Saving, and Graphing took 5361.727784 ms
+Startup @ Sun Sep 13 20:17:41 2020. Current user is: root
+Startup @ Fri Sep 25 19:16:07 2020. Current user is: root
+20202609-09:45:37: Septic pump ran for 189.318491422 seconds with a max amperage of 21.56A, an average amperage of 11.27A, and an average wattage of 1352.26W
+Parsing, Logging, Saving, and Graphing took 4719.236797 ms
+Startup @ Sat Sep 26 22:00:58 2020. Current user is: pi
+Startup @ Sat Sep 26 22:04:35 2020. Current user is: pi
+Startup @ Sat Sep 26 22:12:58 2020. Current user is: pi
+20200926-22:24:19: Dosing pump ran for 22.99 seconds, pumped 16.67 gallons with a max amperage of 21.60A, an average amperage of 11.23A, and an average wattage of 1347.36W
+Startup @ Sat Sep 26 22:28:51 2020. Current user is: pi
+Startup @ Sun Sep 27 07:56:23 2020. Current user is: pi
+20200927-07:57:54: Dosing pump ran for 27.95 seconds, pumped 20.26 gallons with a max amperage of 21.56A, an average amperage of 11.24A, and an average wattage of 1348.70W
+The average time between samples is: 898085.8429475849ns, std dev is: 6381.632198779775ns, it should be 33333333ns
+Parsing, Logging, Saving, and Graphing took 1871.069176 ms
+20200927-09:35:00: Dosing pump ran for 180.54 seconds, pumped 130.89 gallons with a max amperage of 21.55A, an average amperage of 11.25A, and an average wattage of 1350.39W
+The average time between samples is: 899067.2716946367ns, std dev is: 32945.125627999776ns, it should be 33333333ns
+Parsing, Logging, Saving, and Graphing took 7464.159869 ms
+Startup @ Sun Sep 27 15:04:11 2020. Current user is: pi
+Startup @ Mon Sep 28 06:32:38 2020. Current user is: root
+Startup @ Mon Sep 28 17:14:03 2020. Current user is: pi
+Startup @ Mon Sep 28 17:19:44 2020. Current user is: root
+Startup @ Mon Sep 28 17:26:25 2020. Current user is: root
+Starting Data Monitoring...
+Startup @ Mon Sep 28 21:19:31 2020. Current user is: pi
+Startup @ Mon Sep 28 21:19:44 2020. Current user is: pi
+Starting Data Monitoring...
+Startup @ Mon Sep 28 21:22:30 2020. Current user is: pi
+Starting Data Monitoring...
+Startup @ Mon Sep 28 21:25:10 2020. Current user is: pi
+Starting Data Monitoring...
+Startup @ Mon Sep 28 21:26:10 2020. Current user is: pi
+Starting Data Monitoring...
+Startup @ Mon Sep 28 21:28:44 2020. Current user is: pi
+Starting Data Monitoring...
+Startup @ Mon Sep 28 21:30:37 2020. Current user is: pi
+Starting Data Monitoring...
+Startup @ Tue Sep 29 17:04:54 2020. Current user is: root
+Starting Data Monitoring...
+20200930-08:01:38: Dosing pump ran for 191.79 seconds, pumped 126.25 gallons with a max amperage of 21.53A, an average amperage of 11.26A, and an average wattage of 1350.84W
+The average time between samples is: 9235676.03419215ns, std dev is: 5855.312088376351ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1371.659617 ms
+20201001-06:59:37: Dosing pump ran for 181.52 seconds, pumped 118.81 gallons with a max amperage of 21.52A, an average amperage of 11.25A, and an average wattage of 1350.44W
+The average time between samples is: 9235032.868430424ns, std dev is: 6698.615738227826ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1317.524741 ms
+Startup @ Thu Oct  1 20:16:22 2020. Current user is: root
+Starting Data Monitoring...
+Startup @ Thu Oct  1 20:27:46 2020. Current user is: piku
+Startup @ Thu Oct  1 20:27:48 2020. Current user is: piku
+Startup @ Thu Oct  1 20:35:37 2020. Current user is: root
+Starting Data Monitoring...
+Startup @ Thu Oct  1 20:41:40 2020. Current user is: piku
+Starting Data Monitoring...
+20201002-08:43:59: Dosing pump ran for 187.66 seconds, pumped 123.25 gallons with a max amperage of 21.52A, an average amperage of 11.25A, and an average wattage of 1350.27W
+The average time between samples is: 9231905.367804782ns, std dev is: 18069.5489218224ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1858.108107 ms
+20201003-01:41:03: Dosing pump ran for 168.78 seconds, pumped 109.56 gallons with a max amperage of 21.53A, an average amperage of 11.31A, and an average wattage of 1357.27W
+The average time between samples is: 9234308.152330926ns, std dev is: 5775.816865990755ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1672.053429 ms
+Startup @ Sat Oct  3 10:10:35 2020. Current user is: piku
+Starting Data Monitoring...
+Startup @ Sat Oct  3 10:11:07 2020. Current user is: piku
+Starting Data Monitoring...
+Startup @ Sat Oct  3 10:11:24 2020. Current user is: pi
+Maximum Data rate is: 1114.35 hz
+'DAQ' object has no attribute 'data_rate_hz'
+Startup @ Sat Oct  3 10:13:49 2020. Current user is: pi
+Maximum Data rate is: 1101.93 hz
+'DAQ' object has no attribute 'data_rate_hz'
+Graceful Shutdown @ Sat Oct  3 10:13:49 2020
+Startup @ Sat Oct  3 10:14:47 2020. Current user is: pi
+Maximum Data rate is: 1123.72 hz
+'DAQ' object has no attribute 'data_rate_hz'
+Graceful Shutdown @ Sat Oct  3 10:14:47 2020
+Startup @ Sat Oct  3 10:16:23 2020. Current user is: pi
+Maximum Data rate is: 1120.55 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+'DAQ' object has no attribute 'has_time_passed'
+Graceful Shutdown @ Sat Oct  3 10:16:23 2020
+Startup @ Sat Oct  3 10:16:41 2020. Current user is: piku
+Starting Data Monitoring...
+Startup @ Sat Oct  3 15:11:01 2020. Current user is: pi
+Maximum Data rate is: 1129.44 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+list index out of range
+Graceful Shutdown @ Sat Oct  3 15:11:03 2020
+Startup @ Sat Oct  3 15:11:06 2020. Current user is: piku
+Startup @ Sat Oct  3 15:11:09 2020. Current user is: piku
+Starting Data Monitoring...
+Startup @ Sat Oct  3 15:22:26 2020. Current user is: piku
+Startup @ Sat Oct  3 15:22:30 2020. Current user is: piku
+Starting Data Monitoring...
+Startup @ Sat Oct  3 15:23:40 2020. Current user is: pi
+Maximum Data rate is: 1127.14 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Oct  4 08:34:06 2020. Current user is: pi
+Maximum Data rate is: 1128.56 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Graceful Shutdown @ Sun Oct  4 08:34:14 2020
+Startup @ Sun Oct  4 08:39:16 2020. Current user is: piku
+Maximum Data rate is: 1125.30 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Oct  4 19:07:09 2020. Current user is: pi
+module 'piplates.DAQC2plate' has no attribute 'fastGetADC'
+Graceful Shutdown @ Sun Oct  4 19:07:09 2020
+Startup @ Sun Oct  4 19:11:49 2020. Current user is: pi
+module 'piplates.DAQC2plate' has no attribute 'fastGetADC'
+Graceful Shutdown @ Sun Oct  4 19:11:49 2020
+Startup @ Sun Oct  4 21:03:03 2020. Current user is: pi
+Maximum Data rate is: 1139.76 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Graceful Shutdown @ Sun Oct  4 21:03:10 2020
+Startup @ Sun Oct  4 21:03:52 2020. Current user is: pi
+Maximum Data rate is: 1086.31 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Graceful Shutdown @ Sun Oct  4 21:04:10 2020
+Startup @ Sun Oct  4 21:16:32 2020. Current user is: pi
+Maximum Data rate is: 2481.43 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Graceful Shutdown @ Sun Oct  4 21:18:42 2020
+Startup @ Sun Oct  4 21:24:24 2020. Current user is: pi
+Maximum Data rate is: 2597.19 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Graceful Shutdown @ Sun Oct  4 21:24:45 2020
+Startup @ Sun Oct  4 21:25:45 2020. Current user is: pi
+Maximum Data rate is: 2647.28 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Graceful Shutdown @ Sun Oct  4 21:26:09 2020
+Startup @ Sun Oct  4 21:27:26 2020. Current user is: piku
+Maximum Data rate is: 2627.32 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+20201005-08:24:12: Dosing pump ran for 184.90 seconds, pumped 121.25 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.37W
+The average time between samples is: 8731148.534614658ns, std dev is: 7876.667430557722ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1776.337924 ms
+20201006-08:47:01: Dosing pump ran for 191.49 seconds, pumped 126.03 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.28W
+The average time between samples is: 8729460.258490996ns, std dev is: 7493.671587276837ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1935.596189 ms
+20201007-09:27:05: Dosing pump ran for 182.60 seconds, pumped 119.59 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1356.98W
+The average time between samples is: 8729522.078261701ns, std dev is: 6040.085435838836ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1693.577123 ms
+20201008-11:34:20: Dosing pump ran for 180.72 seconds, pumped 118.22 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1356.69W
+The average time between samples is: 8728536.500941893ns, std dev is: 6737.906847657769ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1758.78277 ms
+20201009-09:21:41: Dosing pump ran for 181.42 seconds, pumped 118.73 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.02W
+The average time between samples is: 8730273.371992301ns, std dev is: 7913.862111957048ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2170.563934 ms
+20201010-20:32:32: Dosing pump ran for 182.09 seconds, pumped 119.22 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.45W
+The average time between samples is: 8728048.782954654ns, std dev is: 6574.500451043391ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2152.779082 ms
+20201011-14:59:37: Dosing pump ran for 187.08 seconds, pumped 122.84 gallons with a max amperage of 21.64A, an average amperage of 11.34A, and an average wattage of 1361.28W
+The average time between samples is: 8727991.462722776ns, std dev is: 23992.093897430583ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1977.903871 ms
+20201011-21:37:23: Dosing pump ran for 183.65 seconds, pumped 120.35 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.56W
+The average time between samples is: 8729449.542282645ns, std dev is: 7053.608119523614ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1791.900897 ms
+20201012-06:33:36: Dosing pump ran for 188.69 seconds, pumped 124.00 gallons with a max amperage of 21.64A, an average amperage of 11.30A, and an average wattage of 1356.30W
+The average time between samples is: 8729397.558850745ns, std dev is: 5310.953881004019ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1979.627464 ms
+20201013-07:01:32: Dosing pump ran for 182.02 seconds, pumped 119.17 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.24W
+The average time between samples is: 8729694.441103118ns, std dev is: 7135.1788328127695ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1901.671357 ms
+20201014-06:20:23: Dosing pump ran for 195.22 seconds, pumped 128.73 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.08W
+The average time between samples is: 8730673.521400778ns, std dev is: 5644.337121266625ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1938.938981 ms
+20201015-06:40:14: Dosing pump ran for 188.64 seconds, pumped 123.97 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.46W
+The average time between samples is: 8728547.908194901ns, std dev is: 6815.749548033957ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1990.739733 ms
+20201015-22:19:25: Dosing pump ran for 183.77 seconds, pumped 120.43 gallons with a max amperage of 21.64A, an average amperage of 11.32A, and an average wattage of 1357.86W
+The average time between samples is: 8727165.037803952ns, std dev is: 8572.056145374698ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1943.610212 ms
+20201016-20:49:04: Dosing pump ran for 181.46 seconds, pumped 118.76 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.64W
+The average time between samples is: 8731103.805745356ns, std dev is: 4684.223558972991ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1928.632232 ms
+20201017-12:31:01: Dosing pump ran for 180.09 seconds, pumped 117.76 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.77W
+The average time between samples is: 8727338.98337695ns, std dev is: 7911.237200355441ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1939.687811 ms
+20201017-18:49:07: Dosing pump ran for 183.25 seconds, pumped 120.06 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1356.94W
+The average time between samples is: 8727413.654886644ns, std dev is: 8717.816635747648ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2058.327821 ms
+20201019-00:47:07: Dosing pump ran for 188.03 seconds, pumped 123.52 gallons with a max amperage of 21.64A, an average amperage of 11.36A, and an average wattage of 1362.90W
+The average time between samples is: 8730697.48611627ns, std dev is: 5910.297095254352ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2040.694808 ms
+20201019-17:59:31: Dosing pump ran for 5.92 seconds, pumped -8.51 gallons with a max amperage of 21.64A, an average amperage of 11.81A, and an average wattage of 1417.02W
+The average time between samples is: 8729781.46085672ns, std dev is: 11421.403458050578ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1494.07535 ms
+20201019-17:59:38: Dosing pump ran for 174.66 seconds, pumped 113.83 gallons with a max amperage of 11.49A, an average amperage of 11.29A, and an average wattage of 1355.20W
+The average time between samples is: 8730391.183804048ns, std dev is: 60486.92111762414ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2092.463565 ms
+20201021-02:31:29: Dosing pump ran for 180.81 seconds, pumped 118.28 gallons with a max amperage of 21.64A, an average amperage of 11.33A, and an average wattage of 1359.92W
+The average time between samples is: 8729130.50202781ns, std dev is: 7475.787946750081ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2109.509945 ms
+20201021-16:09:23: Dosing pump ran for 179.25 seconds, pumped 117.15 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.13W
+The average time between samples is: 8728341.646846848ns, std dev is: 9762.855535223925ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2052.369709 ms
+20201022-21:05:32: Dosing pump ran for 169.26 seconds, pumped 109.92 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1356.98W
+The average time between samples is: 8727551.03661115ns, std dev is: 7737.396903451514ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2130.17304 ms
+20201023-18:31:52: Dosing pump ran for 182.27 seconds, pumped 119.34 gallons with a max amperage of 21.45A, an average amperage of 11.31A, and an average wattage of 1357.42W
+The average time between samples is: 8727941.336414136ns, std dev is: 8968.356432996288ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2187.6518 ms
+20201025-11:47:13: Dosing pump ran for 184.51 seconds, pumped 120.97 gallons with a max amperage of 21.45A, an average amperage of 11.33A, and an average wattage of 1359.12W
+The average time between samples is: 8729226.43660106ns, std dev is: 13630.93851721512ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2134.115503 ms
+20201025-16:44:02: Dosing pump ran for 185.46 seconds, pumped 121.66 gallons with a max amperage of 21.45A, an average amperage of 11.32A, and an average wattage of 1358.19W
+The average time between samples is: 8730203.631578946ns, std dev is: 7751.810594130699ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2179.436837 ms
+20201026-05:26:48: Dosing pump ran for 51.14 seconds, pumped 24.27 gallons with a max amperage of 21.45A, an average amperage of 11.53A, and an average wattage of 1383.28W
+The average time between samples is: 8732014.402903501ns, std dev is: 3944.6460732624646ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1801.97721 ms
+20201026-05:27:41: Dosing pump ran for 131.04 seconds, pumped 82.20 gallons with a max amperage of 11.49A, an average amperage of 11.25A, and an average wattage of 1350.09W
+The average time between samples is: 8730011.711439803ns, std dev is: 5003.882729600427ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2212.96231 ms
+20201026-18:59:07: Dosing pump ran for 174.69 seconds, pumped 113.85 gallons with a max amperage of 21.45A, an average amperage of 11.32A, and an average wattage of 1357.99W
+The average time between samples is: 8729936.975361088ns, std dev is: 4674.568293181224ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2295.996997 ms
+20201028-03:13:32: Dosing pump ran for 180.51 seconds, pumped 118.07 gallons with a max amperage of 21.45A, an average amperage of 11.36A, and an average wattage of 1363.52W
+The average time between samples is: 8728054.686363636ns, std dev is: 8067.865558744311ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2324.41347 ms
+20201029-03:31:24: Dosing pump ran for 181.37 seconds, pumped 118.70 gallons with a max amperage of 21.45A, an average amperage of 11.35A, and an average wattage of 1362.17W
+The average time between samples is: 8726544.634220276ns, std dev is: 7751.009873460214ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2274.569762 ms
+20201030-08:35:55: Dosing pump ran for 177.22 seconds, pumped 115.69 gallons with a max amperage of 21.45A, an average amperage of 11.37A, and an average wattage of 1364.64W
+The average time between samples is: 8729826.973004926ns, std dev is: 7167.266679201936ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2460.034872 ms
+20201031-00:54:51: Dosing pump ran for 183.27 seconds, pumped 120.07 gallons with a max amperage of 21.64A, an average amperage of 11.41A, and an average wattage of 1369.55W
+The average time between samples is: 8726527.036476191ns, std dev is: 8395.428307307833ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2310.963252 ms
+20201031-20:05:01: Dosing pump ran for 185.77 seconds, pumped 121.88 gallons with a max amperage of 21.64A, an average amperage of 11.35A, and an average wattage of 1361.95W
+The average time between samples is: 8731731.094058475ns, std dev is: 6235.471568330496ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2388.056092 ms
+20201101-17:52:01: Dosing pump ran for 182.41 seconds, pumped 119.45 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.52W
+The average time between samples is: 8728950.7231049ns, std dev is: 5074.60296330256ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2508.363369 ms
+20201101-23:43:04: Dosing pump ran for 187.66 seconds, pumped 123.25 gallons with a max amperage of 21.64A, an average amperage of 11.38A, and an average wattage of 1366.19W
+The average time between samples is: 8726631.136864623ns, std dev is: 9022.20031951777ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2503.202277 ms
+20201102-06:42:26: Dosing pump ran for 0.03 seconds, pumped -12.78 gallons with a max amperage of 1.12A, an average amperage of 0.64A, and an average wattage of 76.80W
+The average time between samples is: 8857829.5ns, std dev is: 1314.5ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1882.811401 ms
+20201102-06:42:28: Dosing pump ran for 0.01 seconds, pumped -12.79 gallons with a max amperage of 1.18A, an average amperage of 1.18A, and an average wattage of 141.55W
+The average time between samples is: nanns, std dev is: nanns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2033.989564 ms
+20201102-10:46:31: Dosing pump ran for 183.65 seconds, pumped 120.34 gallons with a max amperage of 21.64A, an average amperage of 11.32A, and an average wattage of 1358.51W
+The average time between samples is: 8727217.625273263ns, std dev is: 7398.724415520664ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2507.322114 ms
+20201103-08:20:21: Dosing pump ran for 184.76 seconds, pumped 121.15 gallons with a max amperage of 21.64A, an average amperage of 11.33A, and an average wattage of 1359.54W
+The average time between samples is: 8731625.774989367ns, std dev is: 15112.198157753559ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2464.055595 ms
+20201104-11:37:39: Dosing pump ran for 181.69 seconds, pumped 118.92 gallons with a max amperage of 21.64A, an average amperage of 11.34A, and an average wattage of 1360.48W
+The average time between samples is: 8728644.349476313ns, std dev is: 5792.172864459418ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3473.815274 ms
+20201105-12:42:13: Dosing pump ran for 186.42 seconds, pumped 122.36 gallons with a max amperage of 21.64A, an average amperage of 11.34A, and an average wattage of 1361.21W
+The average time between samples is: 8728961.036242742ns, std dev is: 7143.735817093296ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2486.528314 ms
+20201106-23:30:20: Dosing pump ran for 181.48 seconds, pumped 118.78 gallons with a max amperage of 21.64A, an average amperage of 11.37A, and an average wattage of 1364.95W
+The average time between samples is: 8727635.826480065ns, std dev is: 7993.744253345668ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2638.644448 ms
+20201107-17:22:14: Dosing pump ran for 182.58 seconds, pumped 119.57 gallons with a max amperage of 21.64A, an average amperage of 11.31A, and an average wattage of 1357.31W
+The average time between samples is: 8729892.520250563ns, std dev is: 9665.845010070203ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2491.002062 ms
+Startup @ Sun Nov  8 11:16:18 2020. Current user is: root
+Starting Data Monitoring...
+20201108-14:04:22: Dosing pump ran for 179.33 seconds, pumped 117.21 gallons with a max amperage of 15.69A, an average amperage of 4.55A, and an average wattage of 546.02W
+The average time between samples is: 9236458.235448645ns, std dev is: 6404.868329976926ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3130.447963 ms
+Startup @ Sun Nov  8 14:51:59 2020. Current user is: piku
+Maximum Data rate is: 2227.31 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+20201108-14:51:59: Dosing pump ran for 0.01 seconds, pumped -12.79 gallons with a max amperage of 17.93A, an average amperage of 17.93A, and an average wattage of 2151.19W
+The average time between samples is: nanns, std dev is: nanns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2528.534176 ms
+Startup @ Sun Nov  8 15:35:50 2020. Current user is: piku
+Maximum Data rate is: 2358.75 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 15:44:02 2020. Current user is: piku
+Maximum Data rate is: 2630.59 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 15:48:02 2020. Current user is: piku
+Maximum Data rate is: 2621.07 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 15:49:39 2020. Current user is: piku
+Maximum Data rate is: 2662.88 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:01:15 2020. Current user is: piku
+Maximum Data rate is: 2623.84 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:04:34 2020. Current user is: piku
+Maximum Data rate is: 2620.46 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:08:53 2020. Current user is: piku
+Maximum Data rate is: 2630.43 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:31:03 2020. Current user is: piku
+Maximum Data rate is: 2662.96 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:33:57 2020. Current user is: piku
+Maximum Data rate is: 2628.38 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:44:22 2020. Current user is: piku
+Maximum Data rate is: 2632.18 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:49:46 2020. Current user is: piku
+Maximum Data rate is: 2631.91 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:50:37 2020. Current user is: piku
+Maximum Data rate is: 2348.17 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 16:51:34 2020. Current user is: piku
+Maximum Data rate is: 2616.40 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 17:04:26 2020. Current user is: piku
+Maximum Data rate is: 2565.75 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+Startup @ Sun Nov  8 17:05:26 2020. Current user is: piku
+Maximum Data rate is: 2620.92 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 2.0
+Starting Data Monitoring...
+20201109-06:07:48: Dosing pump ran for 164.49 seconds, pumped 106.45 gallons with a max amperage of 19.95A, an average amperage of 4.55A, and an average wattage of 546.34W
+The average time between samples is: 8730324.34596603ns, std dev is: 24976.94117785582ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2912.812827 ms
+20201109-06:10:35: Dosing pump ran for 0.02 seconds, pumped -12.79 gallons with a max amperage of 4.54A, an average amperage of 4.48A, and an average wattage of 537.75W
+The average time between samples is: 8837332.0ns, std dev is: 0.0ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2079.736904 ms
+20201109-06:10:37: Dosing pump ran for 21.44 seconds, pumped 2.74 gallons with a max amperage of 4.54A, an average amperage of 4.49A, and an average wattage of 539.16W
+The average time between samples is: 8732478.765281174ns, std dev is: 5578.7283133025785ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2185.952588 ms
+Startup @ Mon Nov  9 21:02:46 2020. Current user is: piku
+Maximum Data rate is: 2463.00 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 21:50:20 2020. Current user is: piku
+Maximum Data rate is: 2190.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 21:57:09 2020. Current user is: piku
+Maximum Data rate is: 2757.94 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 21:58:18 2020. Current user is: piku
+Maximum Data rate is: 2307.90 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 21:59:09 2020. Current user is: piku
+Maximum Data rate is: 2416.83 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 22:00:45 2020. Current user is: piku
+Maximum Data rate is: 2538.09 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 22:09:28 2020. Current user is: piku
+Maximum Data rate is: 2587.03 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov  9 22:11:10 2020. Current user is: piku
+Maximum Data rate is: 2660.44 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201110-06:55:31: Dosing pump ran for 181.80 seconds, pumped 119.01 gallons with a max amperage of 39.06A, an average amperage of 11.36A, and an average wattage of 1363.65W
+The average time between samples is: 8731664.770893373ns, std dev is: 7200.439362665699ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3060.386058 ms
+20201111-11:53:11: Dosing pump ran for 181.26 seconds, pumped 118.61 gallons with a max amperage of 39.53A, an average amperage of 11.37A, and an average wattage of 1364.30W
+The average time between samples is: 8731473.61282397ns, std dev is: 5787.180107791917ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2985.773839 ms
+20201112-07:32:10: Dosing pump ran for 182.29 seconds, pumped 119.36 gallons with a max amperage of 39.53A, an average amperage of 11.36A, and an average wattage of 1363.66W
+The average time between samples is: 8730386.092102112ns, std dev is: 6852.638812736665ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3033.462863 ms
+Startup @ Thu Nov 12 17:32:06 2020. Current user is: piku
+Maximum Data rate is: 2219.16 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:36:54 2020. Current user is: piku
+Maximum Data rate is: 1950.90 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:38:00 2020. Current user is: piku
+Maximum Data rate is: 2539.98 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:39:18 2020. Current user is: piku
+Maximum Data rate is: 2560.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:41:51 2020. Current user is: piku
+Maximum Data rate is: 2619.26 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:42:51 2020. Current user is: piku
+Maximum Data rate is: 2649.70 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:43:03 2020. Current user is: piku
+Maximum Data rate is: 1976.61 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:44:06 2020. Current user is: piku
+Maximum Data rate is: 2220.90 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:46:00 2020. Current user is: piku
+Maximum Data rate is: 2587.86 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 17:46:34 2020. Current user is: piku
+Maximum Data rate is: 2560.76 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 20:31:41 2020. Current user is: piku
+Maximum Data rate is: 2267.21 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 20:36:32 2020. Current user is: piku
+Maximum Data rate is: 1432.91 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 20:41:56 2020. Current user is: piku
+Maximum Data rate is: 2707.04 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 20:51:12 2020. Current user is: piku
+Maximum Data rate is: 2101.68 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 21:05:25 2020. Current user is: piku
+Maximum Data rate is: 2168.27 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 21:09:52 2020. Current user is: piku
+Maximum Data rate is: 2295.08 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 21:13:37 2020. Current user is: piku
+Maximum Data rate is: 2536.25 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 21:17:22 2020. Current user is: piku
+Maximum Data rate is: 2270.73 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Thu Nov 12 21:29:20 2020. Current user is: piku
+Maximum Data rate is: 1783.52 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201113-08:32:06: Dosing pump ran for 19.44 seconds, pumped 1.29 gallons with a max amperage of 40.00A, an average amperage of 11.74A, and an average wattage of 1409.26W
+The average time between samples is: 8732201.328089887ns, std dev is: 76132.08590104023ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3310.049293 ms
+20201113-08:32:29: Dosing pump ran for 83.34 seconds, pumped 47.62 gallons with a max amperage of 11.81A, an average amperage of 11.34A, and an average wattage of 1361.02W
+The average time between samples is: 8729014.78671695ns, std dev is: 8012.711046405868ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3551.19891 ms
+20201113-08:33:56: Dosing pump ran for 73.95 seconds, pumped 40.81 gallons with a max amperage of 42.35A, an average amperage of 11.32A, and an average wattage of 1357.99W
+The average time between samples is: 8730931.330027157ns, std dev is: 41004.95496284382ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 3538.501631 ms
+Startup @ Fri Nov 13 15:07:06 2020. Current user is: piku
+Maximum Data rate is: 2710.23 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 15:10:45 2020. Current user is: piku
+Maximum Data rate is: 2523.85 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 15:13:45 2020. Current user is: piku
+Maximum Data rate is: 2273.84 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 15:18:55 2020. Current user is: piku
+Maximum Data rate is: 2155.10 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 15:27:40 2020. Current user is: piku
+Maximum Data rate is: 2376.38 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 15:31:14 2020. Current user is: piku
+Maximum Data rate is: 2482.66 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 15:33:04 2020. Current user is: piku
+Maximum Data rate is: 2464.31 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:00:01 2020. Current user is: piku
+Maximum Data rate is: 2633.00 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:02:59 2020. Current user is: piku
+Maximum Data rate is: 2625.01 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:03:50 2020. Current user is: piku
+Maximum Data rate is: 2184.50 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:09:26 2020. Current user is: piku
+Maximum Data rate is: 2379.54 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:14:32 2020. Current user is: piku
+Maximum Data rate is: 2152.29 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:14:38 2020. Current user is: piku
+Maximum Data rate is: 2384.28 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:15:41 2020. Current user is: piku
+Maximum Data rate is: 2447.43 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:18:57 2020. Current user is: piku
+Maximum Data rate is: 2447.60 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:19:06 2020. Current user is: piku
+Maximum Data rate is: 2410.03 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:21:21 2020. Current user is: piku
+Maximum Data rate is: 2194.10 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 18:22:33 2020. Current user is: piku
+Maximum Data rate is: 2588.64 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 19:36:56 2020. Current user is: piku
+Maximum Data rate is: 2604.37 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:13:40 2020. Current user is: piku
+Maximum Data rate is: 1818.55 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:17:41 2020. Current user is: piku
+Maximum Data rate is: 2166.56 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:18:53 2020. Current user is: piku
+Maximum Data rate is: 2451.08 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:20:26 2020. Current user is: piku
+Maximum Data rate is: 2490.61 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:21:14 2020. Current user is: piku
+Maximum Data rate is: 2176.24 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:24:11 2020. Current user is: piku
+Maximum Data rate is: 2006.65 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:33:39 2020. Current user is: piku
+Maximum Data rate is: 2427.84 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:35:36 2020. Current user is: piku
+Maximum Data rate is: 2145.21 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:37:18 2020. Current user is: piku
+Maximum Data rate is: 2107.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Fri Nov 13 21:37:42 2020. Current user is: piku
+Maximum Data rate is: 2143.86 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201114-09:06:42: Dosing pump ran for 187.11 seconds, pumped 122.85 gallons with a max amperage of 39.53A, an average amperage of 11.37A, and an average wattage of 1364.01W
+The average time between samples is: 8737516.433288189ns, std dev is: 8476.094675399678ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4042.300822 ms
+20201114-23:22:23: Dosing pump ran for 183.58 seconds, pumped 120.30 gallons with a max amperage of 39.53A, an average amperage of 11.37A, and an average wattage of 1364.00W
+The average time between samples is: 8738287.71920221ns, std dev is: 7752.520575941524ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4038.570966 ms
+Startup @ Sun Nov 15 09:01:28 2020. Current user is: piku
+Maximum Data rate is: 2622.63 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 09:06:26 2020. Current user is: piku
+Maximum Data rate is: 2628.80 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 09:09:47 2020. Current user is: piku
+Maximum Data rate is: 2440.26 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 15:03:00 2020. Current user is: piku
+Maximum Data rate is: 1910.79 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201115-16:01:36: Dosing pump ran for 0.01 seconds, pumped -12.79 gallons with a max amperage of 59.93A, an average amperage of 59.93A, and an average wattage of 7191.60W
+The average time between samples is: nanns, std dev is: nanns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4379.564342 ms
+20201115-16:01:41: Dosing pump ran for 0.01 seconds, pumped -12.79 gallons with a max amperage of 60.20A, an average amperage of 60.20A, and an average wattage of 7224.00W
+The average time between samples is: nanns, std dev is: nanns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4120.497575 ms
+20201115-16:12:29: Dosing pump ran for 23.20 seconds, pumped 4.02 gallons with a max amperage of 39.53A, an average amperage of 11.66A, and an average wattage of 1399.41W
+The average time between samples is: 8815031.458760926ns, std dev is: 56935.071129706725ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4306.794981 ms
+20201115-16:12:56: Dosing pump ran for 2.25 seconds, pumped -11.17 gallons with a max amperage of 11.50A, an average amperage of 11.34A, and an average wattage of 1360.88W
+The average time between samples is: 8872310.968379447ns, std dev is: 37400.64611010812ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4451.36199 ms
+20201115-16:13:03: Dosing pump ran for 1.61 seconds, pumped -11.64 gallons with a max amperage of 11.49A, an average amperage of 11.34A, and an average wattage of 1360.90W
+The average time between samples is: 8832813.355555555ns, std dev is: 41346.467926753125ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4556.023271 ms
+20201115-16:13:09: Dosing pump ran for 99.10 seconds, pumped 59.05 gallons with a max amperage of 49.39A, an average amperage of 11.38A, and an average wattage of 1365.82W
+The average time between samples is: 8843207.021954484ns, std dev is: 284962.14443213603ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4786.924201 ms
+20201115-16:14:53: Dosing pump ran for 39.15 seconds, pumped 15.59 gallons with a max amperage of 59.73A, an average amperage of 11.41A, and an average wattage of 1368.60W
+The average time between samples is: 8876534.675963718ns, std dev is: 267968.86709564814ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4636.439856 ms
+20201115-18:33:40: Dosing pump ran for 0.01 seconds, pumped -12.79 gallons with a max amperage of 15.43A, an average amperage of 15.43A, and an average wattage of 1851.00W
+The average time between samples is: nanns, std dev is: nanns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 4542.438884 ms
+Startup @ Sun Nov 15 18:51:48 2020. Current user is: piku
+Maximum Data rate is: 2453.83 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 19:10:12 2020. Current user is: piku
+Maximum Data rate is: 1928.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 19:10:12 2020. Current user is: root
+Startup @ Sun Nov 15 19:56:38 2020. Current user is: piku
+Maximum Data rate is: 2449.61 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 20:52:40 2020. Current user is: piku
+Maximum Data rate is: 308.45 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 21:02:09 2020. Current user is: piku
+Maximum Data rate is: 928.61 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 15 21:11:31 2020. Current user is: piku
+Maximum Data rate is: 1006.07 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Mon Nov 16 18:42:43 2020. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Mon Nov 16 18:42:43 2020
+Startup @ Mon Nov 16 18:42:46 2020. Current user is: piku
+Maximum Data rate is: 1014.27 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201116-19:36:50: Dosing pump ran for 182.55 seconds, pumped 119.55 gallons with a max amperage of 39.70A, an average amperage of 11.40A, and an average wattage of 1367.86W
+The average time between samples is: 9233860.89305949ns, std dev is: 6950.0222449556795ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1229.636843 ms
+Startup @ Mon Nov 16 20:11:51 2020. Current user is: piku
+Maximum Data rate is: 1084.91 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201117-06:37:08: Dosing pump ran for 192.65 seconds, pumped 126.87 gallons with a max amperage of 39.62A, an average amperage of 11.38A, and an average wattage of 1365.27W
+The average time between samples is: 9231147.514207676ns, std dev is: 7633.352165957112ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1168.24637 ms
+20201117-23:11:59: Dosing pump ran for 183.00 seconds, pumped 119.87 gallons with a max amperage of 39.73A, an average amperage of 11.43A, and an average wattage of 1371.74W
+The average time between samples is: 9232845.987638125ns, std dev is: 6712.207813278935ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1135.338898 ms
+20201118-09:33:29: Dosing pump ran for 184.68 seconds, pumped 121.09 gallons with a max amperage of 39.32A, an average amperage of 11.35A, and an average wattage of 1362.25W
+The average time between samples is: 9230771.346396081ns, std dev is: 7746.853874547246ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1198.087746 ms
+20201119-04:11:17: Dosing pump ran for 181.02 seconds, pumped 118.44 gallons with a max amperage of 39.57A, an average amperage of 11.40A, and an average wattage of 1368.11W
+The average time between samples is: 9231201.321501428ns, std dev is: 7249.453172484365ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1128.981068 ms
+20201120-06:28:59: Dosing pump ran for 185.32 seconds, pumped 121.56 gallons with a max amperage of 39.41A, an average amperage of 11.35A, and an average wattage of 1362.15W
+The average time between samples is: 9234025.112318119ns, std dev is: 8413.251007688958ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1244.052751 ms
+20201121-08:08:19: Dosing pump ran for 182.83 seconds, pumped 119.75 gallons with a max amperage of 39.20A, an average amperage of 11.40A, and an average wattage of 1367.77W
+The average time between samples is: 9232815.21049442ns, std dev is: 6109.78778302746ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1123.880253 ms
+20201121-13:43:58: Dosing pump ran for 187.38 seconds, pumped 123.05 gallons with a max amperage of 39.65A, an average amperage of 11.40A, and an average wattage of 1368.46W
+The average time between samples is: 9232645.871735489ns, std dev is: 6825.878950760479ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1708.260721 ms
+20201122-10:34:08: Dosing pump ran for 183.27 seconds, pumped 120.07 gallons with a max amperage of 39.72A, an average amperage of 11.42A, and an average wattage of 1369.99W
+The average time between samples is: 9232469.00186398ns, std dev is: 6894.110354512614ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1192.768757 ms
+20201122-19:08:04: Dosing pump ran for 181.53 seconds, pumped 118.81 gallons with a max amperage of 39.45A, an average amperage of 11.40A, and an average wattage of 1368.09W
+The average time between samples is: 9233453.27224172ns, std dev is: 5618.885710779612ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1154.381822 ms
+20201124-05:58:31: Dosing pump ran for 183.91 seconds, pumped 120.54 gallons with a max amperage of 39.73A, an average amperage of 11.38A, and an average wattage of 1365.11W
+The average time between samples is: 9233077.166382167ns, std dev is: 26015.77847238633ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1114.251341 ms
+20201124-19:57:01: Dosing pump ran for 183.92 seconds, pumped 120.54 gallons with a max amperage of 39.34A, an average amperage of 11.37A, and an average wattage of 1364.93W
+The average time between samples is: 9232476.57434739ns, std dev is: 7437.3212687778005ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1139.723068 ms
+20201125-12:57:28: Dosing pump ran for 184.19 seconds, pumped 120.74 gallons with a max amperage of 39.37A, an average amperage of 11.38A, and an average wattage of 1366.06W
+The average time between samples is: 9232664.290490752ns, std dev is: 6589.281098993597ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1150.914246 ms
+20201126-14:18:42: Dosing pump ran for 184.75 seconds, pumped 121.14 gallons with a max amperage of 39.73A, an average amperage of 11.42A, and an average wattage of 1370.40W
+The average time between samples is: 9233588.47308442ns, std dev is: 7090.975476240288ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1193.580624 ms
+20201127-12:13:57: Dosing pump ran for 184.66 seconds, pumped 121.08 gallons with a max amperage of 39.49A, an average amperage of 11.43A, and an average wattage of 1371.21W
+The average time between samples is: 9235977.31722689ns, std dev is: 5327.373784547454ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1200.915252 ms
+20201128-19:45:19: Dosing pump ran for 182.38 seconds, pumped 119.43 gallons with a max amperage of 39.43A, an average amperage of 11.40A, and an average wattage of 1368.49W
+The average time between samples is: 9231639.988003038ns, std dev is: 7099.893855068184ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1168.95849 ms
+20201129-15:00:26: Dosing pump ran for 190.67 seconds, pumped 125.43 gallons with a max amperage of 39.91A, an average amperage of 11.41A, and an average wattage of 1369.18W
+The average time between samples is: 9232305.818991816ns, std dev is: 6137.3178051516115ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1147.427685 ms
+Startup @ Sun Nov 29 16:58:02 2020. Current user is: piku
+Maximum Data rate is: 1099.93 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:02 2020
+Startup @ Sun Nov 29 16:58:05 2020. Current user is: piku
+Maximum Data rate is: 1111.26 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:05 2020
+Startup @ Sun Nov 29 16:58:09 2020. Current user is: piku
+Maximum Data rate is: 1061.55 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:09 2020
+Startup @ Sun Nov 29 16:58:11 2020. Current user is: piku
+Maximum Data rate is: 1092.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:11 2020
+Startup @ Sun Nov 29 16:58:16 2020. Current user is: piku
+Maximum Data rate is: 1061.75 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:16 2020
+Startup @ Sun Nov 29 16:58:18 2020. Current user is: piku
+Maximum Data rate is: 1100.11 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:18 2020
+Startup @ Sun Nov 29 16:58:25 2020. Current user is: piku
+Maximum Data rate is: 1089.38 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:25 2020
+Startup @ Sun Nov 29 16:58:27 2020. Current user is: piku
+Maximum Data rate is: 1096.63 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:27 2020
+Startup @ Sun Nov 29 16:58:36 2020. Current user is: piku
+Maximum Data rate is: 1065.69 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:36 2020
+Startup @ Sun Nov 29 16:58:38 2020. Current user is: piku
+Maximum Data rate is: 1067.65 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:38 2020
+Startup @ Sun Nov 29 16:58:49 2020. Current user is: piku
+Maximum Data rate is: 1097.29 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:49 2020
+Startup @ Sun Nov 29 16:58:51 2020. Current user is: piku
+Maximum Data rate is: 1022.66 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:58:51 2020
+Startup @ Sun Nov 29 16:59:03 2020. Current user is: piku
+Maximum Data rate is: 1043.36 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:03 2020
+Startup @ Sun Nov 29 16:59:06 2020. Current user is: piku
+Maximum Data rate is: 1058.96 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:06 2020
+Startup @ Sun Nov 29 16:59:19 2020. Current user is: piku
+Maximum Data rate is: 1101.20 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:19 2020
+Startup @ Sun Nov 29 16:59:22 2020. Current user is: piku
+Maximum Data rate is: 1020.94 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:22 2020
+Startup @ Sun Nov 29 16:59:37 2020. Current user is: piku
+Maximum Data rate is: 1098.97 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:37 2020
+Startup @ Sun Nov 29 16:59:40 2020. Current user is: piku
+Maximum Data rate is: 1101.46 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:40 2020
+Startup @ Sun Nov 29 16:59:57 2020. Current user is: piku
+Maximum Data rate is: 1099.35 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 16:59:57 2020
+Startup @ Sun Nov 29 17:00:00 2020. Current user is: piku
+Maximum Data rate is: 1103.43 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:00:00 2020
+Startup @ Sun Nov 29 17:00:19 2020. Current user is: piku
+Maximum Data rate is: 1098.73 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:00:19 2020
+Startup @ Sun Nov 29 17:00:22 2020. Current user is: piku
+Maximum Data rate is: 1104.69 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:00:22 2020
+Startup @ Sun Nov 29 17:00:43 2020. Current user is: piku
+Maximum Data rate is: 1102.32 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:00:43 2020
+Startup @ Sun Nov 29 17:00:46 2020. Current user is: piku
+Maximum Data rate is: 1098.20 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:00:46 2020
+Startup @ Sun Nov 29 17:01:09 2020. Current user is: piku
+Maximum Data rate is: 1096.80 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:01:09 2020
+Startup @ Sun Nov 29 17:01:12 2020. Current user is: piku
+Maximum Data rate is: 1062.46 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:01:12 2020
+Startup @ Sun Nov 29 17:01:37 2020. Current user is: piku
+Maximum Data rate is: 1104.06 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:01:37 2020
+Startup @ Sun Nov 29 17:01:39 2020. Current user is: piku
+Maximum Data rate is: 1102.84 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:01:40 2020
+Startup @ Sun Nov 29 17:02:07 2020. Current user is: piku
+Maximum Data rate is: 1093.55 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:02:07 2020
+Startup @ Sun Nov 29 17:02:09 2020. Current user is: piku
+Maximum Data rate is: 1060.87 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:02:09 2020
+Startup @ Sun Nov 29 17:02:40 2020. Current user is: piku
+Maximum Data rate is: 1093.67 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:02:40 2020
+Startup @ Sun Nov 29 17:02:42 2020. Current user is: piku
+Maximum Data rate is: 1098.33 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:02:42 2020
+Startup @ Sun Nov 29 17:03:15 2020. Current user is: piku
+Maximum Data rate is: 1100.57 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:03:15 2020
+Startup @ Sun Nov 29 17:03:17 2020. Current user is: piku
+Maximum Data rate is: 1100.99 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:03:17 2020
+Startup @ Sun Nov 29 17:03:52 2020. Current user is: piku
+Maximum Data rate is: 1101.80 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:03:52 2020
+Startup @ Sun Nov 29 17:03:54 2020. Current user is: piku
+Maximum Data rate is: 1099.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:03:54 2020
+Startup @ Sun Nov 29 17:04:31 2020. Current user is: piku
+Maximum Data rate is: 1096.23 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:04:31 2020
+Startup @ Sun Nov 29 17:04:33 2020. Current user is: piku
+Maximum Data rate is: 1101.10 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:04:33 2020
+Startup @ Sun Nov 29 17:05:12 2020. Current user is: piku
+Maximum Data rate is: 1110.05 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:12 2020
+Startup @ Sun Nov 29 17:05:14 2020. Current user is: piku
+Maximum Data rate is: 1100.41 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:14 2020
+Startup @ Sun Nov 29 17:05:30 2020. Current user is: piku
+Maximum Data rate is: 1102.50 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:30 2020
+Startup @ Sun Nov 29 17:05:34 2020. Current user is: piku
+Maximum Data rate is: 1083.57 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:34 2020
+Startup @ Sun Nov 29 17:05:36 2020. Current user is: piku
+Maximum Data rate is: 1104.95 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:36 2020
+Startup @ Sun Nov 29 17:05:40 2020. Current user is: piku
+Maximum Data rate is: 1106.21 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:40 2020
+Startup @ Sun Nov 29 17:05:42 2020. Current user is: piku
+Maximum Data rate is: 1074.69 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:42 2020
+Startup @ Sun Nov 29 17:05:48 2020. Current user is: piku
+Maximum Data rate is: 1098.43 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:48 2020
+Startup @ Sun Nov 29 17:05:50 2020. Current user is: piku
+Maximum Data rate is: 1098.45 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:50 2020
+Startup @ Sun Nov 29 17:05:58 2020. Current user is: piku
+Maximum Data rate is: 1058.09 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:05:58 2020
+Startup @ Sun Nov 29 17:06:00 2020. Current user is: piku
+Maximum Data rate is: 1029.76 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:06:00 2020
+Startup @ Sun Nov 29 17:06:10 2020. Current user is: piku
+Maximum Data rate is: 1096.55 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:06:10 2020
+Startup @ Sun Nov 29 17:06:12 2020. Current user is: piku
+Maximum Data rate is: 1098.40 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:06:12 2020
+Startup @ Sun Nov 29 17:06:24 2020. Current user is: piku
+Maximum Data rate is: 1045.45 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:06:24 2020
+Startup @ Sun Nov 29 17:06:26 2020. Current user is: piku
+Maximum Data rate is: 1061.51 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:06:26 2020
+Startup @ Sun Nov 29 17:06:40 2020. Current user is: piku
+Maximum Data rate is: 1041.67 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+'int' object is not callable
+Graceful Shutdown @ Sun Nov 29 17:06:40 2020
+Startup @ Sun Nov 29 17:06:44 2020. Current user is: piku
+Maximum Data rate is: 1109.45 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sun Nov 29 17:14:09 2020. Current user is: piku
+Maximum Data rate is: 1092.24 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201130-07:02:46: Dosing pump ran for 181.69 seconds, pumped 118.92 gallons with a max amperage of 39.49A, an average amperage of 11.41A, and an average wattage of 1369.56W
+The average time between samples is: 8335018.647657935ns, std dev is: 570.5438676429169ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2316.586173 ms
+20201201-12:02:58: Dosing pump ran for 183.90 seconds, pumped 120.53 gallons with a max amperage of 39.99A, an average amperage of 11.41A, and an average wattage of 1368.93W
+The average time between samples is: 8335934.979374433ns, std dev is: 83304.0268657308ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2280.880408 ms
+20201202-11:18:09: Dosing pump ran for 180.31 seconds, pumped 117.93 gallons with a max amperage of 39.96A, an average amperage of 11.43A, and an average wattage of 1371.86W
+The average time between samples is: 8334999.420996672ns, std dev is: 497.08250546785683ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2215.940095 ms
+20201203-01:14:19: Dosing pump ran for 181.99 seconds, pumped 119.14 gallons with a max amperage of 39.75A, an average amperage of 11.41A, and an average wattage of 1369.73W
+The average time between samples is: 8335010.15412449ns, std dev is: 438.72851874212074ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2288.931321 ms
+20201203-11:47:38: Dosing pump ran for 188.24 seconds, pumped 123.67 gallons with a max amperage of 39.46A, an average amperage of 11.40A, and an average wattage of 1368.40W
+The average time between samples is: 8335016.276712571ns, std dev is: 609.6452244070709ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2306.347652 ms
+20201204-07:52:13: Dosing pump ran for 175.23 seconds, pumped 114.24 gallons with a max amperage of 39.69A, an average amperage of 11.40A, and an average wattage of 1367.40W
+The average time between samples is: 8334992.194129959ns, std dev is: 485.38338769366527ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2198.013975 ms
+20201205-10:34:49: Dosing pump ran for 182.82 seconds, pumped 119.75 gallons with a max amperage of 39.86A, an average amperage of 11.43A, and an average wattage of 1371.39W
+The average time between samples is: 8335013.956047964ns, std dev is: 424.61212381319854ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2344.173928 ms
+20201206-10:37:57: Dosing pump ran for 187.77 seconds, pumped 123.33 gallons with a max amperage of 39.70A, an average amperage of 11.40A, and an average wattage of 1368.29W
+The average time between samples is: 8335146.092204563ns, std dev is: 19956.37805862888ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2296.327999 ms
+20201207-09:30:36: Dosing pump ran for 178.45 seconds, pumped 116.58 gallons with a max amperage of 39.82A, an average amperage of 11.44A, and an average wattage of 1372.94W
+The average time between samples is: 8335001.461768415ns, std dev is: 531.2745804687811ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2188.411534 ms
+20201208-10:25:12: Dosing pump ran for 182.73 seconds, pumped 119.68 gallons with a max amperage of 39.84A, an average amperage of 11.42A, and an average wattage of 1370.41W
+The average time between samples is: 8335250.680625884ns, std dev is: 37747.349230507396ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2242.767914 ms
+20201209-10:51:35: Dosing pump ran for 191.86 seconds, pumped 126.30 gallons with a max amperage of 40.05A, an average amperage of 11.41A, and an average wattage of 1368.91W
+The average time between samples is: 8335000.482709184ns, std dev is: 442.6022476869988ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2334.346071 ms
+Startup @ Wed Dec  9 17:50:34 2020. Current user is: piku
+Maximum Data rate is: 978.24 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201210-07:50:45: Dosing pump ran for 189.66 seconds, pumped 124.71 gallons with a max amperage of 39.84A, an average amperage of 11.39A, and an average wattage of 1366.70W
+ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+Graceful Shutdown @ Thu Dec 10 07:53:57 2020
+Startup @ Thu Dec 10 07:53:59 2020. Current user is: piku
+Maximum Data rate is: 1056.76 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201211-06:53:55: Dosing pump ran for 183.90 seconds, pumped 120.53 gallons with a max amperage of 39.56A, an average amperage of 11.39A, and an average wattage of 1366.82W
+ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+Graceful Shutdown @ Fri Dec 11 06:57:00 2020
+Startup @ Fri Dec 11 06:57:03 2020. Current user is: piku
+Maximum Data rate is: 1014.12 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201211-18:26:34: Dosing pump ran for 20.22 seconds, pumped 1.86 gallons with a max amperage of 39.50A, an average amperage of 11.69A, and an average wattage of 1402.84W
+ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+Graceful Shutdown @ Fri Dec 11 18:26:54 2020
+Startup @ Fri Dec 11 18:26:57 2020. Current user is: piku
+Maximum Data rate is: 1057.09 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201212-07:14:09: Dosing pump ran for 184.56 seconds, pumped 121.00 gallons with a max amperage of 39.30A, an average amperage of 11.42A, and an average wattage of 1369.92W
+ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+Graceful Shutdown @ Sat Dec 12 07:17:15 2020
+Startup @ Sat Dec 12 07:17:17 2020. Current user is: piku
+Maximum Data rate is: 937.75 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat Dec 12 07:35:10 2020. Current user is: piku
+Maximum Data rate is: 1075.70 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat Dec 12 07:35:25 2020. Current user is: piku
+Maximum Data rate is: 1086.22 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat Dec 12 21:36:36 2020. Current user is: piku
+Maximum Data rate is: 918.96 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat Dec 12 21:36:59 2020. Current user is: piku
+list index out of range
+Graceful Shutdown @ Sat Dec 12 21:37:00 2020
+Startup @ Sat Dec 12 21:37:00 2020. Current user is: root
+Startup @ Sat Dec 12 21:37:02 2020. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat Dec 12 21:37:02 2020
+Startup @ Sat Dec 12 21:37:06 2020. Current user is: piku
+Maximum Data rate is: 1050.64 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20201212-23:24:36: Dosing pump ran for 190.44 seconds, pumped 125.27 gallons with a max amperage of 39.48A, an average amperage of 11.42A, and an average wattage of 1369.84W
+The average time between samples is: 8335048.143388629ns, std dev is: 570.3916972061672ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2044.015503 ms
+20201213-10:09:59: Dosing pump ran for 185.40 seconds, pumped 121.61 gallons with a max amperage of 39.80A, an average amperage of 11.40A, and an average wattage of 1367.50W
+The average time between samples is: 8335045.497482241ns, std dev is: 479.31436952219167ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1974.019633 ms
+20201213-19:46:53: Dosing pump ran for 183.59 seconds, pumped 120.30 gallons with a max amperage of 39.70A, an average amperage of 11.38A, and an average wattage of 1365.86W
+The average time between samples is: 8335047.042633371ns, std dev is: 513.1394345764799ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1945.687225 ms
+20201214-08:39:12: Dosing pump ran for 183.34 seconds, pumped 120.12 gallons with a max amperage of 39.55A, an average amperage of 11.38A, and an average wattage of 1365.78W
+The average time between samples is: 8335191.460422823ns, std dev is: 25900.990916077877ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1952.80722 ms
+20201215-08:26:05: Dosing pump ran for 187.87 seconds, pumped 123.41 gallons with a max amperage of 39.65A, an average amperage of 11.39A, and an average wattage of 1366.75W
+The average time between samples is: 8335057.040729403ns, std dev is: 480.88397003378066ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1969.105517 ms
+20201216-13:00:45: Dosing pump ran for 185.36 seconds, pumped 121.58 gallons with a max amperage of 39.67A, an average amperage of 11.40A, and an average wattage of 1368.33W
+The average time between samples is: 8335038.324549175ns, std dev is: 415.9459007405641ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2019.529229 ms
+20201217-21:03:50: Dosing pump ran for 182.24 seconds, pumped 119.32 gallons with a max amperage of 39.89A, an average amperage of 11.41A, and an average wattage of 1368.92W
+The average time between samples is: 8335068.02273247ns, std dev is: 472.26912623972134ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2006.793263 ms
+20201218-20:49:57: Dosing pump ran for 183.81 seconds, pumped 120.46 gallons with a max amperage of 39.61A, an average amperage of 11.41A, and an average wattage of 1369.01W
+The average time between samples is: 8335041.369688449ns, std dev is: 463.75176136862086ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1932.497496 ms
+20201220-01:35:48: Dosing pump ran for 183.79 seconds, pumped 120.45 gallons with a max amperage of 39.91A, an average amperage of 11.47A, and an average wattage of 1376.20W
+The average time between samples is: 8335038.3459567325ns, std dev is: 607.5572728293873ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1957.113348 ms
+20201221-02:50:41: Dosing pump ran for 179.42 seconds, pumped 117.28 gallons with a max amperage of 39.75A, an average amperage of 11.48A, and an average wattage of 1377.27W
+The average time between samples is: 8335051.02736353ns, std dev is: 423.83426377969516ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1959.166594 ms
+20201222-02:45:31: Dosing pump ran for 182.63 seconds, pumped 119.61 gallons with a max amperage of 39.76A, an average amperage of 11.46A, and an average wattage of 1375.71W
+The average time between samples is: 8335055.734550433ns, std dev is: 471.6375766933928ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1935.088606 ms
+20201222-13:09:24: Dosing pump ran for 188.11 seconds, pumped 123.58 gallons with a max amperage of 39.74A, an average amperage of 11.43A, and an average wattage of 1371.37W
+The average time between samples is: 8335042.497230469ns, std dev is: 438.1531282100139ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1979.698678 ms
+20201223-09:04:58: Dosing pump ran for 182.35 seconds, pumped 119.40 gallons with a max amperage of 39.72A, an average amperage of 11.43A, and an average wattage of 1371.42W
+The average time between samples is: 8335047.230663741ns, std dev is: 460.7754550035756ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2007.433051 ms
+20201223-14:48:27: Dosing pump ran for 183.02 seconds, pumped 119.89 gallons with a max amperage of 39.61A, an average amperage of 11.43A, and an average wattage of 1372.03W
+The average time between samples is: 8335056.089994079ns, std dev is: 462.8567160370703ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2005.828853 ms
+20201224-14:00:49: Dosing pump ran for 183.87 seconds, pumped 120.51 gallons with a max amperage of 39.83A, an average amperage of 11.47A, and an average wattage of 1375.95W
+The average time between samples is: 8335039.027879777ns, std dev is: 438.95428922508654ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1966.945702 ms
+20201225-09:22:09: Dosing pump ran for 184.43 seconds, pumped 120.91 gallons with a max amperage of 39.58A, an average amperage of 11.45A, and an average wattage of 1374.26W
+The average time between samples is: 8335057.511434511ns, std dev is: 580.9867646123732ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1920.683594 ms
+20201226-08:30:03: Dosing pump ran for 184.85 seconds, pumped 121.21 gallons with a max amperage of 39.55A, an average amperage of 11.41A, and an average wattage of 1368.94W
+The average time between samples is: 8335060.653544372ns, std dev is: 449.83732846117147ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1983.824049 ms
+20201227-10:07:27: Dosing pump ran for 195.86 seconds, pumped 129.20 gallons with a max amperage of 39.64A, an average amperage of 11.41A, and an average wattage of 1369.01W
+The average time between samples is: 8335040.9651019275ns, std dev is: 534.5048986835897ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2073.479094 ms
+20201227-18:16:20: Dosing pump ran for 183.76 seconds, pumped 120.42 gallons with a max amperage of 39.59A, an average amperage of 11.38A, and an average wattage of 1366.19W
+The average time between samples is: 8335075.521206623ns, std dev is: 504.74611990429827ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1937.26829 ms
+20201229-10:04:36: Dosing pump ran for 182.24 seconds, pumped 119.32 gallons with a max amperage of 39.69A, an average amperage of 11.44A, and an average wattage of 1372.24W
+The average time between samples is: 8335029.650688377ns, std dev is: 443.98859258196546ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1933.680317 ms
+20201230-10:47:53: Dosing pump ran for 181.59 seconds, pumped 118.85 gallons with a max amperage of 39.84A, an average amperage of 11.45A, and an average wattage of 1373.87W
+The average time between samples is: 8335082.731650218ns, std dev is: 467.30061112031126ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1929.7482 ms
+20201231-09:56:49: Dosing pump ran for 183.74 seconds, pumped 120.41 gallons with a max amperage of 39.58A, an average amperage of 11.42A, and an average wattage of 1370.66W
+The average time between samples is: 8335053.760921835ns, std dev is: 473.0438420757568ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1928.290539 ms
+20210101-04:20:43: Dosing pump ran for 175.29 seconds, pumped 114.28 gallons with a max amperage of 40.15A, an average amperage of 11.46A, and an average wattage of 1375.14W
+The average time between samples is: 8335061.245518094ns, std dev is: 423.62572157522084ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1891.918493 ms
+20210101-22:17:57: Dosing pump ran for 185.40 seconds, pumped 121.61 gallons with a max amperage of 40.11A, an average amperage of 11.42A, and an average wattage of 1370.90W
+The average time between samples is: 8335033.320115098ns, std dev is: 475.6109351741692ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1999.450813 ms
+20210103-08:57:54: Dosing pump ran for 190.17 seconds, pumped 125.07 gallons with a max amperage of 40.34A, an average amperage of 11.47A, and an average wattage of 1376.89W
+The average time between samples is: 8335144.240904707ns, std dev is: 3340.7843673314524ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1986.553358 ms
+20210103-19:45:45: Dosing pump ran for 183.41 seconds, pumped 120.17 gallons with a max amperage of 40.08A, an average amperage of 11.45A, and an average wattage of 1373.80W
+The average time between samples is: 8335125.459346453ns, std dev is: 8794.913135002394ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1915.363489 ms
+20210104-13:08:55: Dosing pump ran for 184.28 seconds, pumped 120.80 gallons with a max amperage of 39.81A, an average amperage of 11.43A, and an average wattage of 1371.63W
+The average time between samples is: 8335085.249050118ns, std dev is: 1785.297426093726ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1943.60616 ms
+20210105-18:41:54: Dosing pump ran for 182.31 seconds, pumped 119.37 gallons with a max amperage of 39.73A, an average amperage of 11.43A, and an average wattage of 1372.07W
+The average time between samples is: 8335146.149375886ns, std dev is: 11529.278776016416ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2031.875937 ms
+20210106-13:06:47: Dosing pump ran for 182.30 seconds, pumped 119.37 gallons with a max amperage of 40.10A, an average amperage of 11.50A, and an average wattage of 1379.61W
+The average time between samples is: 8335239.404801098ns, std dev is: 28098.056423342383ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1994.344901 ms
+20210107-08:24:47: Dosing pump ran for 180.58 seconds, pumped 118.12 gallons with a max amperage of 39.69A, an average amperage of 11.40A, and an average wattage of 1368.02W
+The average time between samples is: 8335497.974888058ns, std dev is: 62417.26114304893ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1897.086705 ms
+20210108-14:07:48: Dosing pump ran for 186.65 seconds, pumped 122.52 gallons with a max amperage of 40.06A, an average amperage of 11.47A, and an average wattage of 1376.10W
+The average time between samples is: 8335238.095033941ns, std dev is: 23443.314794972524ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1929.491602 ms
+20210109-20:26:56: Dosing pump ran for 183.79 seconds, pumped 120.45 gallons with a max amperage of 40.15A, an average amperage of 11.44A, and an average wattage of 1372.58W
+The average time between samples is: 8335042.693727607ns, std dev is: 503.2883773198752ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1948.149358 ms
+20210110-13:36:24: Dosing pump ran for 187.05 seconds, pumped 122.81 gallons with a max amperage of 39.93A, an average amperage of 11.45A, and an average wattage of 1374.48W
+The average time between samples is: 8335368.509313726ns, std dev is: 33940.03831622302ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1925.167275 ms
+20210111-08:12:04: Dosing pump ran for 191.07 seconds, pumped 125.72 gallons with a max amperage of 40.06A, an average amperage of 11.44A, and an average wattage of 1372.90W
+The average time between samples is: 8335043.133234447ns, std dev is: 465.0628652997684ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1982.673744 ms
+20210112-06:55:02: Dosing pump ran for 185.64 seconds, pumped 121.79 gallons with a max amperage of 40.05A, an average amperage of 11.45A, and an average wattage of 1374.23W
+The average time between samples is: 8335023.894302007ns, std dev is: 505.8900538502989ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2000.692565 ms
+20210113-09:05:51: Dosing pump ran for 189.66 seconds, pumped 124.70 gallons with a max amperage of 40.09A, an average amperage of 11.45A, and an average wattage of 1374.33W
+The average time between samples is: 8335007.182745133ns, std dev is: 446.6072640069549ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1985.025264 ms
+20210114-07:57:32: Dosing pump ran for 186.82 seconds, pumped 122.65 gallons with a max amperage of 39.76A, an average amperage of 11.43A, and an average wattage of 1372.15W
+The average time between samples is: 8335098.718154643ns, std dev is: 10998.004867991544ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2371.876308 ms
+20210115-12:26:12: Dosing pump ran for 183.28 seconds, pumped 120.08 gallons with a max amperage of 40.23A, an average amperage of 11.49A, and an average wattage of 1378.46W
+The average time between samples is: 8335035.452974349ns, std dev is: 495.8277788713575ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1909.684529 ms
+20210116-22:15:48: Dosing pump ran for 183.87 seconds, pumped 120.51 gallons with a max amperage of 40.25A, an average amperage of 11.44A, and an average wattage of 1372.85W
+The average time between samples is: 8335517.709674494ns, std dev is: 52437.46973604427ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2015.090305 ms
+20210117-23:12:11: Dosing pump ran for 183.42 seconds, pumped 120.18 gallons with a max amperage of 40.53A, an average amperage of 11.49A, and an average wattage of 1378.56W
+The average time between samples is: 8335030.630220405ns, std dev is: 475.8884191777949ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1980.98986 ms
+20210118-13:56:42: Dosing pump ran for 188.02 seconds, pumped 123.52 gallons with a max amperage of 40.01A, an average amperage of 11.45A, and an average wattage of 1374.24W
+The average time between samples is: 8335054.306202066ns, std dev is: 518.4888152196143ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1986.362042 ms
+20210119-06:40:00: Dosing pump ran for 186.35 seconds, pumped 122.31 gallons with a max amperage of 39.98A, an average amperage of 11.46A, and an average wattage of 1375.20W
+The average time between samples is: 8335324.434066917ns, std dev is: 41078.233478492424ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1927.396206 ms
+Startup @ Wed Jan 20 09:25:42 2021. Current user is: piku
+Startup @ Wed Jan 20 09:25:42 2021. Current user is: root
+list index out of range
+Graceful Shutdown @ Wed Jan 20 09:25:42 2021
+Startup @ Wed Jan 20 09:25:45 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Wed Jan 20 09:25:45 2021
+Startup @ Wed Jan 20 09:25:49 2021. Current user is: piku
+Maximum Data rate is: 1022.87 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210120-12:25:41: Dosing pump ran for 182.05 seconds, pumped 119.18 gallons with a max amperage of 40.29A, an average amperage of 11.52A, and an average wattage of 1382.65W
+The average time between samples is: 8335071.2922161175ns, std dev is: 3540.859121740468ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2004.135998 ms
+20210121-11:01:11: Dosing pump ran for 180.80 seconds, pumped 118.28 gallons with a max amperage of 40.30A, an average amperage of 11.45A, and an average wattage of 1374.24W
+The average time between samples is: 8335039.782065468ns, std dev is: 519.366345795014ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1919.273403 ms
+20210122-14:12:40: Dosing pump ran for 185.56 seconds, pumped 121.73 gallons with a max amperage of 40.20A, an average amperage of 11.47A, and an average wattage of 1376.91W
+The average time between samples is: 8335040.407375798ns, std dev is: 891.6020903453852ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1939.606691 ms
+20210124-12:27:57: Dosing pump ran for 193.17 seconds, pumped 127.25 gallons with a max amperage of 40.23A, an average amperage of 11.43A, and an average wattage of 1371.19W
+The average time between samples is: 8335331.976956935ns, std dev is: 43782.09101124348ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2030.527696 ms
+20210125-04:45:26: Dosing pump ran for 184.69 seconds, pumped 121.10 gallons with a max amperage of 39.78A, an average amperage of 11.45A, and an average wattage of 1373.51W
+The average time between samples is: 8335049.975673602ns, std dev is: 599.5087658211789ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1934.713727 ms
+20210126-09:39:46: Dosing pump ran for 186.54 seconds, pumped 122.44 gallons with a max amperage of 40.28A, an average amperage of 11.45A, and an average wattage of 1373.73W
+The average time between samples is: 8335264.833854679ns, std dev is: 32649.25965373219ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1921.70657 ms
+20210127-06:48:10: Dosing pump ran for 185.35 seconds, pumped 121.58 gallons with a max amperage of 39.93A, an average amperage of 11.42A, and an average wattage of 1370.90W
+The average time between samples is: 8335083.647958266ns, std dev is: 1689.8924704050341ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1983.379107 ms
+20210128-19:44:07: Dosing pump ran for 189.49 seconds, pumped 124.58 gallons with a max amperage of 40.11A, an average amperage of 11.41A, and an average wattage of 1369.67W
+The average time between samples is: 8335584.179042759ns, std dev is: 63408.28477967035ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1934.746055 ms
+20210130-02:59:02: Dosing pump ran for 183.80 seconds, pumped 120.45 gallons with a max amperage of 40.53A, an average amperage of 11.48A, and an average wattage of 1377.44W
+The average time between samples is: 8335115.41845805ns, std dev is: 11074.352293421756ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1953.010024 ms
+list index out of range
+Graceful Shutdown @ Sun Jan 31 09:40:58 2021
+Startup @ Sun Jan 31 09:41:00 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sun Jan 31 09:41:00 2021
+Startup @ Sun Jan 31 09:41:05 2021. Current user is: piku
+Maximum Data rate is: 1120.73 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210131-11:08:17: Dosing pump ran for 190.40 seconds, pumped 125.24 gallons with a max amperage of 40.40A, an average amperage of 11.46A, and an average wattage of 1375.11W
+The average time between samples is: 8335054.204360389ns, std dev is: 5458.22881418726ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2010.702233 ms
+20210201-08:06:48: Dosing pump ran for 191.06 seconds, pumped 125.72 gallons with a max amperage of 39.97A, an average amperage of 11.44A, and an average wattage of 1373.11W
+The average time between samples is: 8335268.920247808ns, std dev is: 28208.54962321514ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2016.326521 ms
+20210202-23:08:30: Dosing pump ran for 186.21 seconds, pumped 122.20 gallons with a max amperage of 40.23A, an average amperage of 11.46A, and an average wattage of 1374.99W
+The average time between samples is: 8335031.986436278ns, std dev is: 625.2625600748052ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1976.076768 ms
+20210203-10:30:53: Dosing pump ran for 190.47 seconds, pumped 125.29 gallons with a max amperage of 39.86A, an average amperage of 11.46A, and an average wattage of 1374.66W
+The average time between samples is: 8335019.9158898955ns, std dev is: 909.4760760181352ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1993.124151 ms
+20210203-13:14:16: Dosing pump ran for 185.00 seconds, pumped 121.32 gallons with a max amperage of 39.66A, an average amperage of 11.41A, and an average wattage of 1369.63W
+The average time between samples is: 8335033.998918626ns, std dev is: 494.56082776796273ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1957.739322 ms
+20210204-07:56:17: Dosing pump ran for 187.31 seconds, pumped 123.00 gallons with a max amperage of 39.94A, an average amperage of 11.44A, and an average wattage of 1372.66W
+The average time between samples is: 8335333.830937653ns, std dev is: 19446.28799519069ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1966.462705 ms
+20210205-08:04:15: Dosing pump ran for 190.88 seconds, pumped 125.59 gallons with a max amperage of 40.05A, an average amperage of 11.41A, and an average wattage of 1369.72W
+The average time between samples is: 8335339.714703699ns, std dev is: 39009.24795986593ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2067.325673 ms
+20210207-15:04:25: Dosing pump ran for 186.43 seconds, pumped 122.36 gallons with a max amperage of 40.32A, an average amperage of 11.47A, and an average wattage of 1376.00W
+The average time between samples is: 8335323.377464789ns, std dev is: 21224.97923873965ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1975.216504 ms
+20210208-13:17:21: Dosing pump ran for 184.36 seconds, pumped 120.86 gallons with a max amperage of 40.00A, an average amperage of 11.44A, and an average wattage of 1372.36W
+The average time between samples is: 8335020.741387106ns, std dev is: 621.3644658914503ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1940.287963 ms
+20210209-15:51:05: Dosing pump ran for 188.58 seconds, pumped 123.92 gallons with a max amperage of 40.16A, an average amperage of 11.43A, and an average wattage of 1371.13W
+The average time between samples is: 8335024.134724187ns, std dev is: 481.3999569524059ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1967.5157 ms
+Startup @ Tue Feb  9 16:48:10 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Tue Feb  9 16:48:10 2021
+Startup @ Tue Feb  9 16:48:13 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Tue Feb  9 16:48:13 2021
+Startup @ Tue Feb  9 16:48:17 2021. Current user is: piku
+Maximum Data rate is: 967.64 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210211-06:30:13: Dosing pump ran for 191.97 seconds, pumped 126.37 gallons with a max amperage of 40.15A, an average amperage of 11.41A, and an average wattage of 1369.31W
+The average time between samples is: 8335050.131133304ns, std dev is: 6654.099817303282ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2218.717824 ms
+20210213-07:36:48: Dosing pump ran for 183.48 seconds, pumped 120.22 gallons with a max amperage of 40.27A, an average amperage of 11.45A, and an average wattage of 1373.72W
+The average time between samples is: 8335193.809050021ns, std dev is: 16457.67661404629ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1964.857254 ms
+20210214-10:40:22: Dosing pump ran for 195.81 seconds, pumped 129.16 gallons with a max amperage of 40.19A, an average amperage of 11.45A, and an average wattage of 1374.45W
+The average time between samples is: 8335166.061725767ns, std dev is: 9884.605020562005ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2071.222043 ms
+20210215-09:42:17: Dosing pump ran for 199.82 seconds, pumped 132.07 gallons with a max amperage of 40.55A, an average amperage of 11.44A, and an average wattage of 1373.36W
+The average time between samples is: 8335017.704405139ns, std dev is: 563.914769849618ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2058.396125 ms
+20210216-06:37:39: Dosing pump ran for 200.17 seconds, pumped 132.33 gallons with a max amperage of 40.24A, an average amperage of 11.39A, and an average wattage of 1366.83W
+The average time between samples is: 8335014.678076202ns, std dev is: 465.6780776963138ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2064.589127 ms
+20210217-06:27:49: Dosing pump ran for 210.91 seconds, pumped 140.11 gallons with a max amperage of 40.44A, an average amperage of 11.39A, and an average wattage of 1366.46W
+The average time between samples is: 8335025.330118958ns, std dev is: 503.730435176021ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2052.822215 ms
+20210218-21:35:38: Dosing pump ran for 207.31 seconds, pumped 137.50 gallons with a max amperage of 40.23A, an average amperage of 11.34A, and an average wattage of 1360.35W
+The average time between samples is: 8335022.766635841ns, std dev is: 482.75118230294754ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2090.528372 ms
+20210219-18:05:16: Dosing pump ran for 203.49 seconds, pumped 134.73 gallons with a max amperage of 39.97A, an average amperage of 11.34A, and an average wattage of 1360.40W
+The average time between samples is: 8335002.930938435ns, std dev is: 456.4763828042936ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2059.321137 ms
+20210221-09:07:44: Dosing pump ran for 206.19 seconds, pumped 136.69 gallons with a max amperage of 40.44A, an average amperage of 11.36A, and an average wattage of 1363.30W
+The average time between samples is: 8335187.211271022ns, std dev is: 26596.31191108241ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2268.902073 ms
+20210221-20:33:57: Dosing pump ran for 199.51 seconds, pumped 131.84 gallons with a max amperage of 39.81A, an average amperage of 11.36A, and an average wattage of 1363.52W
+The average time between samples is: 8335009.129057865ns, std dev is: 468.7350720844071ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2022.903975 ms
+20210223-06:33:19: Dosing pump ran for 203.24 seconds, pumped 134.55 gallons with a max amperage of 39.87A, an average amperage of 11.33A, and an average wattage of 1359.81W
+The average time between samples is: 8335035.142435303ns, std dev is: 907.7588682197331ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2087.004141 ms
+20210224-09:34:53: Dosing pump ran for 204.78 seconds, pumped 135.67 gallons with a max amperage of 40.34A, an average amperage of 11.37A, and an average wattage of 1364.58W
+The average time between samples is: 8335241.896894207ns, std dev is: 35939.87089139734ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2163.813005 ms
+20210225-11:19:07: Dosing pump ran for 194.63 seconds, pumped 128.31 gallons with a max amperage of 39.95A, an average amperage of 11.35A, and an average wattage of 1362.31W
+The average time between samples is: 8335009.59614561ns, std dev is: 490.82012552139236ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2068.942521 ms
+20210226-16:03:59: Dosing pump ran for 194.24 seconds, pumped 128.02 gallons with a max amperage of 40.04A, an average amperage of 11.38A, and an average wattage of 1365.67W
+The average time between samples is: 8335010.510449299ns, std dev is: 504.9091711711249ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2402.025966 ms
+20210228-09:07:46: Dosing pump ran for 204.07 seconds, pumped 135.15 gallons with a max amperage of 40.18A, an average amperage of 11.38A, and an average wattage of 1366.08W
+The average time between samples is: 8335004.877501838ns, std dev is: 507.6370086544854ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2091.968771 ms
+20210301-10:13:47: Dosing pump ran for 196.27 seconds, pumped 129.49 gallons with a max amperage of 40.29A, an average amperage of 11.39A, and an average wattage of 1366.24W
+The average time between samples is: 8335006.229295846ns, std dev is: 467.5156306521643ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2377.252004 ms
+20210302-22:47:37: Dosing pump ran for 196.07 seconds, pumped 129.35 gallons with a max amperage of 40.06A, an average amperage of 11.37A, and an average wattage of 1364.39W
+The average time between samples is: 8335005.984099992ns, std dev is: 450.28661233456893ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2012.364857 ms
+20210304-06:38:59: Dosing pump ran for 203.86 seconds, pumped 135.00 gallons with a max amperage of 40.18A, an average amperage of 11.39A, and an average wattage of 1366.44W
+The average time between samples is: 8334998.6451322725ns, std dev is: 478.2003696524247ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2153.697607 ms
+20210305-11:52:46: Dosing pump ran for 200.00 seconds, pumped 132.20 gallons with a max amperage of 40.08A, an average amperage of 11.45A, and an average wattage of 1374.00W
+The average time between samples is: 8335368.409619472ns, std dev is: 56187.31685436717ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2060.994425 ms
+20210306-16:38:50: Dosing pump ran for 194.00 seconds, pumped 127.85 gallons with a max amperage of 40.26A, an average amperage of 11.41A, and an average wattage of 1369.45W
+The average time between samples is: 8335011.748302828ns, std dev is: 486.5178553715586ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2035.672425 ms
+20210307-09:32:11: Dosing pump ran for 202.34 seconds, pumped 133.90 gallons with a max amperage of 39.86A, an average amperage of 11.38A, and an average wattage of 1365.73W
+The average time between samples is: 8335007.135901133ns, std dev is: 447.3853043776769ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2089.141725 ms
+20210308-09:38:43: Dosing pump ran for 193.06 seconds, pumped 127.17 gallons with a max amperage of 39.84A, an average amperage of 11.40A, and an average wattage of 1367.61W
+The average time between samples is: 8334991.781270239ns, std dev is: 468.3800546169923ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1979.736347 ms
+20210310-06:22:36: Dosing pump ran for 195.94 seconds, pumped 129.26 gallons with a max amperage of 40.08A, an average amperage of 11.40A, and an average wattage of 1368.46W
+The average time between samples is: 8335023.227761943ns, std dev is: 477.06778370565075ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2033.274837 ms
+20210310-23:39:41: Dosing pump ran for 189.96 seconds, pumped 124.92 gallons with a max amperage of 40.16A, an average amperage of 11.46A, and an average wattage of 1375.26W
+The average time between samples is: 8335012.413664487ns, std dev is: 551.2331679191933ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2038.015357 ms
+20210311-13:36:42: Dosing pump ran for 187.80 seconds, pumped 123.35 gallons with a max amperage of 40.39A, an average amperage of 11.43A, and an average wattage of 1371.04W
+The average time between samples is: 8335025.986728806ns, std dev is: 922.723196873507ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2023.548906 ms
+20210312-12:44:06: Dosing pump ran for 194.01 seconds, pumped 127.86 gallons with a max amperage of 39.90A, an average amperage of 11.38A, and an average wattage of 1365.60W
+The average time between samples is: 8335158.148786251ns, std dev is: 12401.542102581221ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2004.593497 ms
+20210313-12:06:58: Dosing pump ran for 187.80 seconds, pumped 123.35 gallons with a max amperage of 39.68A, an average amperage of 11.41A, and an average wattage of 1368.69W
+The average time between samples is: 8335003.715268531ns, std dev is: 525.8735724707532ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1975.946183 ms
+20210314-03:16:09: Dosing pump ran for 191.00 seconds, pumped 125.68 gallons with a max amperage of 40.20A, an average amperage of 11.46A, and an average wattage of 1375.17W
+The average time between samples is: 8335305.039670071ns, std dev is: 33000.43391569837ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1999.766653 ms
+20210314-18:14:09: Dosing pump ran for 189.37 seconds, pumped 124.49 gallons with a max amperage of 39.89A, an average amperage of 11.42A, and an average wattage of 1369.83W
+The average time between samples is: 8334994.776970818ns, std dev is: 461.51672126269443ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2059.511173 ms
+20210316-06:41:28: Dosing pump ran for 192.61 seconds, pumped 126.84 gallons with a max amperage of 39.98A, an average amperage of 11.42A, and an average wattage of 1370.33W
+The average time between samples is: 8334998.577876834ns, std dev is: 477.2038595269714ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1972.013751 ms
+20210317-15:41:32: Dosing pump ran for 184.29 seconds, pumped 120.81 gallons with a max amperage of 40.14A, an average amperage of 11.45A, and an average wattage of 1373.50W
+The average time between samples is: 8335451.542654242ns, std dev is: 34245.03391722636ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1920.181162 ms
+20210318-18:50:06: Dosing pump ran for 182.19 seconds, pumped 119.29 gallons with a max amperage of 40.16A, an average amperage of 11.44A, and an average wattage of 1372.41W
+The average time between samples is: 8335043.046026445ns, std dev is: 3599.4487119366167ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1943.16165 ms
+20210320-08:12:40: Dosing pump ran for 184.53 seconds, pumped 120.99 gallons with a max amperage of 39.77A, an average amperage of 11.44A, and an average wattage of 1372.30W
+The average time between samples is: 8335095.57534556ns, std dev is: 4214.828434906378ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1943.712792 ms
+20210320-23:54:43: Dosing pump ran for 183.60 seconds, pumped 120.31 gallons with a max amperage of 40.05A, an average amperage of 11.47A, and an average wattage of 1376.55W
+The average time between samples is: 8335027.038726959ns, std dev is: 515.382652666069ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1970.994881 ms
+20210321-21:48:38: Dosing pump ran for 184.44 seconds, pumped 120.92 gallons with a max amperage of 40.09A, an average amperage of 11.46A, and an average wattage of 1375.41W
+The average time between samples is: 8335001.778008767ns, std dev is: 430.6737867434321ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2004.80747 ms
+20210323-06:31:09: Dosing pump ran for 192.76 seconds, pumped 126.95 gallons with a max amperage of 40.24A, an average amperage of 11.46A, and an average wattage of 1375.57W
+The average time between samples is: 8334995.91498746ns, std dev is: 442.35130137086543ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2012.536956 ms
+20210324-15:17:35: Dosing pump ran for 183.67 seconds, pumped 120.36 gallons with a max amperage of 40.41A, an average amperage of 11.43A, and an average wattage of 1371.91W
+The average time between samples is: 8335009.140912185ns, std dev is: 468.4265816289331ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1950.675946 ms
+20210325-21:53:27: Dosing pump ran for 182.74 seconds, pumped 119.68 gallons with a max amperage of 40.13A, an average amperage of 11.47A, and an average wattage of 1376.09W
+The average time between samples is: 8334992.767823746ns, std dev is: 476.0118337765455ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1921.355883 ms
+20210327-09:28:41: Dosing pump ran for 188.71 seconds, pumped 124.01 gallons with a max amperage of 40.45A, an average amperage of 11.45A, and an average wattage of 1373.63W
+The average time between samples is: 8335005.229647953ns, std dev is: 469.2898902200865ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1947.051585 ms
+20210328-15:30:41: Dosing pump ran for 186.22 seconds, pumped 122.21 gallons with a max amperage of 40.16A, an average amperage of 11.46A, and an average wattage of 1375.14W
+The average time between samples is: 8335000.059531802ns, std dev is: 439.7748443670824ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2002.757225 ms
+20210329-08:40:51: Dosing pump ran for 186.16 seconds, pumped 122.16 gallons with a max amperage of 40.16A, an average amperage of 11.46A, and an average wattage of 1375.39W
+The average time between samples is: 8335089.807101599ns, std dev is: 10188.076281492593ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1933.689412 ms
+20210330-22:22:55: Dosing pump ran for 183.16 seconds, pumped 119.99 gallons with a max amperage of 40.16A, an average amperage of 11.46A, and an average wattage of 1375.79W
+The average time between samples is: 8335052.027124198ns, std dev is: 3235.5452127611643ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1928.708811 ms
+20210331-11:07:20: Dosing pump ran for 186.15 seconds, pumped 122.16 gallons with a max amperage of 40.47A, an average amperage of 11.47A, and an average wattage of 1376.05W
+The average time between samples is: 8334989.12824072ns, std dev is: 431.70872709900664ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1959.509895 ms
+20210402-01:23:16: Dosing pump ran for 188.41 seconds, pumped 123.79 gallons with a max amperage of 40.21A, an average amperage of 11.48A, and an average wattage of 1377.02W
+The average time between samples is: 8335012.515418307ns, std dev is: 478.50390504390833ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1932.083692 ms
+20210402-18:08:29: Dosing pump ran for 181.62 seconds, pumped 118.88 gallons with a max amperage of 40.06A, an average amperage of 11.45A, and an average wattage of 1373.45W
+The average time between samples is: 8335015.078388178ns, std dev is: 453.5106656077172ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2029.302939 ms
+20210404-01:11:15: Dosing pump ran for 181.11 seconds, pumped 118.51 gallons with a max amperage of 40.13A, an average amperage of 11.48A, and an average wattage of 1377.90W
+The average time between samples is: 8334996.271446981ns, std dev is: 513.270603033892ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1978.464478 ms
+20210404-09:37:25: Dosing pump ran for 188.86 seconds, pumped 124.13 gallons with a max amperage of 40.34A, an average amperage of 11.45A, and an average wattage of 1374.28W
+The average time between samples is: 8335002.4442580985ns, std dev is: 450.9565649441597ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1935.323012 ms
+20210405-07:48:29: Dosing pump ran for 189.58 seconds, pumped 124.65 gallons with a max amperage of 39.91A, an average amperage of 11.43A, and an average wattage of 1371.10W
+The average time between samples is: 8335021.557905382ns, std dev is: 448.8650311661324ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1963.585231 ms
+20210406-18:36:04: Dosing pump ran for 181.20 seconds, pumped 118.57 gallons with a max amperage of 40.37A, an average amperage of 11.42A, and an average wattage of 1370.94W
+The average time between samples is: 8335004.12788665ns, std dev is: 489.05812646975886ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1896.350948 ms
+20210408-08:03:33: Dosing pump ran for 187.11 seconds, pumped 122.86 gallons with a max amperage of 40.29A, an average amperage of 11.47A, and an average wattage of 1376.09W
+The average time between samples is: 8335070.831744476ns, std dev is: 3267.4219979955938ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1991.058609 ms
+20210409-11:58:04: Dosing pump ran for 184.58 seconds, pumped 121.02 gallons with a max amperage of 40.08A, an average amperage of 11.45A, and an average wattage of 1374.22W
+The average time between samples is: 8335382.629634648ns, std dev is: 37376.94976518253ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2020.871637 ms
+20210410-14:15:36: Dosing pump ran for 181.92 seconds, pumped 119.09 gallons with a max amperage of 39.94A, an average amperage of 11.43A, and an average wattage of 1371.43W
+The average time between samples is: 8334995.563436426ns, std dev is: 450.5854292679728ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1926.17632 ms
+20210411-18:00:56: Dosing pump ran for 181.56 seconds, pumped 118.83 gallons with a max amperage of 39.91A, an average amperage of 11.40A, and an average wattage of 1368.45W
+The average time between samples is: 8334988.751767514ns, std dev is: 445.4962054869246ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1908.694934 ms
+20210413-06:35:19: Dosing pump ran for 190.51 seconds, pumped 125.32 gallons with a max amperage of 40.08A, an average amperage of 11.45A, and an average wattage of 1374.27W
+The average time between samples is: 8335083.9040035ns, std dev is: 7394.162268991577ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2043.073613 ms
+20210414-20:18:10: Dosing pump ran for 183.63 seconds, pumped 120.33 gallons with a max amperage of 40.16A, an average amperage of 11.46A, and an average wattage of 1374.79W
+The average time between samples is: 8335001.568088969ns, std dev is: 487.1261228125606ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1929.385068 ms
+20210416-03:24:12: Dosing pump ran for 183.79 seconds, pumped 120.45 gallons with a max amperage of 40.20A, an average amperage of 11.47A, and an average wattage of 1375.98W
+The average time between samples is: 8335014.438931471ns, std dev is: 475.9164024822291ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1967.975898 ms
+20210416-13:32:04: Dosing pump ran for 186.36 seconds, pumped 122.31 gallons with a max amperage of 39.77A, an average amperage of 11.45A, and an average wattage of 1374.03W
+The average time between samples is: 8334995.680159227ns, std dev is: 471.1229280162024ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1992.139902 ms
+20210417-12:44:27: Dosing pump ran for 187.27 seconds, pumped 122.97 gallons with a max amperage of 40.20A, an average amperage of 11.42A, and an average wattage of 1370.44W
+The average time between samples is: 8335151.726609098ns, std dev is: 8809.089178706827ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2125.115644 ms
+20210418-00:35:21: Dosing pump ran for 183.35 seconds, pumped 120.13 gallons with a max amperage of 40.32A, an average amperage of 11.49A, and an average wattage of 1378.65W
+The average time between samples is: 8335000.558465175ns, std dev is: 485.3916064684409ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1930.123623 ms
+20210419-06:25:49: Dosing pump ran for 186.45 seconds, pumped 122.38 gallons with a max amperage of 39.95A, an average amperage of 11.43A, and an average wattage of 1371.38W
+The average time between samples is: 8335339.572380186ns, std dev is: 26320.578220346877ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1981.452249 ms
+20210420-07:34:14: Dosing pump ran for 188.06 seconds, pumped 123.55 gallons with a max amperage of 39.90A, an average amperage of 11.43A, and an average wattage of 1371.55W
+The average time between samples is: 8335007.73198298ns, std dev is: 474.26058163769335ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1954.640002 ms
+20210421-14:46:20: Dosing pump ran for 184.55 seconds, pumped 121.00 gallons with a max amperage of 40.24A, an average amperage of 11.45A, and an average wattage of 1373.84W
+The average time between samples is: 8334996.326182196ns, std dev is: 462.2781345449323ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2024.933212 ms
+20210422-10:49:40: Dosing pump ran for 184.43 seconds, pumped 120.91 gallons with a max amperage of 40.19A, an average amperage of 11.48A, and an average wattage of 1378.00W
+The average time between samples is: 8335224.563680737ns, std dev is: 26440.323158426716ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1947.676333 ms
+20210423-08:48:31: Dosing pump ran for 190.26 seconds, pumped 125.14 gallons with a max amperage of 40.17A, an average amperage of 11.43A, and an average wattage of 1371.82W
+The average time between samples is: 8334998.845483221ns, std dev is: 460.70122382067314ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1964.71672 ms
+20210424-11:36:09: Dosing pump ran for 188.36 seconds, pumped 123.76 gallons with a max amperage of 40.12A, an average amperage of 11.44A, and an average wattage of 1372.98W
+The average time between samples is: 8335012.955790591ns, std dev is: 483.17734948669715ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2428.1296 ms
+Startup @ Sat Apr 24 12:17:13 2021. Current user is: piku
+list index out of range
+Graceful Shutdown @ Sat Apr 24 12:17:13 2021
+Startup @ Sat Apr 24 12:17:16 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat Apr 24 12:17:16 2021
+Startup @ Sat Apr 24 12:17:20 2021. Current user is: piku
+Maximum Data rate is: 965.57 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210425-16:26:35: Dosing pump ran for 185.81 seconds, pumped 121.91 gallons with a max amperage of 39.75A, an average amperage of 11.41A, and an average wattage of 1369.72W
+The average time between samples is: 8335012.505293379ns, std dev is: 615.022887013989ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2171.238171 ms
+20210426-17:35:29: Dosing pump ran for 182.05 seconds, pumped 119.19 gallons with a max amperage of 39.76A, an average amperage of 11.43A, and an average wattage of 1371.33W
+The average time between samples is: 8335031.089922623ns, std dev is: 513.5444420233367ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2137.013679 ms
+20210428-06:50:04: Dosing pump ran for 184.32 seconds, pumped 120.83 gallons with a max amperage of 39.88A, an average amperage of 11.42A, and an average wattage of 1370.76W
+The average time between samples is: 8335046.284900285ns, std dev is: 521.8225180456839ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2017.379337 ms
+Startup @ Wed Apr 28 17:17:13 2021. Current user is: root
+Startup @ Wed Apr 28 17:17:16 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Wed Apr 28 17:17:16 2021
+Startup @ Wed Apr 28 17:17:20 2021. Current user is: piku
+Maximum Data rate is: 1010.64 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Wed Apr 28 19:17:14 2021. Current user is: root
+Starting Data Monitoring...
+Startup @ Wed Apr 28 19:17:20 2021. Current user is: piku
+Maximum Data rate is: 928.49 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210428-20:12:46: Dosing pump ran for 0.13 seconds, pumped -12.70 gallons with a max amperage of 4.92A, an average amperage of 2.99A, and an average wattage of 359.18W
+The average time between samples is: 8335079.0ns, std dev is: 283.11081458208787ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 858.636721 ms
+20210428-20:12:48: Dosing pump ran for 0.02 seconds, pumped -12.79 gallons with a max amperage of 1.38A, an average amperage of 1.27A, and an average wattage of 153.00W
+The average time between samples is: 8335167.0ns, std dev is: 0.0ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 814.948537 ms
+20210428-20:12:50: Dosing pump ran for 0.01 seconds, pumped -12.79 gallons with a max amperage of 1.75A, an average amperage of 1.75A, and an average wattage of 210.00W
+The average time between samples is: nanns, std dev is: nanns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 792.835796 ms
+20210428-20:12:51: Dosing pump ran for 0.33 seconds, pumped -12.56 gallons with a max amperage of 6.73A, an average amperage of 6.23A, and an average wattage of 747.83W
+The average time between samples is: 8334998.102564103ns, std dev is: 242.77168707389956ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 770.303758 ms
+Startup @ Wed Apr 28 19:17:13 2021. Current user is: root
+Startup @ Wed Apr 28 19:17:16 2021. Current user is: piku
+Maximum Data rate is: 1023.69 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Wed Apr 28 21:10:40 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Wed Apr 28 21:10:40 2021
+Startup @ Wed Apr 28 21:10:43 2021. Current user is: piku
+Maximum Data rate is: 720.83 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Wed Apr 28 21:15:57 2021. Current user is: piku
+list index out of range
+Graceful Shutdown @ Wed Apr 28 21:15:57 2021
+Startup @ Wed Apr 28 21:15:57 2021. Current user is: root
+Startup @ Wed Apr 28 21:16:00 2021. Current user is: piku
+Maximum Data rate is: 1012.32 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Wed Apr 28 21:17:13 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Wed Apr 28 21:17:13 2021
+Startup @ Wed Apr 28 21:17:16 2021. Current user is: piku
+Maximum Data rate is: 1000.22 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Wed Apr 28 21:17:13 2021. Current user is: piku
+Startup @ Wed Apr 28 21:17:13 2021. Current user is: root
+list index out of range
+Graceful Shutdown @ Wed Apr 28 21:17:13 2021
+Startup @ Wed Apr 28 21:17:15 2021. Current user is: piku
+Maximum Data rate is: 1039.37 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210429-07:42:36: Dosing pump ran for 189.05 seconds, pumped 124.26 gallons with a max amperage of 39.94A, an average amperage of 11.42A, and an average wattage of 1370.97W
+The average time between samples is: 8334951.148765432ns, std dev is: 506.06288551384176ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2057.156221 ms
+20210430-09:16:20: Dosing pump ran for 183.29 seconds, pumped 120.08 gallons with a max amperage of 39.88A, an average amperage of 11.43A, and an average wattage of 1371.05W
+The average time between samples is: 8334959.110964573ns, std dev is: 463.70702601731966ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1948.826962 ms
+20210501-17:47:07: Dosing pump ran for 187.11 seconds, pumped 122.85 gallons with a max amperage of 39.81A, an average amperage of 11.39A, and an average wattage of 1367.32W
+The average time between samples is: 8335038.9625339685ns, std dev is: 9517.961883375852ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1934.546091 ms
+20210502-11:50:20: Dosing pump ran for 181.59 seconds, pumped 118.86 gallons with a max amperage of 39.41A, an average amperage of 11.36A, and an average wattage of 1363.69W
+The average time between samples is: 8334961.741623061ns, std dev is: 444.3186496792335ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1914.975962 ms
+20210503-09:24:58: Dosing pump ran for 183.71 seconds, pumped 120.39 gallons with a max amperage of 39.31A, an average amperage of 11.39A, and an average wattage of 1366.35W
+The average time between samples is: 8334979.5120689655ns, std dev is: 460.2358226689554ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1905.65524 ms
+20210504-10:31:36: Dosing pump ran for 179.44 seconds, pumped 117.29 gallons with a max amperage of 39.86A, an average amperage of 11.43A, and an average wattage of 1371.27W
+The average time between samples is: 8334973.379895016ns, std dev is: 446.13201733903304ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1900.243129 ms
+20210505-11:26:46: Dosing pump ran for 186.64 seconds, pumped 122.51 gallons with a max amperage of 39.48A, an average amperage of 11.38A, and an average wattage of 1365.09W
+The average time between samples is: 8335084.685141351ns, std dev is: 16118.28021688778ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1998.061592 ms
+20210506-07:22:44: Dosing pump ran for 178.05 seconds, pumped 116.28 gallons with a max amperage of 39.58A, an average amperage of 11.38A, and an average wattage of 1366.11W
+The average time between samples is: 8335125.88178839ns, std dev is: 11924.99364735051ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1871.560988 ms
+20210507-06:59:14: Dosing pump ran for 182.63 seconds, pumped 119.60 gallons with a max amperage of 39.84A, an average amperage of 11.40A, and an average wattage of 1368.48W
+The average time between samples is: 8335202.741110959ns, std dev is: 21870.437907662665ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1939.130553 ms
+20210508-09:13:05: Dosing pump ran for 181.96 seconds, pumped 119.12 gallons with a max amperage of 39.79A, an average amperage of 11.40A, and an average wattage of 1367.75W
+The average time between samples is: 8335013.510994045ns, std dev is: 3222.003843455274ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1938.848746 ms
+20210509-12:39:17: Dosing pump ran for 183.34 seconds, pumped 120.12 gallons with a max amperage of 39.59A, an average amperage of 11.40A, and an average wattage of 1368.09W
+The average time between samples is: 8335087.2125937715ns, std dev is: 8971.691939167651ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1899.658814 ms
+20210510-13:03:23: Dosing pump ran for 182.73 seconds, pumped 119.68 gallons with a max amperage of 39.59A, an average amperage of 11.37A, and an average wattage of 1364.41W
+The average time between samples is: 8334987.862923091ns, std dev is: 1519.3186867248144ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1945.866254 ms
+20210511-11:58:35: Dosing pump ran for 183.73 seconds, pumped 120.40 gallons with a max amperage of 39.53A, an average amperage of 11.39A, and an average wattage of 1366.36W
+The average time between samples is: 8334984.126032121ns, std dev is: 445.08975552857754ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1953.995225 ms
+20210512-09:44:07: Dosing pump ran for 182.22 seconds, pumped 119.31 gallons with a max amperage of 39.53A, an average amperage of 11.41A, and an average wattage of 1369.16W
+The average time between samples is: 8335121.173962764ns, std dev is: 15674.782974594766ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1939.960042 ms
+20210513-06:50:06: Dosing pump ran for 185.40 seconds, pumped 121.62 gallons with a max amperage of 39.47A, an average amperage of 11.38A, and an average wattage of 1365.25W
+The average time between samples is: 8334993.6578249335ns, std dev is: 556.8650794865737ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1994.348451 ms
+20210515-00:09:55: Dosing pump ran for 181.85 seconds, pumped 119.04 gallons with a max amperage of 39.85A, an average amperage of 11.43A, and an average wattage of 1371.11W
+The average time between samples is: 8334990.374386946ns, std dev is: 486.7122537868906ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1929.030638 ms
+Startup @ Sat May 15 09:17:12 2021. Current user is: piku
+list index out of range
+Graceful Shutdown @ Sat May 15 09:17:13 2021
+Startup @ Sat May 15 09:17:13 2021. Current user is: root
+Startup @ Sat May 15 09:17:15 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:17:15 2021
+Startup @ Sat May 15 09:17:19 2021. Current user is: piku
+Maximum Data rate is: 1075.76 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat May 15 09:37:40 2021. Current user is: piku
+Startup @ Sat May 15 09:37:40 2021. Current user is: root
+Maximum Data rate is: 847.40 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat May 15 09:45:31 2021. Current user is: piku
+Startup @ Sat May 15 09:45:31 2021. Current user is: root
+list index out of range
+Graceful Shutdown @ Sat May 15 09:45:32 2021
+Startup @ Sat May 15 09:45:34 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:45:34 2021
+Startup @ Sat May 15 09:45:38 2021. Current user is: piku
+Maximum Data rate is: 1080.95 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat May 15 09:52:29 2021. Current user is: piku
+Startup @ Sat May 15 09:52:29 2021. Current user is: root
+list index out of range
+Graceful Shutdown @ Sat May 15 09:52:29 2021
+Startup @ Sat May 15 09:52:31 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:31 2021
+Startup @ Sat May 15 09:52:35 2021. Current user is: piku
+Maximum Data rate is: 1058.34 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+Startup @ Sat May 15 09:52:29 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:29 2021
+Startup @ Sat May 15 09:52:29 2021. Current user is: root
+Startup @ Sat May 15 09:52:32 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:32 2021
+Startup @ Sat May 15 09:52:35 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:35 2021
+Startup @ Sat May 15 09:52:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:39 2021
+Startup @ Sat May 15 09:52:41 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:41 2021
+Startup @ Sat May 15 09:52:47 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:47 2021
+Startup @ Sat May 15 09:52:49 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:49 2021
+Startup @ Sat May 15 09:52:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:57 2021
+Startup @ Sat May 15 09:52:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:59 2021
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Startup @ Sat May 15 09:52:29 2021. Current user is: piku
+Startup @ Sat May 15 09:52:29 2021. Current user is: root
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:29 2021
+Startup @ Sat May 15 09:52:32 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:32 2021
+Startup @ Sat May 15 09:52:35 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:35 2021
+Startup @ Sat May 15 09:52:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:39 2021
+Startup @ Sat May 15 09:52:41 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:41 2021
+Startup @ Sat May 15 09:52:47 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:47 2021
+Startup @ Sat May 15 09:52:49 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:49 2021
+Startup @ Sat May 15 09:52:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:57 2021
+Startup @ Sat May 15 09:52:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:52:59 2021
+Startup @ Sat May 15 09:53:09 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:09 2021
+Startup @ Sat May 15 09:53:11 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:11 2021
+Startup @ Sat May 15 09:53:23 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:23 2021
+Startup @ Sat May 15 09:53:25 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:25 2021
+Startup @ Sat May 15 09:53:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:39 2021
+Startup @ Sat May 15 09:53:41 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:41 2021
+Startup @ Sat May 15 09:53:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:57 2021
+Startup @ Sat May 15 09:53:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:53:59 2021
+Startup @ Sat May 15 09:54:17 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:54:17 2021
+Startup @ Sat May 15 09:54:19 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:54:19 2021
+Startup @ Sat May 15 09:54:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:54:39 2021
+Startup @ Sat May 15 09:54:41 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:54:41 2021
+Startup @ Sat May 15 09:55:03 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:55:03 2021
+Startup @ Sat May 15 09:55:05 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:55:05 2021
+Startup @ Sat May 15 09:55:29 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:55:29 2021
+Startup @ Sat May 15 09:55:31 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:55:31 2021
+Startup @ Sat May 15 09:55:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:55:57 2021
+Startup @ Sat May 15 09:55:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:55:59 2021
+Startup @ Sat May 15 09:56:27 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:56:27 2021
+Startup @ Sat May 15 09:56:29 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:56:29 2021
+Startup @ Sat May 15 09:56:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:56:59 2021
+Startup @ Sat May 15 09:57:01 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:57:01 2021
+Startup @ Sat May 15 09:57:33 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:57:33 2021
+Startup @ Sat May 15 09:57:35 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:57:35 2021
+Startup @ Sat May 15 09:58:09 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:58:09 2021
+Startup @ Sat May 15 09:58:11 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:58:11 2021
+Startup @ Sat May 15 09:58:47 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:58:47 2021
+Startup @ Sat May 15 09:58:49 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:58:49 2021
+Startup @ Sat May 15 09:59:27 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:59:27 2021
+Startup @ Sat May 15 09:59:29 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 09:59:29 2021
+Startup @ Sat May 15 10:00:09 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:00:09 2021
+Startup @ Sat May 15 10:00:11 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:00:11 2021
+Startup @ Sat May 15 10:00:53 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:00:53 2021
+Startup @ Sat May 15 10:00:55 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:00:55 2021
+Startup @ Sat May 15 10:01:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:01:39 2021
+Startup @ Sat May 15 10:01:41 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:01:41 2021
+Startup @ Sat May 15 10:02:27 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:02:27 2021
+Startup @ Sat May 15 10:02:29 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:02:29 2021
+Startup @ Sat May 15 10:03:17 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:03:17 2021
+Startup @ Sat May 15 10:03:19 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:03:19 2021
+Startup @ Sat May 15 10:04:09 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:04:09 2021
+Startup @ Sat May 15 10:04:11 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:04:11 2021
+Startup @ Sat May 15 10:05:03 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:05:03 2021
+Startup @ Sat May 15 10:05:05 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:05:05 2021
+Startup @ Sat May 15 10:05:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:05:59 2021
+Startup @ Sat May 15 10:06:01 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:06:01 2021
+Startup @ Sat May 15 10:06:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:06:57 2021
+Startup @ Sat May 15 10:06:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:06:59 2021
+Startup @ Sat May 15 10:07:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:07:57 2021
+Startup @ Sat May 15 10:07:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:07:59 2021
+Startup @ Sat May 15 10:08:59 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:08:59 2021
+Startup @ Sat May 15 10:09:01 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:09:01 2021
+Startup @ Sat May 15 10:10:03 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:10:03 2021
+Startup @ Sat May 15 10:10:05 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:10:05 2021
+Startup @ Sat May 15 10:11:08 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:11:08 2021
+Startup @ Sat May 15 10:11:11 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:11:11 2021
+Startup @ Sat May 15 10:12:16 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:12:16 2021
+Startup @ Sat May 15 10:12:19 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:12:19 2021
+Startup @ Sat May 15 10:13:25 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:13:25 2021
+Startup @ Sat May 15 10:13:28 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:13:28 2021
+Startup @ Sat May 15 10:14:36 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:14:36 2021
+Startup @ Sat May 15 10:14:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:14:39 2021
+Startup @ Sat May 15 10:26:12 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:26:12 2021
+Startup @ Sat May 15 10:26:14 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:26:14 2021
+Startup @ Sat May 15 10:27:28 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:27:28 2021
+Startup @ Sat May 15 10:27:30 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:27:30 2021
+Startup @ Sat May 15 10:28:46 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:28:46 2021
+Startup @ Sat May 15 10:28:48 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:28:48 2021
+Startup @ Sat May 15 10:30:06 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:30:06 2021
+Startup @ Sat May 15 10:30:08 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:30:08 2021
+Startup @ Sat May 15 10:31:28 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:31:28 2021
+Startup @ Sat May 15 10:31:30 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:31:30 2021
+Startup @ Sat May 15 10:32:52 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:32:52 2021
+Startup @ Sat May 15 10:32:54 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:32:54 2021
+Startup @ Sat May 15 10:34:18 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:34:18 2021
+Startup @ Sat May 15 10:34:20 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:34:20 2021
+Startup @ Sat May 15 10:35:46 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:35:46 2021
+Startup @ Sat May 15 10:35:48 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:35:48 2021
+Startup @ Sat May 15 10:37:16 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:37:16 2021
+Startup @ Sat May 15 10:37:18 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:37:18 2021
+Startup @ Sat May 15 10:38:48 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:38:48 2021
+Startup @ Sat May 15 10:38:50 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:38:50 2021
+Startup @ Sat May 15 10:40:22 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:40:22 2021
+Startup @ Sat May 15 10:40:24 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:40:24 2021
+Startup @ Sat May 15 10:41:58 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:41:58 2021
+Startup @ Sat May 15 10:42:00 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:42:00 2021
+Startup @ Sat May 15 10:43:36 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:43:36 2021
+Startup @ Sat May 15 10:43:38 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:43:38 2021
+Startup @ Sat May 15 10:45:16 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:45:16 2021
+Startup @ Sat May 15 10:45:18 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:45:18 2021
+Startup @ Sat May 15 10:46:58 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:46:58 2021
+Startup @ Sat May 15 10:47:00 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:47:00 2021
+Startup @ Sat May 15 10:48:42 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:48:42 2021
+Startup @ Sat May 15 10:48:44 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:48:44 2021
+Startup @ Sat May 15 10:50:28 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:50:28 2021
+Startup @ Sat May 15 10:50:30 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:50:30 2021
+Startup @ Sat May 15 10:52:27 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:52:27 2021
+Startup @ Sat May 15 10:52:28 2021. Current user is: root
+Startup @ Sat May 15 10:52:31 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:52:31 2021
+Startup @ Sat May 15 10:52:33 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:52:33 2021
+Startup @ Sat May 15 10:52:37 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:52:37 2021
+Startup @ Sat May 15 10:52:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:52:39 2021
+Startup @ Sat May 15 10:52:45 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:52:45 2021
+Startup @ Sat May 15 10:54:15 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:15 2021
+Startup @ Sat May 15 10:54:21 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:21 2021
+Startup @ Sat May 15 10:54:24 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:24 2021
+Startup @ Sat May 15 10:54:32 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:32 2021
+Startup @ Sat May 15 10:54:35 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:35 2021
+Startup @ Sat May 15 10:54:45 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:45 2021
+Startup @ Sat May 15 10:54:48 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:54:48 2021
+Startup @ Sat May 15 10:55:00 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:00 2021
+Startup @ Sat May 15 10:55:03 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:03 2021
+Startup @ Sat May 15 10:55:17 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:17 2021
+Startup @ Sat May 15 10:55:20 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:20 2021
+Startup @ Sat May 15 10:55:36 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:36 2021
+Startup @ Sat May 15 10:55:39 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:39 2021
+Startup @ Sat May 15 10:55:57 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:55:57 2021
+Startup @ Sat May 15 10:56:00 2021. Current user is: piku
+No DAQC2plate found at address 0
+Graceful Shutdown @ Sat May 15 10:56:00 2021
+Startup @ Sat May 15 10:56:29 2021. Current user is: piku
+list index out of range
+Graceful Shutdown @ Sat May 15 10:56:29 2021
+Startup @ Sat May 15 10:56:30 2021. Current user is: root
+Startup @ Sat May 15 10:56:32 2021. Current user is: piku
+Maximum Data rate is: 1124.94 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210516-09:33:44: Dosing pump ran for 189.16 seconds, pumped 124.34 gallons with a max amperage of 40.02A, an average amperage of 11.40A, and an average wattage of 1367.56W
+The average time between samples is: 8335038.268937558ns, std dev is: 588.6013130603006ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2134.715762 ms
+20210517-07:56:49: Dosing pump ran for 184.67 seconds, pumped 121.09 gallons with a max amperage of 39.76A, an average amperage of 11.37A, and an average wattage of 1364.74W
+The average time between samples is: 8335121.476732114ns, std dev is: 9260.513161903606ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1911.500615 ms
+20210518-18:28:14: Dosing pump ran for 183.84 seconds, pumped 120.48 gallons with a max amperage of 39.27A, an average amperage of 11.38A, and an average wattage of 1366.06W
+The average time between samples is: 8335386.217919651ns, std dev is: 48519.76349478765ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2055.134589 ms
+20210520-07:38:28: Dosing pump ran for 183.59 seconds, pumped 120.30 gallons with a max amperage of 39.47A, an average amperage of 11.36A, and an average wattage of 1363.37W
+The average time between samples is: 8335056.745017027ns, std dev is: 469.1360030215285ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1946.50702 ms
+20210521-08:39:55: Dosing pump ran for 185.69 seconds, pumped 121.83 gallons with a max amperage of 39.58A, an average amperage of 11.38A, and an average wattage of 1365.99W
+The average time between samples is: 8335078.88023522ns, std dev is: 1976.4143199833384ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1889.101482 ms
+20210522-17:38:35: Dosing pump ran for 181.20 seconds, pumped 118.57 gallons with a max amperage of 39.63A, an average amperage of 11.35A, and an average wattage of 1362.41W
+The average time between samples is: 8335769.354648756ns, std dev is: 54995.30161572968ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1855.474057 ms
+20210523-12:27:22: Dosing pump ran for 188.03 seconds, pumped 123.52 gallons with a max amperage of 39.53A, an average amperage of 11.34A, and an average wattage of 1360.82W
+The average time between samples is: 8335350.335062287ns, std dev is: 43073.622255658396ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1975.755555 ms
+20210523-15:48:23: Dosing pump ran for 181.29 seconds, pumped 118.63 gallons with a max amperage of 39.16A, an average amperage of 11.36A, and an average wattage of 1362.67W
+The average time between samples is: 8335024.476711573ns, std dev is: 457.6122865513147ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1832.430047 ms
+20210524-06:39:03: Dosing pump ran for 184.75 seconds, pumped 121.14 gallons with a max amperage of 39.21A, an average amperage of 11.35A, and an average wattage of 1361.46W
+The average time between samples is: 8335094.756000722ns, std dev is: 4038.610365751888ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1866.175427 ms
+Startup @ Mon May 24 17:17:13 2021. Current user is: piku
+Maximum Data rate is: 501.71 hz
+Monitoring data at 120 sample(s) per second
+Amperage conversion factor is: 5.0
+Starting Data Monitoring...
+20210525-12:25:22: Dosing pump ran for 179.62 seconds, pumped 117.43 gallons with a max amperage of 39.47A, an average amperage of 11.36A, and an average wattage of 1362.95W
+The average time between samples is: 8335118.71780593ns, std dev is: 2004.1003942945376ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2326.669752 ms
+20210527-07:54:52: Dosing pump ran for 186.00 seconds, pumped 122.05 gallons with a max amperage of 39.55A, an average amperage of 11.34A, and an average wattage of 1361.01W
+The average time between samples is: 8335205.38738012ns, std dev is: 5768.046695729973ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2001.568161 ms
+20210528-11:22:56: Dosing pump ran for 177.25 seconds, pumped 115.70 gallons with a max amperage of 39.29A, an average amperage of 11.34A, and an average wattage of 1360.98W
+The average time between samples is: 8335068.671322423ns, std dev is: 531.8009835562373ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1897.832646 ms
+20210530-07:22:36: Dosing pump ran for 173.10 seconds, pumped 112.70 gallons with a max amperage of 39.29A, an average amperage of 11.36A, and an average wattage of 1363.52W
+The average time between samples is: 8335059.026773246ns, std dev is: 469.62892854878817ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1888.581799 ms
+20210531-10:53:15: Dosing pump ran for 180.46 seconds, pumped 118.04 gallons with a max amperage of 39.29A, an average amperage of 11.34A, and an average wattage of 1360.22W
+The average time between samples is: 8335053.85699769ns, std dev is: 741.6072768235473ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1922.688886 ms
+20210601-06:23:44: Dosing pump ran for 181.93 seconds, pumped 119.10 gallons with a max amperage of 39.53A, an average amperage of 11.34A, and an average wattage of 1360.59W
+The average time between samples is: 8335242.377273768ns, std dev is: 26014.75010041705ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1935.133107 ms
+20210602-08:41:06: Dosing pump ran for 176.94 seconds, pumped 115.48 gallons with a max amperage of 39.25A, an average amperage of 11.35A, and an average wattage of 1361.82W
+The average time between samples is: 8335049.054317614ns, std dev is: 511.6172162130166ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 2031.479078 ms
+20210603-20:59:05: Dosing pump ran for 179.86 seconds, pumped 117.60 gallons with a max amperage of 39.22A, an average amperage of 11.34A, and an average wattage of 1361.23W
+The average time between samples is: 8335060.642830661ns, std dev is: 912.4289926446817ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1912.010607 ms
+20210605-10:51:26: Dosing pump ran for 176.31 seconds, pumped 115.02 gallons with a max amperage of 39.25A, an average amperage of 11.33A, and an average wattage of 1360.09W
+The average time between samples is: 8335119.9661481725ns, std dev is: 4381.278705369177ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1868.844271 ms
+20210607-06:34:21: Dosing pump ran for 182.41 seconds, pumped 119.45 gallons with a max amperage of 39.06A, an average amperage of 11.34A, and an average wattage of 1361.34W
+The average time between samples is: 8335040.713809175ns, std dev is: 514.7589697674831ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1951.752715 ms
+20210608-06:43:23: Dosing pump ran for 186.83 seconds, pumped 122.65 gallons with a max amperage of 39.05A, an average amperage of 11.32A, and an average wattage of 1358.29W
+The average time between samples is: 8335066.716248773ns, std dev is: 641.5507899918122ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1953.3952 ms
+20210610-06:50:50: Dosing pump ran for 181.95 seconds, pumped 119.11 gallons with a max amperage of 39.32A, an average amperage of 11.33A, and an average wattage of 1359.09W
+The average time between samples is: 8335158.815741249ns, std dev is: 8707.467234956075ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1989.186692 ms
+20210611-08:56:21: Dosing pump ran for 185.24 seconds, pumped 121.50 gallons with a max amperage of 39.06A, an average amperage of 11.30A, and an average wattage of 1356.18W
+The average time between samples is: 8335076.152319669ns, std dev is: 3386.7977463702773ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1902.716851 ms
+20210612-12:38:18: Dosing pump ran for 172.06 seconds, pumped 111.94 gallons with a max amperage of 38.94A, an average amperage of 11.28A, and an average wattage of 1353.98W
+The average time between samples is: 8335037.301763395ns, std dev is: 518.1213972182509ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1850.237271 ms
+20210613-10:35:20: Dosing pump ran for 183.81 seconds, pumped 120.47 gallons with a max amperage of 38.69A, an average amperage of 11.30A, and an average wattage of 1355.43W
+The average time between samples is: 8335098.228323962ns, std dev is: 3001.367207075499ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1925.916582 ms
+20210614-06:26:28: Dosing pump ran for 184.14 seconds, pumped 120.70 gallons with a max amperage of 38.83A, an average amperage of 11.30A, and an average wattage of 1355.44W
+The average time between samples is: 8335272.2098139515ns, std dev is: 24003.1716408345ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1892.27529 ms
+20210615-09:05:42: Dosing pump ran for 179.00 seconds, pumped 116.97 gallons with a max amperage of 38.89A, an average amperage of 11.27A, and an average wattage of 1352.78W
+The average time between samples is: 8335039.512852753ns, std dev is: 499.2815829247145ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1896.445919 ms
+20210617-03:21:20: Dosing pump ran for 179.65 seconds, pumped 117.44 gallons with a max amperage of 38.92A, an average amperage of 11.31A, and an average wattage of 1357.04W
+The average time between samples is: 8335026.7225315515ns, std dev is: 468.9226767194911ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1962.848011 ms
+20210617-21:37:08: Dosing pump ran for 177.34 seconds, pumped 115.77 gallons with a max amperage of 38.41A, an average amperage of 11.25A, and an average wattage of 1349.89W
+The average time between samples is: 8335070.432949471ns, std dev is: 3382.8785551891674ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1883.008904 ms
+20210619-08:44:48: Dosing pump ran for 180.86 seconds, pumped 118.33 gallons with a max amperage of 38.55A, an average amperage of 11.27A, and an average wattage of 1352.69W
+The average time between samples is: 8335063.319522536ns, std dev is: 498.9879074481047ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1876.083053 ms
+20210620-15:51:32: Dosing pump ran for 184.48 seconds, pumped 120.95 gallons with a max amperage of 38.81A, an average amperage of 11.27A, and an average wattage of 1351.83W
+The average time between samples is: 8335150.885640701ns, std dev is: 6333.403423677817ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1908.906685 ms
+20210620-20:26:45: Dosing pump ran for 185.43 seconds, pumped 121.63 gallons with a max amperage of 38.55A, an average amperage of 11.24A, and an average wattage of 1348.85W
+The average time between samples is: 8335233.159002023ns, std dev is: 8992.84014833443ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1930.649766 ms
+20210621-01:58:07: Dosing pump ran for 184.56 seconds, pumped 121.01 gallons with a max amperage of 38.81A, an average amperage of 11.26A, and an average wattage of 1351.43W
+The average time between samples is: 8335065.751874266ns, std dev is: 510.0340337655791ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1971.366138 ms
+20210622-06:25:05: Dosing pump ran for 186.38 seconds, pumped 122.33 gallons with a max amperage of 38.70A, an average amperage of 11.26A, and an average wattage of 1351.32W
+The average time between samples is: 8335052.578085868ns, std dev is: 546.2984877618297ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1978.093402 ms
+20210623-06:56:18: Dosing pump ran for 182.33 seconds, pumped 119.39 gallons with a max amperage of 38.72A, an average amperage of 11.27A, and an average wattage of 1351.88W
+The average time between samples is: 8335349.853792347ns, std dev is: 32064.99230146388ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1905.307192 ms
+20210624-09:40:57: Dosing pump ran for 176.65 seconds, pumped 115.27 gallons with a max amperage of 38.86A, an average amperage of 11.26A, and an average wattage of 1350.97W
+The average time between samples is: 8335038.474401925ns, std dev is: 503.38992521274463ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1948.804379 ms
+20210625-08:54:16: Dosing pump ran for 183.66 seconds, pumped 120.35 gallons with a max amperage of 38.34A, an average amperage of 11.24A, and an average wattage of 1348.68W
+The average time between samples is: 8335090.588390142ns, std dev is: 1534.7953944229198ns, it should be 8333333ns
+Parsing, Logging, Saving, and Graphing took 1928.079021 ms
