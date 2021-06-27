@@ -493,7 +493,7 @@ class Home extends React.Component<HomeStyledProps, HomeState> {
           <AppBar position="static" style={{ backgroundColor: waterBlue }}>
             <Toolbar>
               <Typography className={classes.appBarTitle} variant="button">
-                25482 Westridge Rd - Dosing Tank Records
+                25482 Westridge Rd - Dosing Pump Records
               </Typography>
               <Typography className={classes.appBarDate}>
                 {format(now, "PPpp")}
